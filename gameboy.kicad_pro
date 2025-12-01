@@ -432,6 +432,14 @@
     [
       "fea8ab4b-ea53-47eb-b286-5a1dd85fe272",
       "Power"
+    ],
+    [
+      "d0993c89-522c-4206-a2f2-b5b66c7e7b73",
+      "LCD"
+    ],
+    [
+      "063c3b87-40d2-45e5-b5e2-db9e0e7c1214",
+      "Buttons"
     ]
   ],
   "text_variables": {}

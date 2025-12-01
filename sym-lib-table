@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "FTSH-107-01-F-DV-K")(type "KiCad")(uri "${KIPRJMOD}/custom/symbols/FTSH-107-01-F-DV-K.kicad_sym")(options "")(descr ""))
   (lib (name "SOT26_DIO")(type "KiCad")(uri "${KIPRJMOD}/custom/symbols/SOT26_DIO.kicad_sym")(options "")(descr ""))
+  (lib (name "SKRRAAE010")(type "KiCad")(uri "${KIPRJMOD}/custom/symbols/SKRRAAE010.kicad_sym")(options "")(descr ""))
 )

@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "FTSH_107_01_F_DV_K")(type "KiCad")(uri "${KIPRJMOD}/custom/footprints/FTSH_107_01_F_DV_K.pretty")(options "")(descr ""))
   (lib (name "SOT26_DIO")(type "KiCad")(uri "${KIPRJMOD}/custom/footprints/SOT26_DIO.pretty")(options "")(descr ""))
+  (lib (name "SKRRAAE010")(type "KiCad")(uri "${KIPRJMOD}/custom/footprints/SKRRAAE010.pretty")(options "")(descr ""))
 )
