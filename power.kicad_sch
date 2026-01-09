@@ -2590,13 +2590,24 @@
 		)
 		(uuid "7ae35e02-9fa7-494a-a1b2-b277f8875f0e")
 	)
-	(text "0.5C = half the battery capacity per hour\n1000mAh => 500mA = I_{BAT} charge current\nR_{prog} = 1100 / I_{BAT} = 2.2k"
+	(text "I_{BAT}"
 		(exclude_from_sim no)
-		(at 123.952 113.03 0)
+		(at 131.572 100.076 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+		)
+		(uuid "7c74ca0f-cfb1-4293-bd22-dbb4752ba91d")
+	)
+	(text "0.5C = half the battery capacity per hour\n1000mAh => 500mA = I_{BAT} charge current\nR_{prog} = 1100 / I_{BAT} = 2.2k"
+		(exclude_from_sim no)
+		(at 97.282 112.776 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
 		)
 		(uuid "b4da6a4c-4202-4f57-ac3d-1152434bb406")
 	)
