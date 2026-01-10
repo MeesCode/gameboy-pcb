@@ -640,6 +640,10 @@
     [
       "063c3b87-40d2-45e5-b5e2-db9e0e7c1214",
       "Buttons"
+    ],
+    [
+      "0c43a605-cda2-4793-9a29-301f6419db25",
+      "MCU"
     ]
   ],
   "text_variables": {}

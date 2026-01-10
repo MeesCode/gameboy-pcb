@@ -48,6 +48,48 @@
 		)
 	)
 	(sheet
+		(at 124.46 170.18)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0c43a605-cda2-4793-9a29-301f6419db25")
+		(property "Sheetname" "MCU"
+			(at 124.46 169.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 124.46 183.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "gameboy"
+				(path "/f4643692-c319-40a7-82a2-3e775c0a417f"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 46.99 168.91)
 		(size 12.7 11.43)
 		(exclude_from_sim no)
