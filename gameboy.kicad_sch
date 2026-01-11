@@ -5,9 +5,169 @@
 	(uuid "f4643692-c319-40a7-82a2-3e775c0a417f")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 129.54 73.66) (xy 139.7 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "252a7bd6-3a31-43cb-8163-b1e9968d76ee")
+	)
+	(wire
+		(pts
+			(xy 166.37 60.96) (xy 177.8 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a102b1b-6730-4746-8978-82edea6565c6")
+	)
+	(wire
+		(pts
+			(xy 166.37 73.66) (xy 177.8 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4af682ec-7a49-4d7a-a5f5-b72cf21679cf")
+	)
+	(wire
+		(pts
+			(xy 166.37 63.5) (xy 177.8 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "609062c8-3307-4666-99ab-b48f7275380c")
+	)
+	(wire
+		(pts
+			(xy 166.37 71.12) (xy 177.8 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b905821-dcf9-41c4-9ea2-cbd324bfa796")
+	)
+	(wire
+		(pts
+			(xy 129.54 85.09) (xy 139.7 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d23f099-ddeb-4fb2-959d-bf6a1cfb70e1")
+	)
+	(wire
+		(pts
+			(xy 166.37 68.58) (xy 177.8 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d1826fa-7299-4170-89b5-8cbc22b24d9e")
+	)
+	(wire
+		(pts
+			(xy 129.54 63.5) (xy 139.7 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9427eaf1-618d-4583-8db7-4a250b11583a")
+	)
+	(wire
+		(pts
+			(xy 166.37 76.2) (xy 177.8 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ef7088b-9357-40fd-b20b-9f3b7fa0f504")
+	)
+	(wire
+		(pts
+			(xy 166.37 66.04) (xy 177.8 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b341f0ca-a569-49d4-91a4-4269cd3654bb")
+	)
+	(wire
+		(pts
+			(xy 166.37 78.74) (xy 177.8 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4c3e59e-d1f8-4f63-beda-444a9642b76e")
+	)
+	(wire
+		(pts
+			(xy 129.54 71.12) (xy 139.7 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c613afa3-acb6-4fc1-b53a-2767632a2120")
+	)
+	(wire
+		(pts
+			(xy 129.54 87.63) (xy 139.7 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd8f0f62-2881-4697-9f3c-56277e8dedd2")
+	)
+	(wire
+		(pts
+			(xy 129.54 66.04) (xy 139.7 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efbae3bf-8c01-4872-b993-e48da41ce465")
+	)
+	(wire
+		(pts
+			(xy 129.54 60.96) (xy 139.7 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2cc9b9b-18e1-41c6-97ec-3d83025bf865")
+	)
+	(wire
+		(pts
+			(xy 129.54 68.58) (xy 139.7 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc7ed0ca-1592-445d-9540-f34f80c8105c")
+	)
 	(sheet
-		(at 92.71 168.91)
-		(size 12.7 11.43)
+		(at 177.8 58.42)
+		(size 20.32 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +182,7 @@
 		)
 		(uuid "063c3b87-40d2-45e5-b5e2-db9e0e7c1214")
 		(property "Sheetname" "Buttons"
-			(at 92.71 168.1984 0)
+			(at 177.8 57.7084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,12 +191,92 @@
 			)
 		)
 		(property "Sheetfile" "buttons.kicad_sch"
-			(at 92.71 180.9246 0)
+			(at 177.8 81.8646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "BTN_A" input
+			(at 177.8 60.96 180)
+			(uuid "834b2ae9-e7c5-4fdb-a6de-7973b54af9cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BTN_B" input
+			(at 177.8 63.5 180)
+			(uuid "dd2d1715-9693-4dfb-8348-054cfc524f0b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BTN_DOWN" input
+			(at 177.8 66.04 180)
+			(uuid "84068b07-b162-4c13-96a0-cd62b68a05b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BTN_LEFT" input
+			(at 177.8 68.58 180)
+			(uuid "81a394d4-9753-4668-a051-c2e7415c93a8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BTN_RIGHT" input
+			(at 177.8 71.12 180)
+			(uuid "02d0de04-579a-455a-8af8-fb9c608552fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BTN_SELECT" input
+			(at 177.8 76.2 180)
+			(uuid "57bf6261-6294-4ec5-b6aa-c5502433069b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BTN_START" input
+			(at 177.8 78.74 180)
+			(uuid "5f2015a8-5f91-40f8-9b30-d0cfd99fe403")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BTN_UP" input
+			(at 177.8 73.66 180)
+			(uuid "515bc070-8c8a-474f-98eb-fb5114134c87")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -48,8 +288,8 @@
 		)
 	)
 	(sheet
-		(at 124.46 170.18)
-		(size 12.7 12.7)
+		(at 139.7 58.42)
+		(size 26.67 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -64,7 +304,7 @@
 		)
 		(uuid "0c43a605-cda2-4793-9a29-301f6419db25")
 		(property "Sheetname" "MCU"
-			(at 124.46 169.4684 0)
+			(at 139.7 57.7084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,7 +313,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 124.46 183.4646 0)
+			(at 139.7 92.0246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -81,17 +321,239 @@
 				(justify left top)
 			)
 		)
+		(pin "BTN_A" input
+			(at 166.37 60.96 0)
+			(uuid "fb152046-b98f-4e18-981e-5a70fdedebad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BTN_B" input
+			(at 166.37 63.5 0)
+			(uuid "e09d3cab-a7e1-40c0-ad45-b98fbe0d4da5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BTN_DOWN" input
+			(at 166.37 66.04 0)
+			(uuid "0b0a8832-9996-4d66-8628-e9584495ce8b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BTN_LEFT" input
+			(at 166.37 68.58 0)
+			(uuid "d1d2da07-2e4f-4474-a121-50ea40fa2628")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BTN_RIGHT" input
+			(at 166.37 71.12 0)
+			(uuid "1cb08594-2fca-454b-bc81-ecdfc62e8fa4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BTN_UP" input
+			(at 166.37 73.66 0)
+			(uuid "9a3ea01f-c307-4e3f-91e1-0d69aaaff24d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LCD_BL" input
+			(at 139.7 60.96 180)
+			(uuid "12a253d8-44d6-49bb-91f4-85628eb4f8a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LCD_SCL" input
+			(at 139.7 63.5 180)
+			(uuid "582bc8ac-52e5-4cad-85b5-870bf961bfe9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LCD_CS" input
+			(at 139.7 66.04 180)
+			(uuid "4bf39e14-3a00-4ea2-9fda-90a547811718")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LCD_DC" input
+			(at 139.7 68.58 180)
+			(uuid "bdb75ce3-116f-408f-b209-1e047cc817eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LCD_RST" input
+			(at 139.7 71.12 180)
+			(uuid "fcde896e-7f1a-4198-8ca5-89cecc3e798c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LCD_SDA" input
+			(at 139.7 73.66 180)
+			(uuid "a23548da-8e14-4289-b94c-a315ce45f9cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_D+" input
+			(at 139.7 85.09 180)
+			(uuid "be4c0789-f9a3-4980-bdc7-17bc813e6063")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_D-" input
+			(at 139.7 87.63 180)
+			(uuid "15b88dce-7313-4e99-b12d-f18c9d169ab1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BTN_SELECT" input
+			(at 166.37 76.2 0)
+			(uuid "68ae6fc3-bd31-4ac7-ac6e-0f22c156e54b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BTN_START" input
+			(at 166.37 78.74 0)
+			(uuid "fa7722bf-f4aa-428a-a36e-67cfc782d003")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "gameboy"
 				(path "/f4643692-c319-40a7-82a2-3e775c0a417f"
-					(page "5")
+					(page "2")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 46.99 168.91)
-		(size 12.7 11.43)
+		(at 107.95 82.55)
+		(size 21.59 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "14ac419d-87de-4e8e-be3d-9259b1e7c76f")
+		(property "Sheetname" "USB"
+			(at 107.95 81.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb.kicad_sch"
+			(at 107.95 92.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_D+" input
+			(at 129.54 85.09 0)
+			(uuid "e7945f9e-6372-42f8-915f-5666700ed918")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_D-" input
+			(at 129.54 87.63 0)
+			(uuid "6e3d108b-91c6-41ff-9544-4530d7afb583")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "gameboy"
+				(path "/f4643692-c319-40a7-82a2-3e775c0a417f"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 107.95 58.42)
+		(size 21.59 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -106,7 +568,7 @@
 		)
 		(uuid "d0993c89-522c-4206-a2f2-b5b66c7e7b73")
 		(property "Sheetname" "LCD"
-			(at 46.99 168.1984 0)
+			(at 107.95 57.7084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -115,12 +577,72 @@
 			)
 		)
 		(property "Sheetfile" "lcd.kicad_sch"
-			(at 46.99 180.9246 0)
+			(at 107.95 76.7846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "LCD_BL" input
+			(at 129.54 60.96 0)
+			(uuid "67e361e3-b5b5-469e-a19a-58563937418e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LCD_CS" input
+			(at 129.54 66.04 0)
+			(uuid "e9d56858-08b9-4d3d-bd74-1fbc760078fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LCD_DC" input
+			(at 129.54 68.58 0)
+			(uuid "ed2964a1-2719-4721-a202-206c86010de2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LCD_RST" input
+			(at 129.54 71.12 0)
+			(uuid "a6c46cc4-2ff0-4d37-8b5a-ca96788a23d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LCD_SCL" input
+			(at 129.54 63.5 0)
+			(uuid "59716cad-4526-4125-bccc-c10a27dfd308")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LCD_SDA" input
+			(at 129.54 73.66 0)
+			(uuid "375cc403-929d-45da-a5f1-0e2305b8c5cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -132,13 +654,12 @@
 		)
 	)
 	(sheet
-		(at 68.58 168.91)
+		(at 66.04 59.69)
 		(size 12.7 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -148,7 +669,7 @@
 		)
 		(uuid "fea8ab4b-ea53-47eb-b286-5a1dd85fe272")
 		(property "Sheetname" "Power"
-			(at 68.58 168.1984 0)
+			(at 66.04 58.166 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -157,7 +678,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 68.58 180.9246 0)
+			(at 66.04 71.7046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -168,7 +689,7 @@
 		(instances
 			(project "gameboy"
 				(path "/f4643692-c319-40a7-82a2-3e775c0a417f"
-					(page "2")
+					(page "5")
 				)
 			)
 		)

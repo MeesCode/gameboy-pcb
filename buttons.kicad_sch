@@ -2043,7 +2043,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0315abcf-bb0f-49e2-b934-c35b7c19cbbc")
-		(property "Reference" "SW7"
+		(property "Reference" "SW9"
 			(at 213.614 70.866 0)
 			(effects
 				(font
@@ -2128,7 +2128,7 @@
 		(instances
 			(project "gameboy"
 				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/063c3b87-40d2-45e5-b5e2-db9e0e7c1214"
-					(reference "SW7")
+					(reference "SW9")
 					(unit 1)
 				)
 			)
@@ -2143,7 +2143,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1e56a9ec-3162-47ce-b971-e93d9f8cf0ce")
-		(property "Reference" "R22"
+		(property "Reference" "R15"
 			(at 154.432 78.994 0)
 			(effects
 				(font
@@ -2224,7 +2224,7 @@
 		(instances
 			(project "gameboy"
 				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/063c3b87-40d2-45e5-b5e2-db9e0e7c1214"
-					(reference "R22")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -2239,7 +2239,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1e612523-a123-47b3-b515-0a58982b7b02")
-		(property "Reference" "C16"
+		(property "Reference" "C25"
 			(at 227.076 73.406 0)
 			(effects
 				(font
@@ -2318,7 +2318,7 @@
 		(instances
 			(project "gameboy"
 				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/063c3b87-40d2-45e5-b5e2-db9e0e7c1214"
-					(reference "C16")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -2334,7 +2334,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3ecc62f7-3a89-487f-b0b5-d9c1699e3d4f")
-		(property "Reference" "SW1"
+		(property "Reference" "SW3"
 			(at 86.614 70.866 0)
 			(effects
 				(font
@@ -2419,7 +2419,7 @@
 		(instances
 			(project "gameboy"
 				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/063c3b87-40d2-45e5-b5e2-db9e0e7c1214"
-					(reference "SW1")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -2434,7 +2434,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "410259aa-21ff-4d83-87d8-ef0f9000459e")
-		(property "Reference" "R23"
+		(property "Reference" "R16"
 			(at 177.292 78.994 0)
 			(effects
 				(font
@@ -2515,7 +2515,7 @@
 		(instances
 			(project "gameboy"
 				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/063c3b87-40d2-45e5-b5e2-db9e0e7c1214"
-					(reference "R23")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -2531,7 +2531,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4916ce33-fc80-4ca8-84e2-b1ae6a932d8f")
-		(property "Reference" "SW4"
+		(property "Reference" "SW6"
 			(at 147.574 70.866 0)
 			(effects
 				(font
@@ -2616,7 +2616,7 @@
 		(instances
 			(project "gameboy"
 				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/063c3b87-40d2-45e5-b5e2-db9e0e7c1214"
-					(reference "SW4")
+					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -2631,7 +2631,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5bb21190-8062-43c7-844f-5eb23f99d2d2")
-		(property "Reference" "R25"
+		(property "Reference" "R18"
 			(at 220.472 78.994 0)
 			(effects
 				(font
@@ -2712,7 +2712,7 @@
 		(instances
 			(project "gameboy"
 				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/063c3b87-40d2-45e5-b5e2-db9e0e7c1214"
-					(reference "R25")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -2728,7 +2728,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6a7e2d61-9d60-4a07-8324-343fc65aa5f1")
-		(property "Reference" "SW3"
+		(property "Reference" "SW5"
 			(at 127.254 70.866 0)
 			(effects
 				(font
@@ -2813,7 +2813,7 @@
 		(instances
 			(project "gameboy"
 				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/063c3b87-40d2-45e5-b5e2-db9e0e7c1214"
-					(reference "SW3")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -2828,7 +2828,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6fc7a1d9-d90c-4e12-add9-18623a435cb6")
-		(property "Reference" "C13"
+		(property "Reference" "C22"
 			(at 161.036 73.406 0)
 			(effects
 				(font
@@ -2907,7 +2907,7 @@
 		(instances
 			(project "gameboy"
 				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/063c3b87-40d2-45e5-b5e2-db9e0e7c1214"
-					(reference "C13")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -2922,7 +2922,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "706ec9a4-b206-481b-b44c-30cf2e5b99e4")
-		(property "Reference" "C12"
+		(property "Reference" "C21"
 			(at 140.716 73.406 0)
 			(effects
 				(font
@@ -3001,7 +3001,7 @@
 		(instances
 			(project "gameboy"
 				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/063c3b87-40d2-45e5-b5e2-db9e0e7c1214"
-					(reference "C12")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -3016,7 +3016,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7a88d739-1c91-4cc7-8afc-5f9ea1ba2bd2")
-		(property "Reference" "C14"
+		(property "Reference" "C23"
 			(at 183.896 73.406 0)
 			(effects
 				(font
@@ -3095,7 +3095,7 @@
 		(instances
 			(project "gameboy"
 				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/063c3b87-40d2-45e5-b5e2-db9e0e7c1214"
-					(reference "C14")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -3111,7 +3111,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7aaef860-177d-4384-89ad-fb1002e85eeb")
-		(property "Reference" "SW2"
+		(property "Reference" "SW4"
 			(at 106.934 70.866 0)
 			(effects
 				(font
@@ -3196,7 +3196,7 @@
 		(instances
 			(project "gameboy"
 				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/063c3b87-40d2-45e5-b5e2-db9e0e7c1214"
-					(reference "SW2")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -3211,7 +3211,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "85a8e270-533d-420d-8183-f7c6a1705414")
-		(property "Reference" "C11"
+		(property "Reference" "C20"
 			(at 120.396 73.406 0)
 			(effects
 				(font
@@ -3290,7 +3290,7 @@
 		(instances
 			(project "gameboy"
 				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/063c3b87-40d2-45e5-b5e2-db9e0e7c1214"
-					(reference "C11")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -3305,7 +3305,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8d80bffd-32f9-47a6-9f0d-a35c1569a803")
-		(property "Reference" "C15"
+		(property "Reference" "C24"
 			(at 205.486 73.406 0)
 			(effects
 				(font
@@ -3384,7 +3384,7 @@
 		(instances
 			(project "gameboy"
 				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/063c3b87-40d2-45e5-b5e2-db9e0e7c1214"
-					(reference "C15")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -3400,7 +3400,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "99b29ad7-15b8-497e-87f6-6bca93f9d910")
-		(property "Reference" "SW6"
+		(property "Reference" "SW8"
 			(at 192.024 70.866 0)
 			(effects
 				(font
@@ -3485,7 +3485,7 @@
 		(instances
 			(project "gameboy"
 				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/063c3b87-40d2-45e5-b5e2-db9e0e7c1214"
-					(reference "SW6")
+					(reference "SW8")
 					(unit 1)
 				)
 			)
@@ -3500,7 +3500,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a2515c85-503f-45d4-8fde-34f25f9b7039")
-		(property "Reference" "R26"
+		(property "Reference" "R19"
 			(at 240.792 78.994 0)
 			(effects
 				(font
@@ -3581,7 +3581,7 @@
 		(instances
 			(project "gameboy"
 				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/063c3b87-40d2-45e5-b5e2-db9e0e7c1214"
-					(reference "R26")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -3596,7 +3596,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a306c2b1-5ac6-40d9-861a-7a57fe82d194")
-		(property "Reference" "R24"
+		(property "Reference" "R17"
 			(at 198.882 78.994 0)
 			(effects
 				(font
@@ -3677,7 +3677,7 @@
 		(instances
 			(project "gameboy"
 				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/063c3b87-40d2-45e5-b5e2-db9e0e7c1214"
-					(reference "R24")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -3692,7 +3692,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a80026b5-4203-4d12-bf1d-12978fd81751")
-		(property "Reference" "R21"
+		(property "Reference" "R14"
 			(at 134.112 78.994 0)
 			(effects
 				(font
@@ -3773,7 +3773,7 @@
 		(instances
 			(project "gameboy"
 				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/063c3b87-40d2-45e5-b5e2-db9e0e7c1214"
-					(reference "R21")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -3789,7 +3789,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aef2717c-0576-43dc-a1a3-56c3b0195664")
-		(property "Reference" "SW5"
+		(property "Reference" "SW7"
 			(at 170.434 70.866 0)
 			(effects
 				(font
@@ -3874,7 +3874,7 @@
 		(instances
 			(project "gameboy"
 				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/063c3b87-40d2-45e5-b5e2-db9e0e7c1214"
-					(reference "SW5")
+					(reference "SW7")
 					(unit 1)
 				)
 			)
@@ -3890,7 +3890,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4940a85-e80e-44c1-ac9f-0dc07f4be217")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR021"
 			(at 68.58 69.85 0)
 			(effects
 				(font
@@ -3940,7 +3940,7 @@
 		(instances
 			(project "gameboy"
 				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/063c3b87-40d2-45e5-b5e2-db9e0e7c1214"
-					(reference "#PWR013")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -3955,7 +3955,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b8135074-acd0-4c49-99b2-f7aa0b1b422d")
-		(property "Reference" "R20"
+		(property "Reference" "R13"
 			(at 113.792 78.994 0)
 			(effects
 				(font
@@ -4036,7 +4036,7 @@
 		(instances
 			(project "gameboy"
 				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/063c3b87-40d2-45e5-b5e2-db9e0e7c1214"
-					(reference "R20")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -4051,7 +4051,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b8932cc5-b184-469a-8cb4-99e4c6616688")
-		(property "Reference" "C17"
+		(property "Reference" "C26"
 			(at 247.396 73.406 0)
 			(effects
 				(font
@@ -4130,7 +4130,7 @@
 		(instances
 			(project "gameboy"
 				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/063c3b87-40d2-45e5-b5e2-db9e0e7c1214"
-					(reference "C17")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -4145,7 +4145,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c7a9aa3d-6728-4f5e-b0f0-cb87109d739c")
-		(property "Reference" "C10"
+		(property "Reference" "C19"
 			(at 100.076 73.406 0)
 			(effects
 				(font
@@ -4224,7 +4224,7 @@
 		(instances
 			(project "gameboy"
 				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/063c3b87-40d2-45e5-b5e2-db9e0e7c1214"
-					(reference "C10")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -4240,7 +4240,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2b7d83f-5473-430c-bce8-84eb13f7f23f")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR022"
 			(at 68.58 91.44 0)
 			(effects
 				(font
@@ -4290,7 +4290,7 @@
 		(instances
 			(project "gameboy"
 				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/063c3b87-40d2-45e5-b5e2-db9e0e7c1214"
-					(reference "#PWR014")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -4306,7 +4306,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d37ad4d2-827f-4536-8e19-ec0c1673931f")
-		(property "Reference" "SW8"
+		(property "Reference" "SW10"
 			(at 233.934 70.866 0)
 			(effects
 				(font
@@ -4391,7 +4391,7 @@
 		(instances
 			(project "gameboy"
 				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/063c3b87-40d2-45e5-b5e2-db9e0e7c1214"
-					(reference "SW8")
+					(reference "SW10")
 					(unit 1)
 				)
 			)
@@ -4406,7 +4406,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "feb4aabc-88ba-4219-9c17-93398a951be9")
-		(property "Reference" "R19"
+		(property "Reference" "R12"
 			(at 93.472 78.994 0)
 			(effects
 				(font
@@ -4487,7 +4487,7 @@
 		(instances
 			(project "gameboy"
 				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/063c3b87-40d2-45e5-b5e2-db9e0e7c1214"
-					(reference "R19")
+					(reference "R12")
 					(unit 1)
 				)
 			)
