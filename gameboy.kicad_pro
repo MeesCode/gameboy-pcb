@@ -642,12 +642,12 @@
       "Buttons"
     ],
     [
-      "fea8ab4b-ea53-47eb-b286-5a1dd85fe272",
-      "Power"
+      "14ac419d-87de-4e8e-be3d-9259b1e7c76f",
+      "USB+power"
     ],
     [
-      "14ac419d-87de-4e8e-be3d-9259b1e7c76f",
-      "USB"
+      "544a4a01-8cf8-45b3-bce5-8d02a4ea8581",
+      "Audio"
     ]
   ],
   "text_variables": {}
