@@ -5,7 +5,7 @@
 	(uuid "37dc8c14-dd90-48f4-b4fb-3efbefa0cd1b")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x40"
+		(symbol "Connector_Generic_MountingPin:Conn_01x40_MountingPin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -21,12 +21,13 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x40"
-				(at 0 -53.34 0)
+			(property "Value" "Conn_01x40_MountingPin"
+				(at 1.27 -53.34 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -47,7 +48,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x40, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connectable mounting pin connector, single row, 01x40, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -65,7 +66,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -74,7 +75,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x40_1_1"
+			(symbol "Conn_01x40_MountingPin_1_1"
 				(rectangle
 					(start -1.27 49.53)
 					(end 1.27 -52.07)
@@ -524,6 +525,26 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -52.832) (xy 1.016 -52.832)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Mounting"
+					(at 0 -52.451 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
 					)
 				)
 				(pin passive line
@@ -1239,6 +1260,24 @@
 						)
 					)
 					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -55.88 90)
+					(length 3.048)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2214,6 +2253,12 @@
 		(uuid "3570f699-2d99-4e5d-ad54-3fc82f56f735")
 	)
 	(junction
+		(at 87.63 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8eef13e7-e1f0-48ac-880d-820a5c88c883")
+	)
+	(junction
 		(at 134.62 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2390,6 +2435,16 @@
 			(type default)
 		)
 		(uuid "15f44d3f-1ba0-4622-9864-1b2fbb75cc19")
+	)
+	(wire
+		(pts
+			(xy 69.85 168.91) (xy 87.63 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b316776-bca8-4d35-bf79-72807864b348")
 	)
 	(wire
 		(pts
@@ -2630,6 +2685,16 @@
 			(type default)
 		)
 		(uuid "7f3f00ce-763b-49f4-8e25-75b4baa4a6c3")
+	)
+	(wire
+		(pts
+			(xy 69.85 163.83) (xy 69.85 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a5f90f7-d406-44c6-9d1d-230687b3977d")
 	)
 	(wire
 		(pts
@@ -3744,7 +3809,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x40")
+		(lib_id "Connector_Generic_MountingPin:Conn_01x40_MountingPin")
 		(at 69.85 107.95 0)
 		(mirror y)
 		(unit 1)
@@ -3787,7 +3852,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x40, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x40, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 69.85 107.95 0)
 			(effects
 				(font
@@ -3942,6 +4007,9 @@
 		)
 		(pin "38"
 			(uuid "a9f6484d-91b2-40da-bdfe-4d93719725fb")
+		)
+		(pin "MP"
+			(uuid "88c44326-b242-4247-b7b8-03cc310519d6")
 		)
 		(instances
 			(project "gameboy"

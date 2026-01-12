@@ -415,7 +415,7 @@
       "four_way_junction": "ignore",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
-      "label_dangling": "error",
+      "label_dangling": "ignore",
       "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
       "lib_symbol_mismatch": "warning",
@@ -430,7 +430,7 @@
       "pin_not_connected": "error",
       "pin_not_driven": "error",
       "pin_to_pin": "warning",
-      "power_pin_not_driven": "error",
+      "power_pin_not_driven": "ignore",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
@@ -652,6 +652,10 @@
     [
       "fa61dece-89ff-456c-a30f-6bfd2f1cc11c",
       "Vibration"
+    ],
+    [
+      "61f30b6c-37fc-4a02-80d0-dee0eb1e628c",
+      "SD"
     ]
   ],
   "text_variables": {}

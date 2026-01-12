@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "34ab3e82-f3b6-4451-8422-6756ca0845bb")
+	(uuid "ddbfdc3c-7d2a-460a-90b1-a8c4f9365422")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x02"
@@ -1414,7 +1414,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 132.08 74.93 0)
 			(effects
 				(font
@@ -1451,6 +1451,33 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 132.08 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C64982"
+			(at 132.08 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MDD(Microdiode Semiconductor)"
+			(at 132.08 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "B340A"
 			(at 132.08 74.93 0)
 			(effects
 				(font
@@ -1502,7 +1529,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 120.142 96.52 90)
 			(effects
 				(font
@@ -1589,7 +1616,7 @@
 				)
 			)
 		)
-		(property "Value" "200R"
+		(property "Value" "220R"
 			(at 115.57 83.82 90)
 			(effects
 				(font
@@ -1597,7 +1624,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 115.57 89.408 90)
 			(effects
 				(font
