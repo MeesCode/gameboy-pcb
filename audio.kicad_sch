@@ -1030,19 +1030,19 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Add hardware to select gain\nand possibly channel select"
+	(text "mix channels \n(left/2 + right/2)"
 		(exclude_from_sim no)
-		(at 154.94 73.66 0)
+		(at 108.204 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "82522159-0767-4408-9aba-55744214203a")
+		(uuid "0358f1b1-99c1-4a7b-8385-d8e458a0d88a")
 	)
 	(text "NC for 9dB gain"
 		(exclude_from_sim no)
-		(at 113.792 107.188 0)
+		(at 121.158 111.506 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1050,15 +1050,11 @@
 		)
 		(uuid "cf095c47-8467-49ff-b86c-371df00d7e45")
 	)
-	(text "TODO:\nbe able to drive for \npower consumption"
-		(exclude_from_sim no)
-		(at 94.742 87.884 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ffe7ba1b-1d55-4d13-ae9e-6bebd8ad2caa")
+	(junction
+		(at 97.79 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25b35e87-2457-44a1-8b10-6f3e4a82e915")
 	)
 	(junction
 		(at 115.57 77.47)
@@ -1071,12 +1067,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "982f9f73-8a49-45d9-bce5-7d48c1a871b4")
-	)
-	(junction
-		(at 133.35 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bfd03fff-eef0-4646-8093-0d23d6f34899")
 	)
 	(junction
 		(at 133.35 69.85)
@@ -1136,13 +1126,13 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 86.36) (xy 133.35 86.36)
+			(xy 109.22 101.6) (xy 120.65 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1be68c2b-0c71-469a-ae32-c36e8d8ca7b0")
+		(uuid "36073b59-d31f-433a-a215-652344081a1c")
 	)
 	(wire
 		(pts
@@ -1156,6 +1146,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 101.6) (xy 101.6 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c7b27f9-bb90-45af-b3b8-c66b9b8dd145")
+	)
+	(wire
+		(pts
 			(xy 133.35 114.3) (xy 133.35 118.11)
 		)
 		(stroke
@@ -1166,13 +1166,23 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 101.6) (xy 105.41 98.2672)
+			(xy 93.98 101.6) (xy 97.79 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "47406c8f-98ba-4ac3-9b83-7a4be9f15ba7")
+		(uuid "5db24776-7277-4531-9b85-20bb4f401fab")
+	)
+	(wire
+		(pts
+			(xy 97.79 109.22) (xy 97.79 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f7f6941-2716-41b9-ab35-66acb5030a3d")
 	)
 	(wire
 		(pts
@@ -1206,6 +1216,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 116.84) (xy 97.79 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9361f65a-71a3-432e-9bad-129de4292048")
+	)
+	(wire
+		(pts
 			(xy 133.35 114.3) (xy 135.89 114.3)
 		)
 		(stroke
@@ -1223,16 +1243,6 @@
 			(type default)
 		)
 		(uuid "a05db823-84ad-4c66-bcc1-e215833940fa")
-	)
-	(wire
-		(pts
-			(xy 120.65 101.6) (xy 105.41 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b080ebd8-3a29-46a5-b555-2fa13dad9d38")
 	)
 	(wire
 		(pts
@@ -1256,16 +1266,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 90.6472) (xy 105.41 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c698c18d-1b60-4ba4-82db-404aa619e262")
-	)
-	(wire
-		(pts
 			(xy 133.35 69.85) (xy 133.35 86.36)
 		)
 		(stroke
@@ -1273,6 +1273,17 @@
 			(type default)
 		)
 		(uuid "f13c846c-1af7-4196-95ba-4832ec816869")
+	)
+	(hierarchical_label "I2S_SDMODE"
+		(shape input)
+		(at 93.98 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "12745966-bf24-4cd7-95a2-c65144f5000c")
 	)
 	(hierarchical_label "I2S_LRCLK"
 		(shape input)
@@ -1308,6 +1319,103 @@
 		(uuid "81f88755-f448-4308-8438-21d310b6d1ad")
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 97.79 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e6d62c1-f44c-481b-bb49-271cc915e6b8")
+		(property "Reference" "R29"
+			(at 100.33 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 100.33 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.012 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 97.79 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 97.79 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 97.79 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 97.79 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ad797fb1-2641-4b4b-8924-82312d314309")
+		)
+		(pin "1"
+			(uuid "378359d4-32ee-43bb-b2b7-afda01ebd3f6")
+		)
+		(instances
+			(project ""
+				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/544a4a01-8cf8-45b3-bce5-8d02a4ea8581"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 133.35 63.5 0)
 		(unit 1)
@@ -1317,7 +1425,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39cbbf58-ad91-42e1-9bcb-c4f688dcefe2")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR031"
 			(at 133.35 67.31 0)
 			(effects
 				(font
@@ -1367,7 +1475,73 @@
 		(instances
 			(project ""
 				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/544a4a01-8cf8-45b3-bce5-8d02a4ea8581"
-					(reference "#PWR023")
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 97.79 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47aec5b5-aa8a-4786-991f-d44001c10f60")
+		(property "Reference" "#PWR029"
+			(at 97.79 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 97.79 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 97.79 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dbe5f35a-a9b1-4061-ba65-1a06cd9e1dc0")
+		)
+		(instances
+			(project "gameboy"
+				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/544a4a01-8cf8-45b3-bce5-8d02a4ea8581"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -1383,7 +1557,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a4c8ab5-aef2-4f18-b8ff-67b29c458a42")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR032"
 			(at 133.35 124.46 0)
 			(effects
 				(font
@@ -1433,7 +1607,7 @@
 		(instances
 			(project ""
 				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/544a4a01-8cf8-45b3-bce5-8d02a4ea8581"
-					(reference "#PWR024")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -1449,7 +1623,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7bed5916-2ec3-4715-8c0f-320d64a66397")
-		(property "Reference" "J3"
+		(property "Reference" "J5"
 			(at 163.83 91.4399 0)
 			(effects
 				(font
@@ -1503,7 +1677,101 @@
 		(instances
 			(project ""
 				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/544a4a01-8cf8-45b3-bce5-8d02a4ea8581"
-					(reference "J3")
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 105.41 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e2e57f4-50d4-4071-a56d-0b3005c63b01")
+		(property "Reference" "R30"
+			(at 105.41 96.012 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "634R"
+			(at 105.41 98.552 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 103.378 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 105.41 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 105.41 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 105.41 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 105.41 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee9710a5-d278-4df7-b499-607462dc0913")
+		)
+		(pin "2"
+			(uuid "09f9abe7-98cc-4350-8cce-76564d6d2d0c")
+		)
+		(instances
+			(project ""
+				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/544a4a01-8cf8-45b3-bce5-8d02a4ea8581"
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -1519,7 +1787,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "992987fb-c23d-4b29-8c1b-49c98ae05ce6")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR030"
 			(at 115.57 85.09 0)
 			(effects
 				(font
@@ -1569,7 +1837,7 @@
 		(instances
 			(project "gameboy"
 				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/544a4a01-8cf8-45b3-bce5-8d02a4ea8581"
-					(reference "#PWR025")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -1585,7 +1853,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e14ed44-10f7-4b18-b393-0068bc725fe2")
-		(property "Reference" "C27"
+		(property "Reference" "C32"
 			(at 125.73 72.3899 0)
 			(effects
 				(font
@@ -1666,103 +1934,7 @@
 		(instances
 			(project ""
 				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/544a4a01-8cf8-45b3-bce5-8d02a4ea8581"
-					(reference "C27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 105.41 94.4572 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a022fc7a-3127-4cd2-82e7-a9665ab42a1f")
-		(property "Reference" "R20"
-			(at 99.06 93.218 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 99.06 95.758 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 107.188 94.4572 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 105.41 94.4572 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 105.41 94.4572 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 105.41 94.4572 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 105.41 94.4572 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 105.41 94.4572 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f409b9fc-702c-4bdf-ab23-a3908a6c9185")
-		)
-		(pin "1"
-			(uuid "26f3ab81-33a6-4ad0-8050-ca620e70609d")
-		)
-		(instances
-			(project "gameboy"
-				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/544a4a01-8cf8-45b3-bce5-8d02a4ea8581"
-					(reference "R20")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -1778,7 +1950,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab716b85-5b36-41d2-a753-9e0fc93c8977")
-		(property "Reference" "U3"
+		(property "Reference" "U5"
 			(at 135.4933 83.82 0)
 			(effects
 				(font
@@ -1877,7 +2049,7 @@
 		(instances
 			(project ""
 				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/544a4a01-8cf8-45b3-bce5-8d02a4ea8581"
-					(reference "U3")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -1893,7 +2065,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ffb0e81c-51cd-4142-9596-95a961ed90e4")
-		(property "Reference" "C28"
+		(property "Reference" "C31"
 			(at 113.03 72.3899 0)
 			(effects
 				(font
@@ -1974,7 +2146,7 @@
 		(instances
 			(project "gameboy"
 				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/544a4a01-8cf8-45b3-bce5-8d02a4ea8581"
-					(reference "C28")
+					(reference "C31")
 					(unit 1)
 				)
 			)

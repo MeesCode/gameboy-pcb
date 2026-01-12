@@ -137,6 +137,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 99.06) (xy 179.07 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3d674f5-1e93-4505-93a0-c168e010f3e8")
+	)
+	(wire
+		(pts
 			(xy 167.64 78.74) (xy 179.07 78.74)
 		)
 		(stroke
@@ -319,7 +329,7 @@
 	)
 	(sheet
 		(at 140.97 58.42)
-		(size 26.67 44.45)
+		(size 26.67 43.18)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -343,7 +353,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 140.97 103.4546 0)
+			(at 140.97 102.1846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -541,6 +551,16 @@
 				(justify right)
 			)
 		)
+		(pin "I2S_SDMODE" input
+			(at 167.64 99.06 0)
+			(uuid "807361f5-0165-4514-80a0-b004141ba6ba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "gameboy"
 				(path "/f4643692-c319-40a7-82a2-3e775c0a417f"
@@ -551,7 +571,7 @@
 	)
 	(sheet
 		(at 107.95 82.55)
-		(size 21.59 8.89)
+		(size 21.59 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -575,7 +595,7 @@
 			)
 		)
 		(property "Sheetfile" "usb.kicad_sch"
-			(at 107.95 92.0246 0)
+			(at 107.95 90.7546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -613,7 +633,7 @@
 	)
 	(sheet
 		(at 179.07 88.9)
-		(size 20.32 10.16)
+		(size 20.32 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -637,7 +657,7 @@
 			)
 		)
 		(property "Sheetfile" "audio.kicad_sch"
-			(at 179.07 99.6446 0)
+			(at 179.07 102.1846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -668,6 +688,16 @@
 		(pin "I2S_LRCLK" input
 			(at 179.07 96.52 180)
 			(uuid "18db45da-659f-46fe-9c1d-6d00bf39471f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2S_SDMODE" input
+			(at 179.07 99.06 180)
+			(uuid "8597a554-4c0e-476d-83be-30cbb0590591")
 			(effects
 				(font
 					(size 1.27 1.27)

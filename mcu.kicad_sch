@@ -2827,7 +2827,7 @@
 	)
 	(text "Make sure R7 and R8 are close to RP2350\n"
 		(exclude_from_sim no)
-		(at 178.562 60.96 0)
+		(at 179.07 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2838,7 +2838,7 @@
 	)
 	(text "Flash"
 		(exclude_from_sim no)
-		(at 230.378 70.104 0)
+		(at 229.87 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2849,7 +2849,7 @@
 	)
 	(text "JST Debug Connector"
 		(exclude_from_sim no)
-		(at 244.475 122.555 0)
+		(at 245.11 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2913,7 +2913,7 @@
 		(uuid "475be664-1010-4013-9612-27db0cf7e697")
 	)
 	(junction
-		(at 241.935 138.43)
+		(at 242.57 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4c9a2ebd-f7e0-411a-86e6-72a9895ecad1")
@@ -3112,7 +3112,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 41.91) (xy 236.22 43.815)
+			(xy 236.22 41.91) (xy 236.22 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3269,6 +3269,16 @@
 			(type default)
 		)
 		(uuid "100c4f5f-8002-4e69-8047-b09a2186a892")
+	)
+	(wire
+		(pts
+			(xy 176.53 101.6) (xy 175.26 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "108acfd3-8d24-447f-b6f5-3625f34533d3")
 	)
 	(wire
 		(pts
@@ -3512,7 +3522,17 @@
 	)
 	(wire
 		(pts
-			(xy 241.935 138.43) (xy 241.935 140.335)
+			(xy 176.53 100.33) (xy 176.53 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30b84cea-d441-4213-b3e8-9916960e5067")
+	)
+	(wire
+		(pts
+			(xy 242.57 138.43) (xy 242.57 140.97)
 		)
 		(stroke
 			(width 0)
@@ -3542,7 +3562,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.935 138.43) (xy 248.92 138.43)
+			(xy 242.57 138.43) (xy 248.92 138.43)
 		)
 		(stroke
 			(width 0)
@@ -4212,6 +4232,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 100.33) (xy 177.8 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84abfd72-0b9e-45ec-baf8-f11faf664b28")
+	)
+	(wire
+		(pts
 			(xy 46.99 121.92) (xy 46.99 124.46)
 		)
 		(stroke
@@ -4582,7 +4612,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 129.54) (xy 241.935 129.54)
+			(xy 243.84 129.54) (xy 242.57 129.54)
 		)
 		(stroke
 			(width 0)
@@ -4712,7 +4742,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.935 129.54) (xy 241.935 138.43)
+			(xy 242.57 129.54) (xy 242.57 138.43)
 		)
 		(stroke
 			(width 0)
@@ -5080,16 +5110,6 @@
 		)
 		(uuid "485f412d-65b2-4efd-a92f-4957c79a7090")
 	)
-	(label "GPIO9"
-		(at 175.26 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4afd650a-a27e-47ab-9287-791562e59da6")
-	)
 	(label "QSPI_SD3"
 		(at 111.76 101.6 180)
 		(effects
@@ -5403,6 +5423,17 @@
 			(justify left)
 		)
 		(uuid "c3400049-0e54-4d43-8617-26de3bcf6c92")
+	)
+	(hierarchical_label "I2S_SDMODE"
+		(shape input)
+		(at 177.8 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "caccb807-373c-4766-a1e4-6e5104762a2a")
 	)
 	(hierarchical_label "BTN_START"
 		(shape input)
@@ -6229,7 +6260,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 241.935 140.335 0)
+		(at 242.57 140.97 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6238,7 +6269,7 @@
 		(dnp no)
 		(uuid "4f69d89e-53aa-42c0-81e7-337ae38642c6")
 		(property "Reference" "#PWR014"
-			(at 241.935 146.685 0)
+			(at 242.57 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6247,7 +6278,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 241.808 144.7292 0)
+			(at 242.443 145.3642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6255,7 +6286,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 241.935 140.335 0)
+			(at 242.57 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6264,7 +6295,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.935 140.335 0)
+			(at 242.57 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6273,7 +6304,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 241.935 140.335 0)
+			(at 242.57 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8241,7 +8272,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 236.22 43.815 0)
+		(at 236.22 44.45 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8250,7 +8281,7 @@
 		(dnp no)
 		(uuid "d0516a11-f468-4102-8541-961bef0ebd4e")
 		(property "Reference" "#PWR013"
-			(at 236.22 50.165 0)
+			(at 236.22 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8259,7 +8290,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 236.093 48.2092 0)
+			(at 236.093 48.8442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8267,7 +8298,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 43.815 0)
+			(at 236.22 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8276,7 +8307,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 43.815 0)
+			(at 236.22 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8285,7 +8316,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 236.22 43.815 0)
+			(at 236.22 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)

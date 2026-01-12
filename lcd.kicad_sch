@@ -2811,7 +2811,7 @@
 		)
 		(uuid "fde553c5-27ab-445a-8785-fe101f51c2bb")
 	)
-	(label "RST"
+	(label "LCD_RST"
 		(at 74.93 95.25 0)
 		(effects
 			(font
@@ -2821,7 +2821,7 @@
 		)
 		(uuid "15c80682-f464-43f9-95c9-ae506ef14cc1")
 	)
-	(label "SDA"
+	(label "LCD_SDA"
 		(at 74.93 90.17 0)
 		(effects
 			(font
@@ -2831,17 +2831,7 @@
 		)
 		(uuid "7c3c1206-71a4-499c-8c91-3a0843758a43")
 	)
-	(label "GND"
-		(at 74.93 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8c89deff-8663-41a2-a721-3e3ba9d1f8fc")
-	)
-	(label "DC"
+	(label "LCD_DC"
 		(at 74.93 85.09 0)
 		(effects
 			(font
@@ -2861,7 +2851,7 @@
 		)
 		(uuid "e2a8ed2a-e777-422e-b533-ea9ef41c1018")
 	)
-	(label "SCL"
+	(label "LCD_SCL"
 		(at 74.93 82.55 0)
 		(effects
 			(font
@@ -2871,7 +2861,7 @@
 		)
 		(uuid "e50308bf-7227-4bea-9c21-055a396f2fc7")
 	)
-	(label "CS"
+	(label "LCD_CS"
 		(at 74.93 80.01 0)
 		(effects
 			(font
