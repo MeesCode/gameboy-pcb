@@ -3782,6 +3782,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 104.14) (xy 175.26 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d1a184f-d2d0-4897-99c7-7c6c7521b53f")
+	)
+	(wire
+		(pts
 			(xy 160.02 29.21) (xy 160.02 30.48)
 		)
 		(stroke
@@ -4129,6 +4139,16 @@
 			(type default)
 		)
 		(uuid "769a3eaa-004c-4e38-86b7-79feefc09676")
+	)
+	(wire
+		(pts
+			(xy 176.53 102.87) (xy 176.53 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "772f1d98-c1d5-4980-9972-c7a4cc6244e1")
 	)
 	(wire
 		(pts
@@ -4792,6 +4812,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 102.87) (xy 177.8 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5234e63-6790-4f46-9d5d-f43c06920c95")
+	)
+	(wire
+		(pts
 			(xy 62.23 69.85) (xy 62.23 68.58)
 		)
 		(stroke
@@ -5170,16 +5200,6 @@
 		)
 		(uuid "9b61fa21-2ccc-4096-b548-a9155b6219bb")
 	)
-	(label "GPIO10"
-		(at 175.26 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a0d31934-92da-4539-a80b-7a7fd22ad6bb")
-	)
 	(label "QSPI_SD2"
 		(at 260.35 83.82 0)
 		(effects
@@ -5390,6 +5410,17 @@
 			(justify left)
 		)
 		(uuid "aa63c5a2-c5fe-4e3f-8826-63c167e2565d")
+	)
+	(hierarchical_label "VIB_EN"
+		(shape input)
+		(at 177.8 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ae643d22-6052-4f60-81db-d9f7b138afd5")
 	)
 	(hierarchical_label "I2S_LRCLK"
 		(shape input)

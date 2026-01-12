@@ -648,6 +648,10 @@
     [
       "544a4a01-8cf8-45b3-bce5-8d02a4ea8581",
       "Audio"
+    ],
+    [
+      "fa61dece-89ff-456c-a30f-6bfd2f1cc11c",
+      "Vibration"
     ]
   ],
   "text_variables": {}
