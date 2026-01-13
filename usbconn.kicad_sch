@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "9ae6fc42-107c-4137-93f3-ae54763a1f05")
+	(uuid "96be8cfe-6a33-45bf-9f02-a862917b5b4e")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
@@ -927,6 +927,16 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(text "Pull-downs to USB\nfor UFP operation"
+		(exclude_from_sim no)
+		(at 182.118 96.012 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fcaf265e-dfc7-4e41-b34d-ddc691400f41")
 	)
 	(junction
 		(at 149.86 91.44)
