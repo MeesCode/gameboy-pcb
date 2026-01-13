@@ -2814,20 +2814,49 @@
 		)
 		(uuid cf3f6708-48dc-452c-935c-d133b63f6a28)
 	)
-	(text "12MHz Crystal"
+	(text "Check datasheet for capacitor layout"
 		(exclude_from_sim no)
-		(at 55.88 106.68 0)
+		(at 190.754 25.654 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
 		)
-		(uuid "50f4b9e9-0786-4544-99a0-e2a232127c0d")
+		(uuid "253ed106-b95d-47d9-8810-088c298fd752")
 	)
-	(text "Make sure R7 and R8 are close to RP2350\n"
+	(text "Special inductor approved by Raspberry Pi\nCheck datasheet section 6.3.8"
 		(exclude_from_sim no)
-		(at 179.07 60.96 0)
+		(at 79.502 87.122 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "33278a40-f35c-4a1c-923e-e4751bc4467d")
+	)
+	(text "Specific 12Mhz rystal recommended by Raspberry Pi"
+		(exclude_from_sim no)
+		(at 70.866 106.426 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4158ae0f-86ce-44b7-ab8c-b3a119c549a0")
+	)
+	(text "Use short QSPI traces"
+		(exclude_from_sim no)
+		(at 272.288 71.628 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "61bf60cf-4609-4e1d-976a-36e5dacbe7d8")
+	)
+	(text "Make sure these resistors are close to RP2350\n"
+		(exclude_from_sim no)
+		(at 168.402 59.944 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3119,8 +3148,16 @@
 		(uuid "2bdd718f-1024-4e01-91da-0cc400accbb4")
 	)
 	(no_connect
+		(at 175.26 137.16)
+		(uuid "50d0213b-dc88-437f-9dfe-e4b095887b21")
+	)
+	(no_connect
 		(at 175.26 149.86)
 		(uuid "5107c41b-01b6-4b30-be04-00690a5349b3")
+	)
+	(no_connect
+		(at 175.26 134.62)
+		(uuid "547aa8b7-6bea-44cb-9fd0-bd65429e436d")
 	)
 	(no_connect
 		(at 175.26 147.32)
@@ -3366,16 +3403,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 71.12) (xy 186.69 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25c9a20f-5bdb-494b-9b4e-ba6ceb44319f")
-	)
-	(wire
-		(pts
 			(xy 50.8 82.55) (xy 62.23 82.55)
 		)
 		(stroke
@@ -3393,16 +3420,6 @@
 			(type default)
 		)
 		(uuid "26f59a36-8e9f-45b2-bcb5-e499baa536f5")
-	)
-	(wire
-		(pts
-			(xy 175.26 68.58) (xy 186.69 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a3bb5e3-aadc-4939-bd6c-ed59d11e8a3d")
 	)
 	(wire
 		(pts
@@ -3473,6 +3490,16 @@
 			(type default)
 		)
 		(uuid "34998894-7840-4af3-a26a-9b920805e784")
+	)
+	(wire
+		(pts
+			(xy 175.26 68.58) (xy 185.42 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3559b917-325f-4ecf-86c7-1b33212c31f5")
 	)
 	(wire
 		(pts
@@ -3733,16 +3760,6 @@
 			(type default)
 		)
 		(uuid "6afb77ec-dac4-4694-bfe8-137c7b020e46")
-	)
-	(wire
-		(pts
-			(xy 158.75 30.48) (xy 160.02 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6afc931a-7ed3-4884-afa9-28b74b9728bd")
 	)
 	(wire
 		(pts
@@ -4466,6 +4483,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 71.12) (xy 185.42 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe8bf121-83d7-4aae-90ab-847a87243b21")
+	)
+	(wire
+		(pts
 			(xy 120.65 58.42) (xy 120.65 60.96)
 		)
 		(stroke
@@ -4733,17 +4760,6 @@
 		)
 		(uuid "7974ed36-a62e-44de-9e96-f36504c75e33")
 	)
-	(hierarchical_label "BTN_START"
-		(shape input)
-		(at 175.26 134.62 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7b3b2f37-d414-42d0-b196-4442662d8037")
-	)
 	(hierarchical_label "BTN_B"
 		(shape input)
 		(at 175.26 121.92 0)
@@ -4812,7 +4828,7 @@
 	)
 	(hierarchical_label "USB_D+"
 		(shape input)
-		(at 194.31 68.58 0)
+		(at 193.04 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4878,7 +4894,7 @@
 	)
 	(hierarchical_label "USB_D-"
 		(shape input)
-		(at 194.31 71.12 0)
+		(at 193.04 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4897,17 +4913,6 @@
 			(justify left)
 		)
 		(uuid "f59dbbb4-a468-4dba-bccf-fe3b0aaddeda")
-	)
-	(hierarchical_label "BTN_SELECT"
-		(shape input)
-		(at 175.26 137.16 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f8eafd0b-8191-4b40-b9bf-b2f39a3a693e")
 	)
 	(hierarchical_label "LCD_RST"
 		(shape input)
@@ -4971,7 +4976,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C97521"
 			(at 247.65 81.28 0)
 			(effects
 				(font
@@ -4980,7 +4985,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Winbond"
 			(at 247.65 81.28 0)
 			(effects
 				(font
@@ -4989,7 +4994,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "W25Q128JVSIQ"
 			(at 247.65 81.28 0)
 			(effects
 				(font
@@ -6822,7 +6827,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://pip-assets.raspberrypi.com/categories/1214-rp2350/documents/RP-008373-DS-2-rp2350-datasheet.pdf"
 			(at 124.46 111.76 0)
 			(effects
 				(font
@@ -6839,7 +6844,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C42411118"
 			(at 143.51 111.76 0)
 			(effects
 				(font
@@ -6848,7 +6853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Raspberry Pi"
 			(at 143.51 111.76 0)
 			(effects
 				(font
@@ -6857,7 +6862,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "RP2350A"
 			(at 143.51 111.76 0)
 			(effects
 				(font
@@ -7196,7 +7201,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 190.5 71.12 270)
+		(at 189.23 71.12 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7204,7 +7209,7 @@
 		(dnp no)
 		(uuid "a7a70aa1-a533-435d-89b6-250edc0fb482")
 		(property "Reference" "R5"
-			(at 190.5 73.914 90)
+			(at 189.23 73.914 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7212,7 +7217,7 @@
 			)
 		)
 		(property "Value" "27"
-			(at 190.5 76.2 90)
+			(at 189.23 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7220,7 +7225,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 190.5 69.342 90)
+			(at 189.23 69.342 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7229,7 +7234,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 190.5 71.12 0)
+			(at 189.23 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7238,7 +7243,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 190.5 71.12 0)
+			(at 189.23 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7845,6 +7850,33 @@
 				)
 			)
 		)
+		(property "LCSC" "C20625731"
+			(at 68.58 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ABRACON"
+			(at 68.58 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "ABM8-272-T3"
+			(at 68.58 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9c78e768-49f0-4235-936d-5ccb14d53d9b")
 		)
@@ -7918,6 +7950,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C42411119"
+			(at 77.47 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ABRACON"
+			(at 77.47 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "AOTA-B201610S3R3-101-T"
+			(at 77.47 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8001,7 +8060,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 190.5 68.58 270)
+		(at 189.23 68.58 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8009,7 +8068,7 @@
 		(dnp no)
 		(uuid "f427be6c-bdcd-4eec-a5cc-e5ead276eadc")
 		(property "Reference" "R4"
-			(at 190.5 63.3222 90)
+			(at 189.23 63.3222 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8017,7 +8076,7 @@
 			)
 		)
 		(property "Value" "27"
-			(at 190.5 65.6336 90)
+			(at 189.23 65.6336 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8025,7 +8084,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 190.5 66.802 90)
+			(at 189.23 66.802 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8034,7 +8093,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 190.5 68.58 0)
+			(at 189.23 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8043,7 +8102,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 190.5 68.58 0)
+			(at 189.23 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)

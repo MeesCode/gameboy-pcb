@@ -652,12 +652,6 @@
 		(uuid "021cd3b1-12f9-4d8f-b08e-f8aace59106d")
 	)
 	(junction
-		(at 69.85 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "04adc298-cf3b-46d7-866d-d634a1e36f6f")
-	)
-	(junction
 		(at 69.85 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -700,12 +694,6 @@
 		(uuid "25cf51a2-e6d5-4346-b6fa-373ee0d3fa17")
 	)
 	(junction
-		(at 101.6 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2b6e54db-e692-4799-b167-72d76dedab74")
-	)
-	(junction
 		(at 99.06 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -716,30 +704,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3aa059ac-ff3a-48bf-9769-e46038277de1")
-	)
-	(junction
-		(at 99.06 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3fdf4722-36b9-4043-bd4a-b3ed58d6b25d")
-	)
-	(junction
-		(at 101.6 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "45ca4f34-95e4-4a90-a236-881bb28af6ac")
-	)
-	(junction
-		(at 69.85 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "512f812f-9aa2-4220-bbd3-0b83ababd314")
-	)
-	(junction
-		(at 99.06 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5de8c25b-7c75-4dd5-9713-b7d17ba4bcde")
 	)
 	(junction
 		(at 74.93 119.38)
@@ -754,22 +718,10 @@
 		(uuid "62a6431c-fc64-4dbe-9555-748a12f9e79a")
 	)
 	(junction
-		(at 101.6 172.72)
+		(at 74.93 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "75c1da2f-f3c5-4856-9abd-7def6099cd37")
-	)
-	(junction
-		(at 74.93 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "791c7094-e42c-44d7-ba7d-6d50b960e8ee")
-	)
-	(junction
-		(at 101.6 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "979e5848-b65a-42ef-8265-bd4904cdb6b5")
+		(uuid "77a7a838-22a1-4c2e-991d-b1c17ff96197")
 	)
 	(junction
 		(at 74.93 83.82)
@@ -832,12 +784,6 @@
 		(uuid "d3f23876-72ec-4560-b420-d84d5c4c12c0")
 	)
 	(junction
-		(at 74.93 172.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d48fece2-d985-41f2-a039-3cb4a67d0ba0")
-	)
-	(junction
 		(at 101.6 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -854,12 +800,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb8e10df-5a37-42dd-9c4f-72754f7e96f2")
-	)
-	(junction
-		(at 74.93 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ef319f4a-9d88-467a-93a3-4bbe9861ef5f")
 	)
 	(junction
 		(at 69.85 93.98)
@@ -892,16 +832,6 @@
 			(type default)
 		)
 		(uuid "09af8478-aa68-4154-a3c3-bfb19e9fcd7c")
-	)
-	(wire
-		(pts
-			(xy 99.06 168.91) (xy 99.06 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a085b6b-d02a-4853-81bc-ec80e99652a5")
 	)
 	(wire
 		(pts
@@ -965,16 +895,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 154.94) (xy 74.93 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23b6acd8-0884-421d-97a9-02dda2466e29")
-	)
-	(wire
-		(pts
 			(xy 101.6 83.82) (xy 111.76 83.82)
 		)
 		(stroke
@@ -985,26 +905,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 165.1) (xy 101.6 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f1f0b6e-033f-44c0-beb7-b64135944b9a")
-	)
-	(wire
-		(pts
-			(xy 93.98 168.91) (xy 99.06 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f2571ca-3f7a-47fb-817a-9c41c30408c9")
-	)
-	(wire
-		(pts
 			(xy 69.85 40.64) (xy 87.63 40.64)
 		)
 		(stroke
@@ -1012,16 +912,6 @@
 			(type default)
 		)
 		(uuid "2f51680d-fe9c-4199-9bef-7cb6dfe7999c")
-	)
-	(wire
-		(pts
-			(xy 101.6 165.1) (xy 111.76 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38f2753c-5653-446f-a19a-22e942cfd099")
 	)
 	(wire
 		(pts
@@ -1065,26 +955,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 137.16) (xy 74.93 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41389bdc-14d5-47f7-8f7d-7e8c53dcea8c")
-	)
-	(wire
-		(pts
-			(xy 69.85 165.1) (xy 87.63 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52e771f9-fabe-46f8-a937-4c51356e53e7")
-	)
-	(wire
-		(pts
 			(xy 99.06 76.2) (xy 101.6 76.2)
 		)
 		(stroke
@@ -1112,16 +982,6 @@
 			(type default)
 		)
 		(uuid "617f7860-e7e7-46e9-84c9-397c47a6d2ec")
-	)
-	(wire
-		(pts
-			(xy 99.06 147.32) (xy 101.6 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62722483-8116-4a4d-9900-568c0efe7c72")
 	)
 	(wire
 		(pts
@@ -1165,16 +1025,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 172.72) (xy 74.93 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f1ff69f-f978-4318-a856-c73528e9cd26")
-	)
-	(wire
-		(pts
 			(xy 93.98 97.79) (xy 99.06 97.79)
 		)
 		(stroke
@@ -1182,16 +1032,6 @@
 			(type default)
 		)
 		(uuid "6fd10e1d-e89b-4c33-9b1c-c144e754d077")
-	)
-	(wire
-		(pts
-			(xy 101.6 147.32) (xy 111.76 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70015cdd-36d1-473d-8c69-16280b70df31")
 	)
 	(wire
 		(pts
@@ -1215,16 +1055,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 172.72) (xy 111.76 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85a602a9-5ba5-4fd9-b24d-6a4590a6274d")
-	)
-	(wire
-		(pts
 			(xy 99.06 133.35) (xy 99.06 129.54)
 		)
 		(stroke
@@ -1232,16 +1062,6 @@
 			(type default)
 		)
 		(uuid "87731c68-e376-41cc-9a5c-10bd233dd6c8")
-	)
-	(wire
-		(pts
-			(xy 97.79 165.1) (xy 99.06 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c1a5d8b-31fd-4ca7-906b-f9f8dd7483b2")
 	)
 	(wire
 		(pts
@@ -1315,16 +1135,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 172.72) (xy 74.93 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3777824-9c8d-45e7-ba2a-0fd755a5a9f8")
-	)
-	(wire
-		(pts
 			(xy 97.79 111.76) (xy 99.06 111.76)
 		)
 		(stroke
@@ -1332,16 +1142,6 @@
 			(type default)
 		)
 		(uuid "b3b1fc14-3240-453d-9c65-6512100f1f52")
-	)
-	(wire
-		(pts
-			(xy 97.79 147.32) (xy 99.06 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b53c8fb6-e494-4e21-be27-0f8fb69316e1")
 	)
 	(wire
 		(pts
@@ -1362,16 +1162,6 @@
 			(type default)
 		)
 		(uuid "bd77b883-a4a9-40d5-ae67-f5744335e017")
-	)
-	(wire
-		(pts
-			(xy 69.85 147.32) (xy 69.85 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2e5bd26-0cea-499b-b305-4dee2202fae1")
 	)
 	(wire
 		(pts
@@ -1435,26 +1225,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 151.13) (xy 99.06 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc66dced-6ae3-4cc2-85dc-5fc16c24c129")
-	)
-	(wire
-		(pts
-			(xy 69.85 129.54) (xy 69.85 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc969ec6-9bc6-4149-b259-7875b6c64339")
-	)
-	(wire
-		(pts
 			(xy 101.6 137.16) (xy 74.93 137.16)
 		)
 		(stroke
@@ -1472,16 +1242,6 @@
 			(type default)
 		)
 		(uuid "cde59eb3-804a-4899-a6b7-9444ffce6b4d")
-	)
-	(wire
-		(pts
-			(xy 101.6 154.94) (xy 111.76 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cee5c794-04b5-478a-9414-d95ec2bdd505")
 	)
 	(wire
 		(pts
@@ -1565,16 +1325,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 147.32) (xy 87.63 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e360c4b0-1beb-497d-952c-6d0410cc9bee")
-	)
-	(wire
-		(pts
 			(xy 69.85 40.64) (xy 69.85 58.42)
 		)
 		(stroke
@@ -1592,16 +1342,6 @@
 			(type default)
 		)
 		(uuid "e6010149-423a-426a-b7d1-190e715f410d")
-	)
-	(wire
-		(pts
-			(xy 74.93 154.94) (xy 74.93 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e942aa26-77e4-415e-8202-52c3a9ae3eef")
 	)
 	(wire
 		(pts
@@ -1645,16 +1385,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 151.13) (xy 99.06 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb6bb26c-303f-459c-8e02-39ab29cea3a0")
-	)
-	(wire
-		(pts
 			(xy 101.6 48.26) (xy 111.76 48.26)
 		)
 		(stroke
@@ -1684,17 +1414,6 @@
 		)
 		(uuid "169fee15-49ef-4c0d-aac0-d386eda80834")
 	)
-	(hierarchical_label "BTN_START"
-		(shape input)
-		(at 93.98 151.13 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4462c830-20c0-4d70-bdfc-ca944a36c5e2")
-	)
 	(hierarchical_label "BTN_A"
 		(shape input)
 		(at 93.98 44.45 180)
@@ -1705,17 +1424,6 @@
 			(justify right)
 		)
 		(uuid "873353e7-9a49-48f6-ba7b-628adf61fdf6")
-	)
-	(hierarchical_label "BTN_SELECT"
-		(shape input)
-		(at 93.98 168.91 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a5fcb2ec-5959-44f9-8502-35470d114715")
 	)
 	(hierarchical_label "BTN_UP"
 		(shape input)
@@ -1851,102 +1559,6 @@
 			(project "gameboy"
 				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/063c3b87-40d2-45e5-b5e2-db9e0e7c1214"
 					(reference "SW4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 101.6 151.13 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0996c443-be6f-4975-9f00-f0d7faa23c15")
-		(property "Reference" "R18"
-			(at 103.632 148.844 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 103.632 151.384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 103.378 151.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 101.6 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 101.6 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 101.6 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 101.6 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 101.6 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a2788c12-9ed3-447f-9698-4259b3f8602c")
-		)
-		(pin "1"
-			(uuid "ad29cf1d-3fe4-4589-abd9-1b615879713b")
-		)
-		(instances
-			(project "gameboy"
-				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/063c3b87-40d2-45e5-b5e2-db9e0e7c1214"
-					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -2143,101 +1755,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 92.71 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "27f2ca5d-cd18-4188-9a82-d72d3a5d7934")
-		(property "Reference" "SW10"
-			(at 92.71 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 92.71 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1TS009xxxx-xxxx-xxxx_6x6x5mm"
-			(at 92.71 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 92.71 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 92.71 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5143657"
-			(at 92.71 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "hanxia"
-			(at 92.71 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "HX TS665WS 200gf"
-			(at 92.71 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8d770856-86c4-407a-8add-4f90f49eb991")
-		)
-		(pin "2"
-			(uuid "f15b0ac0-b01a-4ae1-9dd9-42dfd6b79b04")
-		)
-		(instances
-			(project "gameboy"
-				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/063c3b87-40d2-45e5-b5e2-db9e0e7c1214"
-					(reference "SW10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 101.6 80.01 180)
 		(unit 1)
@@ -2328,102 +1845,6 @@
 			(project "gameboy"
 				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/063c3b87-40d2-45e5-b5e2-db9e0e7c1214"
 					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 101.6 168.91 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3105d5ad-eb22-4efd-91c2-de77bd3c388e")
-		(property "Reference" "R19"
-			(at 103.632 166.624 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 103.632 169.164 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 103.378 168.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 101.6 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 101.6 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 101.6 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 101.6 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 101.6 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "819b0dcf-05ed-45ff-b114-9081087abc5b")
-		)
-		(pin "1"
-			(uuid "c19afe09-1524-4cc1-99d6-358569281a7e")
-		)
-		(instances
-			(project "gameboy"
-				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/063c3b87-40d2-45e5-b5e2-db9e0e7c1214"
-					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -2713,100 +2134,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 111.76 151.13 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4ecbfa61-84d1-47c1-8c4a-46fcb8f1a76d")
-		(property "Reference" "C25"
-			(at 118.11 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 118.364 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 110.7948 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 111.76 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 111.76 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C36508"
-			(at 111.76 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "FH"
-			(at 111.76 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "0603CG8R0C500NT"
-			(at 111.76 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0200b5b4-1dca-4faf-973c-67eb4a35c710")
-		)
-		(pin "1"
-			(uuid "519b2d0f-a4ee-4755-8db5-01911c86bee9")
-		)
-		(instances
-			(project "gameboy"
-				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/063c3b87-40d2-45e5-b5e2-db9e0e7c1214"
-					(reference "C25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 92.71 129.54 0)
 		(unit 1)
@@ -3058,100 +2385,6 @@
 			(project "gameboy"
 				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/063c3b87-40d2-45e5-b5e2-db9e0e7c1214"
 					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 111.76 168.91 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "73eac8ce-1adf-4efb-860b-593ebef11323")
-		(property "Reference" "C26"
-			(at 118.11 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 118.364 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 110.7948 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 111.76 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 111.76 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C36508"
-			(at 111.76 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "FH"
-			(at 111.76 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "0603CG8R0C500NT"
-			(at 111.76 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2874658b-1da3-4f08-b847-0e080a846097")
-		)
-		(pin "1"
-			(uuid "e54a53e7-6289-475d-ad88-f4c7ddb98ff3")
-		)
-		(instances
-			(project "gameboy"
-				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/063c3b87-40d2-45e5-b5e2-db9e0e7c1214"
-					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -3821,167 +3054,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 74.93 173.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "daabb207-83e2-4a83-9092-4f4a9ade0580")
-		(property "Reference" "#PWR022"
-			(at 74.93 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 74.93 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.93 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 74.93 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "75d2be51-39a3-42de-8109-bc01986e0d3d")
-		)
-		(instances
-			(project "gameboy"
-				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/063c3b87-40d2-45e5-b5e2-db9e0e7c1214"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 92.71 147.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dab4f0ad-0a2f-489e-91f2-9c87717a9084")
-		(property "Reference" "SW9"
-			(at 92.71 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 92.71 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1TS009xxxx-xxxx-xxxx_6x6x5mm"
-			(at 92.71 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 92.71 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 92.71 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5143657"
-			(at 92.71 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "hanxia"
-			(at 92.71 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "HX TS665WS 200gf"
-			(at 92.71 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a06f7dff-dcd2-4c04-b7ff-def1caf570d8")
-		)
-		(pin "2"
-			(uuid "525c7ce9-08e8-4561-b747-71df60ef03e2")
-		)
-		(instances
-			(project "gameboy"
-				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/063c3b87-40d2-45e5-b5e2-db9e0e7c1214"
-					(reference "SW9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 101.6 97.79 180)
 		(unit 1)
@@ -4168,6 +3240,72 @@
 			(project "gameboy"
 				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/063c3b87-40d2-45e5-b5e2-db9e0e7c1214"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 74.93 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbc2b200-e374-4cd2-9c86-32aa455037ca")
+		(property "Reference" "#PWR022"
+			(at 74.93 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 74.93 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 74.93 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2b2e14b-d706-4f0e-9045-57878ddda6e2")
+		)
+		(instances
+			(project ""
+				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/063c3b87-40d2-45e5-b5e2-db9e0e7c1214"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)

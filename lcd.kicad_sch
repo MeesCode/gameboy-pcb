@@ -2184,6 +2184,28 @@
 		)
 		(uuid "39fac18a-9e19-4b50-b1e7-310ea4817831")
 	)
+	(text "RD"
+		(exclude_from_sim no)
+		(at 74.93 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4484b260-1fec-411f-96c9-daa7620992a1")
+	)
+	(text "FMARC"
+		(exclude_from_sim no)
+		(at 74.93 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9de2e85f-63a1-4e77-92c5-bcb4c0e7c5e7")
+	)
 	(text "4-wire 8-bit spi"
 		(exclude_from_sim no)
 		(at 58.166 157.226 0)
@@ -2203,6 +2225,12 @@
 			)
 		)
 		(uuid "c7ab0470-c17b-4287-a87c-834088aa442f")
+	)
+	(junction
+		(at 87.63 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0000a43d-3d7c-4f65-a12a-c3eb95d99fa9")
 	)
 	(junction
 		(at 95.25 97.79)
@@ -2365,10 +2393,6 @@
 	(no_connect
 		(at 74.93 115.57)
 		(uuid "dce5d259-c815-4051-9120-2f8110dad66b")
-	)
-	(no_connect
-		(at 74.93 87.63)
-		(uuid "e9acd9f7-1a4e-48b6-932c-7197990e1f2d")
 	)
 	(no_connect
 		(at 74.93 77.47)
@@ -2638,7 +2662,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 74.93) (xy 87.63 156.21)
+			(xy 87.63 74.93) (xy 87.63 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2665,6 +2689,16 @@
 			(type default)
 		)
 		(uuid "6ce5bc2c-557b-4a2b-84b6-bc6cdbe047f5")
+	)
+	(wire
+		(pts
+			(xy 87.63 87.63) (xy 87.63 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7187425f-db9d-4ca3-a953-07c03acb8bee")
 	)
 	(wire
 		(pts
@@ -2818,6 +2852,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 87.63) (xy 87.63 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e74eb0a3-85e1-4975-bd09-d4ba8fef456d")
+	)
+	(wire
+		(pts
 			(xy 74.93 153.67) (xy 95.25 153.67)
 		)
 		(stroke
@@ -2905,16 +2949,6 @@
 			(justify left bottom)
 		)
 		(uuid "c4428b02-6d8a-4119-ac06-67f5bd3742af")
-	)
-	(label "FMARC"
-		(at 74.93 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e2a8ed2a-e777-422e-b533-ea9ef41c1018")
 	)
 	(label "LCD_SCL"
 		(at 74.93 82.55 0)

@@ -429,7 +429,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "ignore",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -643,7 +643,7 @@
     ],
     [
       "14ac419d-87de-4e8e-be3d-9259b1e7c76f",
-      "USB+power"
+      "Power"
     ],
     [
       "544a4a01-8cf8-45b3-bce5-8d02a4ea8581",
@@ -656,6 +656,10 @@
     [
       "61f30b6c-37fc-4a02-80d0-dee0eb1e628c",
       "SD"
+    ],
+    [
+      "5841d49e-be17-4f7f-a312-392f15541195",
+      "USB"
     ]
   ],
   "text_variables": {}
