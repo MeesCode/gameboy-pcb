@@ -64,7 +64,6 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
-			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -80,8 +79,8 @@
 	)
 	(net 0 "")
 	(gr_rect
-		(start 107.75 37.5)
-		(end 185.25 92.54)
+		(start 108.25 34)
+		(end 185.75 89.04)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -91,8 +90,8 @@
 		(uuid "2053d0cc-3c41-41b0-b3d1-de0e20f75570")
 	)
 	(gr_rect
-		(start 111.25 40.72)
-		(end 176.05 89.32)
+		(start 111.75 37.22)
+		(end 176.55 85.82)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -102,8 +101,8 @@
 		(uuid "7afb986d-cb87-4c40-a184-27e8d7e8733c")
 	)
 	(gr_rect
-		(start 107.75 37.5)
-		(end 185.25 92.54)
+		(start 108.25 34)
+		(end 185.75 89.04)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -113,8 +112,8 @@
 		(uuid "0d9e3e42-b986-439c-9900-8b5e2911adcc")
 	)
 	(gr_rect
-		(start 111.25 40.72)
-		(end 176.05 89.32)
+		(start 111.75 37.22)
+		(end 176.55 85.82)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -124,8 +123,8 @@
 		(uuid "20380670-e122-4955-b66b-fac287b8a328")
 	)
 	(gr_rect
-		(start 143.75 55.27)
-		(end 185.25 74.77)
+		(start 144.25 51.77)
+		(end 185.75 71.27)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -134,9 +133,62 @@
 		(layer "Dwgs.User")
 		(uuid "4c0a73d7-2672-4e6e-900d-86314dd662f6")
 	)
+	(gr_line
+		(start 207 128.5)
+		(end 207 138.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "4eac346c-68be-4a1a-9523-d4ceb0ccf0af")
+	)
+	(gr_line
+		(start 187 128.5)
+		(end 187 138.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "6a0a52e0-cc97-4dc3-8201-1f93f686c420")
+	)
 	(gr_rect
-		(start 143.75 55.27)
-		(end 147.25 74.77)
+		(start 108 107.5)
+		(end 160 150.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "a8f7be67-8c7d-4bcd-a917-46bdca7c62e7")
+	)
+	(gr_arc
+		(start 207 138.5)
+		(mid 197 148.5)
+		(end 187 138.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "cbe382a3-0794-4649-9a54-f5cd86fbec47")
+	)
+	(gr_circle
+		(center 174 118)
+		(end 182 118)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "cf57c740-60fa-4a31-bbac-f6012485544c")
+	)
+	(gr_rect
+		(start 144.25 51.77)
+		(end 147.75 71.27)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -144,6 +196,88 @@
 		(fill no)
 		(layer "Dwgs.User")
 		(uuid "e2bb5b12-88da-412d-b80c-96747e70e763")
+	)
+	(gr_arc
+		(start 187 128.5)
+		(mid 197 118.5)
+		(end 207 128.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "e87ac9de-2d10-4f16-b89d-80243ca86711")
+	)
+	(gr_text "Speaker"
+		(at 194 133.5 0)
+		(layer "Dwgs.User")
+		(uuid "03f49ceb-4a55-48cd-953a-ec6bddc6a8a8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "LiPo"
+		(at 134 129 0)
+		(layer "Dwgs.User")
+		(uuid "37f97b50-7439-41eb-8248-d563413b5b27")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "vibration"
+		(at 171 118.5 0)
+		(layer "Dwgs.User")
+		(uuid "45ff1cb3-0cca-4c5a-9e65-22aec4ff71ca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "LCD"
+		(at 126 61.5 0)
+		(layer "Dwgs.User")
+		(uuid "a9727c17-fdb0-4ba9-9347-949a8f08d9a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(group ""
+		(uuid "e3df1fbd-7909-4328-b47e-01d0b2d64899")
+		(members "0d9e3e42-b986-439c-9900-8b5e2911adcc" "20380670-e122-4955-b66b-fac287b8a328"
+			"2053d0cc-3c41-41b0-b3d1-de0e20f75570" "4c0a73d7-2672-4e6e-900d-86314dd662f6"
+			"7afb986d-cb87-4c40-a184-27e8d7e8733c" "a9727c17-fdb0-4ba9-9347-949a8f08d9a2"
+			"e2bb5b12-88da-412d-b80c-96747e70e763"
+		)
+	)
+	(group ""
+		(uuid "36a515e8-166e-4aa7-993e-280e64544048")
+		(members "45ff1cb3-0cca-4c5a-9e65-22aec4ff71ca" "cf57c740-60fa-4a31-bbac-f6012485544c")
+	)
+	(group ""
+		(uuid "72af473d-ebd1-48b7-a796-9999ab4b59c3")
+		(members "37f97b50-7439-41eb-8248-d563413b5b27" "a8f7be67-8c7d-4bcd-a917-46bdca7c62e7")
+	)
+	(group ""
+		(uuid "c2c9cde3-a3fe-4cc9-bdb6-e8274d0f3bd4")
+		(members "03f49ceb-4a55-48cd-953a-ec6bddc6a8a8" "4eac346c-68be-4a1a-9523-d4ceb0ccf0af"
+			"6a0a52e0-cc97-4dc3-8201-1f93f686c420" "cbe382a3-0794-4649-9a54-f5cd86fbec47"
+			"e87ac9de-2d10-4f16-b89d-80243ca86711"
+		)
 	)
 	(embedded_fonts no)
 )

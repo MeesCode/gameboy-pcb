@@ -679,6 +679,155 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:FerriteBead"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FB"
+				(at -3.81 0.635 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "FerriteBead"
+				(at 3.81 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ferrite bead"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "L ferrite bead inductor filter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FerriteBead_0_1"
+				(polyline
+					(pts
+						(xy -2.7686 0.4064) (xy -1.7018 2.2606) (xy 2.7686 -0.3048) (xy 1.6764 -2.159) (xy -2.7686 0.4064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 1.2954)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.2192)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FerriteBead_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -803,7 +952,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5V"
+		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -824,7 +973,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+5V"
+			(property "Value" "+3V3"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -850,7 +999,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -868,7 +1017,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+5V_0_1"
+			(symbol "+3V3_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -906,7 +1055,7 @@
 					)
 				)
 			)
-			(symbol "+5V_1_1"
+			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1032,7 +1181,7 @@
 	)
 	(text "mix channels \n(left/2 + right/2)"
 		(exclude_from_sim no)
-		(at 108.204 105.41 0)
+		(at 105.156 105.664 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1049,12 +1198,6 @@
 			)
 		)
 		(uuid "cf095c47-8467-49ff-b86c-371df00d7e45")
-	)
-	(junction
-		(at 97.79 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "25b35e87-2457-44a1-8b10-6f3e4a82e915")
 	)
 	(junction
 		(at 115.57 77.47)
@@ -1116,6 +1259,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 91.44) (xy 153.67 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11f004cc-6898-4eae-ae5b-f1e82a3270ef")
+	)
+	(wire
+		(pts
 			(xy 109.22 77.47) (xy 115.57 77.47)
 		)
 		(stroke
@@ -1146,7 +1299,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 101.6) (xy 101.6 101.6)
+			(xy 93.98 101.6) (xy 101.6 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1166,33 +1319,23 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 101.6) (xy 97.79 101.6)
+			(xy 161.29 91.44) (xy 170.18 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5db24776-7277-4531-9b85-20bb4f401fab")
+		(uuid "469d5915-d8cb-4ea2-b6f0-b6a499062c83")
 	)
 	(wire
 		(pts
-			(xy 97.79 109.22) (xy 97.79 101.6)
+			(xy 146.05 93.98) (xy 158.75 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5f7f6941-2716-41b9-ab35-66acb5030a3d")
-	)
-	(wire
-		(pts
-			(xy 146.05 93.98) (xy 156.21 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b1be111-6e33-4dec-8ed2-ddc51fc44099")
+		(uuid "68651b04-3135-421c-99f6-e7d414dffb1f")
 	)
 	(wire
 		(pts
@@ -1216,16 +1359,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 116.84) (xy 97.79 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9361f65a-71a3-432e-9bad-129de4292048")
-	)
-	(wire
-		(pts
 			(xy 133.35 114.3) (xy 135.89 114.3)
 		)
 		(stroke
@@ -1233,16 +1366,6 @@
 			(type default)
 		)
 		(uuid "93efc5d2-b3ec-49c7-ac47-1e12f224cb39")
-	)
-	(wire
-		(pts
-			(xy 146.05 91.44) (xy 156.21 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a05db823-84ad-4c66-bcc1-e215833940fa")
 	)
 	(wire
 		(pts
@@ -1263,6 +1386,16 @@
 			(type default)
 		)
 		(uuid "be89edd0-6ddb-455c-9780-031287a691b3")
+	)
+	(wire
+		(pts
+			(xy 166.37 93.98) (xy 170.18 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e37f4e62-8403-4354-a23b-8110b505a175")
 	)
 	(wire
 		(pts
@@ -1319,35 +1452,33 @@
 		(uuid "81f88755-f448-4308-8438-21d310b6d1ad")
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 97.79 113.03 0)
+		(lib_id "Device:FerriteBead")
+		(at 157.48 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2e6d62c1-f44c-481b-bb49-271cc915e6b8")
-		(property "Reference" "R29"
-			(at 100.33 111.7599 0)
+		(uuid "35bf782e-89d2-4751-915e-441075764333")
+		(property "Reference" "FB1"
+			(at 157.4292 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "10k"
-			(at 100.33 114.2999 0)
+		(property "Value" "220Ω@100MHz"
+			(at 157.4292 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 96.012 113.03 90)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at 157.48 93.218 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1356,7 +1487,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.79 113.03 0)
+			(at 157.48 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1364,8 +1495,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 97.79 113.03 0)
+		(property "Description" "Ferrite bead"
+			(at 157.48 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1373,8 +1504,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 97.79 113.03 0)
+		(property "LCSC" "C76815"
+			(at 157.48 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1382,8 +1513,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 97.79 113.03 0)
+		(property "Manufacturer" "TDK"
+			(at 157.48 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1391,91 +1522,25 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 97.79 113.03 0)
+		(property "Manufacturer Part Number" "MPZ1608S221ATA00"
+			(at 157.48 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "ad797fb1-2641-4b4b-8924-82312d314309")
 		)
 		(pin "1"
-			(uuid "378359d4-32ee-43bb-b2b7-afda01ebd3f6")
+			(uuid "07290a21-2773-4ae2-bb96-da15cc09907f")
+		)
+		(pin "2"
+			(uuid "c74c8b6c-c033-429a-8ce5-c05f8ba6b708")
 		)
 		(instances
 			(project ""
 				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/544a4a01-8cf8-45b3-bce5-8d02a4ea8581"
-					(reference "R29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 97.79 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "47aec5b5-aa8a-4786-991f-d44001c10f60")
-		(property "Reference" "#PWR029"
-			(at 97.79 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 97.79 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.79 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 97.79 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dbe5f35a-a9b1-4061-ba65-1a06cd9e1dc0")
-		)
-		(instances
-			(project "gameboy"
-				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/544a4a01-8cf8-45b3-bce5-8d02a4ea8581"
-					(reference "#PWR029")
+					(reference "FB1")
 					(unit 1)
 				)
 			)
@@ -1556,7 +1621,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7e2e57f4-50d4-4071-a56d-0b3005c63b01")
-		(property "Reference" "R30"
+		(property "Reference" "R26"
 			(at 105.41 96.012 90)
 			(effects
 				(font
@@ -1635,7 +1700,73 @@
 		(instances
 			(project ""
 				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/544a4a01-8cf8-45b3-bce5-8d02a4ea8581"
-					(reference "R30")
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 133.35 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83c7db52-0167-40f4-8e84-8d570fc3e98d")
+		(property "Reference" "#PWR031"
+			(at 133.35 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 133.35 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 133.35 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da64a246-3f5c-4f4f-871a-b859a3f4cddf")
+		)
+		(instances
+			(project ""
+				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/544a4a01-8cf8-45b3-bce5-8d02a4ea8581"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -1717,7 +1848,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e14ed44-10f7-4b18-b393-0068bc725fe2")
-		(property "Reference" "C32"
+		(property "Reference" "C30"
 			(at 125.73 72.3899 0)
 			(effects
 				(font
@@ -1798,7 +1929,7 @@
 		(instances
 			(project ""
 				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/544a4a01-8cf8-45b3-bce5-8d02a4ea8581"
-					(reference "C32")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -1920,34 +2051,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 161.29 91.44 0)
+		(lib_id "Device:FerriteBead")
+		(at 162.56 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "caad6c9f-c729-4662-8a69-0834820d1f25")
-		(property "Reference" "J7"
-			(at 164.846 91.694 0)
+		(uuid "bd1ebe95-b1a0-4696-9aed-cc61c204145a")
+		(property "Reference" "FB2"
+			(at 166.37 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
-			(at 164.338 93.472 0)
+		(property "Value" "220Ω@100MHz"
+			(at 166.37 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
-			(at 161.29 91.44 0)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at 162.56 95.758 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1956,7 +2085,103 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 161.29 91.44 0)
+			(at 162.56 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite bead"
+			(at 162.56 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C76815"
+			(at 162.56 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 162.56 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "MPZ1608S221ATA00"
+			(at 162.56 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9cf4156-f678-4785-b095-d2b72f271752")
+		)
+		(pin "2"
+			(uuid "692993d3-ff68-45b7-87fe-79d658f9c7fe")
+		)
+		(instances
+			(project "gameboy"
+				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/544a4a01-8cf8-45b3-bce5-8d02a4ea8581"
+					(reference "FB2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 175.26 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "caad6c9f-c729-4662-8a69-0834820d1f25")
+		(property "Reference" "J4"
+			(at 178.816 91.694 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 178.308 93.472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+			(at 175.26 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1965,7 +2190,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 161.29 91.44 0)
+			(at 175.26 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1974,7 +2199,7 @@
 			)
 		)
 		(property "LCSC" "C131337"
-			(at 161.29 91.44 0)
+			(at 175.26 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1983,7 +2208,7 @@
 			)
 		)
 		(property "Manufacturer" "JST"
-			(at 161.29 91.44 0)
+			(at 175.26 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1992,7 +2217,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "B2B-PH-K-S(LF)(SN)"
-			(at 161.29 91.44 0)
+			(at 175.26 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2009,73 +2234,7 @@
 		(instances
 			(project "gameboy"
 				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/544a4a01-8cf8-45b3-bce5-8d02a4ea8581"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 133.35 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fbe277e3-efbd-4e90-9c89-637cc23dde27")
-		(property "Reference" "#PWR031"
-			(at 133.35 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 133.35 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 133.35 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 133.35 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3df148bb-49a6-4480-8bc6-fccf6cc40aaa")
-		)
-		(instances
-			(project "gameboy"
-				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/544a4a01-8cf8-45b3-bce5-8d02a4ea8581"
-					(reference "#PWR031")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -2091,7 +2250,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ffb0e81c-51cd-4142-9596-95a961ed90e4")
-		(property "Reference" "C31"
+		(property "Reference" "C29"
 			(at 113.03 72.3899 0)
 			(effects
 				(font
@@ -2172,7 +2331,7 @@
 		(instances
 			(project "gameboy"
 				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/544a4a01-8cf8-45b3-bce5-8d02a4ea8581"
-					(reference "C31")
+					(reference "C29")
 					(unit 1)
 				)
 			)

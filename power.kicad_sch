@@ -530,7 +530,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D"
+		(symbol "Device:D_Schottky"
 			(pin_numbers
 				(hide yes)
 			)
@@ -549,7 +549,7 @@
 					)
 				)
 			)
-			(property "Value" "D"
+			(property "Value" "D_Schottky"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -575,7 +575,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Diode"
+			(property "Description" "Schottky diode"
 				(at 0 0 0)
 				(effects
 					(font
@@ -584,25 +584,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
+			(property "ki_keywords" "diode Schottky"
 				(at 0 0 0)
 				(effects
 					(font
@@ -620,10 +602,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "D_0_1"
+			(symbol "D_Schottky_0_1"
 				(polyline
 					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
 					)
 					(stroke
 						(width 0.254)
@@ -658,7 +640,7 @@
 					)
 				)
 			)
-			(symbol "D_1_1"
+			(symbol "D_Schottky_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -1167,10 +1149,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Switching:TPS62170DSG"
-			(pin_names
-				(offset 0.254)
-			)
+		(symbol "Regulator_Switching:TPS62160DGK"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1183,7 +1162,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "TPS62170DSG"
+			(property "Value" "TPS62160DGK"
 				(at -1.27 11.43 0)
 				(effects
 					(font
@@ -1192,7 +1171,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm_ThermalVias"
+			(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
 				(at 3.81 -8.89 0)
 				(effects
 					(font
@@ -1202,7 +1181,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps62170.pdf"
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps62160.pdf"
 				(at 0 13.97 0)
 				(effects
 					(font
@@ -1211,7 +1190,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "500mA Step-Down Converter with DCS-Control, adjustable output, 3-17V input voltage, WSON-8"
+			(property "Description" "1A Step-Down Converter with DCS-Control, adjustable output, 3-17V input voltage, VSSOP-8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1229,7 +1208,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "WSON*EP*2x2mm*P0.5mm*"
+			(property "ki_fp_filters" "MSOP*3x3mm*P0.65mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1238,7 +1217,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "TPS62170DSG_0_1"
+			(symbol "TPS62160DGK_0_1"
 				(rectangle
 					(start -7.62 10.16)
 					(end 7.62 -7.62)
@@ -1251,7 +1230,7 @@
 					)
 				)
 			)
-			(symbol "TPS62170DSG_1_1"
+			(symbol "TPS62160DGK_1_1"
 				(pin power_in line
 					(at -10.16 7.62 0)
 					(length 2.54)
@@ -1299,24 +1278,6 @@
 						)
 					)
 					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -10.16 90)
-					(length 2.54)
-					(name "PAD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1407,6 +1368,270 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_Slide_DPDT"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_Slide_DPDT"
+				(at 0 -8.128 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 13.97 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Slide Switch, dual pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch dual-pole double-throw dpdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Slide_DPDT_0_0"
+				(circle
+					(center -2.032 5.08)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.032 -5.08)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -5.08)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_Slide_DPDT_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 5.08)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_Slide_DPDT_1_1"
+				(rectangle
+					(start -1.397 5.588)
+					(end -0.762 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.762 5.588)
+					(end 1.397 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1840,6 +2065,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1941,135 +2291,10 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VBUS"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VBUS"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VBUS\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VBUS_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VBUS_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(rectangle
-		(start 158.75 74.93)
-		(end 243.84 123.19)
+		(start 53.34 60.96)
+		(end 121.92 129.54)
 		(stroke
 			(width 0)
 			(type dash)
@@ -2077,11 +2302,11 @@
 		(fill
 			(type none)
 		)
-		(uuid 05fe43a0-999c-4e05-9326-d8f8e50e2c0a)
+		(uuid 8e82df18-ce11-4d81-b6ce-25dac2997816)
 	)
 	(rectangle
-		(start 62.23 57.15)
-		(end 130.81 125.73)
+		(start 173.99 78.74)
+		(end 255.27 127)
 		(stroke
 			(width 0)
 			(type dash)
@@ -2089,1325 +2314,1061 @@
 		(fill
 			(type none)
 		)
-		(uuid 10643cfd-1056-42a8-9212-8e1d43f1f582)
-	)
-	(text "Allow vbus to power\nthe buck when no battery\nis plugged in"
-		(exclude_from_sim no)
-		(at 147.574 65.786 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "0595285d-8940-4cc1-acee-d669ed6c2332")
-	)
-	(text "Step-down converter"
-		(exclude_from_sim no)
-		(at 169.164 72.898 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "0b9940e0-1a76-4f83-bec2-4ffa954b44ba")
-	)
-	(text "Battery charge system"
-		(exclude_from_sim no)
-		(at 73.152 54.356 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "22e7142f-c937-4a05-af8e-8dd041ff9961")
-	)
-	(text "R_{1}"
-		(exclude_from_sim no)
-		(at 218.44 96.266 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "58876b7a-01fa-49f5-b48b-d55832308f46")
+		(uuid fc4a1771-c06d-426d-855a-5d473c247ace)
 	)
 	(text "523450 LiPo\n3.7V, 1000mAh"
 		(exclude_from_sim no)
-		(at 150.622 129.794 0)
+		(at 140.462 118.364 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "7ae35e02-9fa7-494a-a1b2-b277f8875f0e")
+		(uuid "091b7f5b-c675-4db6-aaa8-ce1e8915d772")
 	)
-	(text "I_{BAT}"
+	(text "R_{1}"
 		(exclude_from_sim no)
-		(at 112.522 103.886 0)
+		(at 233.68 100.076 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "7c74ca0f-cfb1-4293-bd22-dbb4752ba91d")
-	)
-	(text "0.5C = half the battery capacity per hour\n1000mAh => 500mA = I_{BAT} charge current\nR_{prog} = 1100 / I_{BAT} = 2.2k"
-		(exclude_from_sim no)
-		(at 78.232 116.586 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b4da6a4c-4202-4f57-ac3d-1152434bb406")
-	)
-	(text "R_{2}"
-		(exclude_from_sim no)
-		(at 222.25 110.998 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ba02298c-19d6-4e7f-b26a-1b62bf954565")
+		(uuid "0dbd26ea-861b-4d9e-b338-ebed97184552")
 	)
 	(text "R_{2} = 180k\nV_{OUT} = 3.3V\nR_{1} = R_{2} x ((V_{OUT} / 0.8V) - 1) = 562k"
 		(exclude_from_sim no)
-		(at 175.768 114.3 0)
+		(at 191.008 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "d4cb50f3-c95a-408b-8487-a6a092260e92")
-	)
-	(junction
-		(at 152.4 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0601a0cf-6c49-4aa5-97fe-c57a310f8a9f")
-	)
-	(junction
-		(at 172.72 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "09cea45e-e271-4065-ab67-ba87f7ae7e3b")
-	)
-	(junction
-		(at 182.88 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0c57c6df-1217-462c-9717-d620c2dd0a32")
-	)
-	(junction
-		(at 180.34 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1e4dc530-fd68-4f76-8326-7a8c4fbf7418")
-	)
-	(junction
-		(at 99.06 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "29b9d754-e090-499f-8024-6642baefb7f8")
-	)
-	(junction
-		(at 207.01 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2e5f56f2-7e45-4810-b6d8-f29d444ef780")
-	)
-	(junction
-		(at 215.9 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "35cbe654-975e-415c-873a-c665fcdb55b5")
-	)
-	(junction
-		(at 137.16 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3c9cee5f-67d5-47ab-913e-02f4c6f43a63")
-	)
-	(junction
-		(at 119.38 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3cf1076a-2539-483c-b6eb-e67561cf099b")
-	)
-	(junction
-		(at 119.38 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3dc0a4ec-cc9f-4dc7-b296-16bef8533bfd")
-	)
-	(junction
-		(at 228.6 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "53eeaf0b-be9c-4039-aba4-d8671f81bd35")
-	)
-	(junction
-		(at 115.57 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "71fff8df-908d-4fa6-8dec-e0537b096382")
-	)
-	(junction
-		(at 168.91 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "76753817-b318-4331-9e3e-e8e7ffa4e2ac")
-	)
-	(junction
-		(at 99.06 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "78c953e1-4a01-4068-8dfd-e7a3508d8f34")
-	)
-	(junction
-		(at 215.9 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "89984872-699e-4524-8ff6-8fdd184b83f2")
-	)
-	(junction
-		(at 228.6 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "915ae34a-9941-4999-b5f3-79ab40e13590")
-	)
-	(junction
-		(at 78.74 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9852cd1b-ad97-4a9b-bb12-2c99c979bb71")
-	)
-	(junction
-		(at 96.52 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a1fbfa30-6e7a-4c24-96e6-91d246791982")
-	)
-	(junction
-		(at 109.22 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a645ee1d-00c9-4823-9ff2-dce43de074d6")
-	)
-	(junction
-		(at 139.7 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "af2135eb-fc74-4ab7-9d17-cb249194e145")
-	)
-	(junction
-		(at 137.16 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b0ed781c-4a41-41f4-bc7d-85a9faa27e5d")
-	)
-	(junction
-		(at 203.2 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bba59daf-5b5f-4b9e-a730-70658e713c45")
-	)
-	(junction
-		(at 146.05 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c3c953e3-a259-48cc-922e-fa1263194bd7")
-	)
-	(junction
-		(at 110.49 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c9122919-e994-4ac7-bbb8-32a40100bb7a")
-	)
-	(junction
-		(at 168.91 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d3465544-2a11-4f7f-8371-616c7708dd79")
-	)
-	(junction
-		(at 88.9 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "deaefb52-2dd1-40e8-839f-27f25262b2d0")
-	)
-	(junction
-		(at 73.66 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ec089d52-60a6-4d20-a5cf-13a1ced467bc")
-	)
-	(wire
-		(pts
-			(xy 195.58 91.44) (xy 195.58 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09a0dfb1-9a9c-4f2c-89c9-ebac8846b3d8")
-	)
-	(wire
-		(pts
-			(xy 146.05 69.85) (xy 152.4 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b828349-3390-47af-8218-5b0bf7c46539")
-	)
-	(wire
-		(pts
-			(xy 139.7 135.89) (xy 151.13 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bf9098c-1613-40c0-bca0-67ce88eb420f")
-	)
-	(wire
-		(pts
-			(xy 99.06 104.14) (xy 99.06 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0dcd02d4-3941-4ad9-a210-2db34d53a043")
-	)
-	(wire
-		(pts
-			(xy 73.66 69.85) (xy 73.66 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "147266b0-fe77-41ac-b289-647af185043b")
-	)
-	(wire
-		(pts
-			(xy 78.74 69.85) (xy 78.74 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15e44224-6b74-4273-a7ca-7aabfb0ee170")
-	)
-	(wire
-		(pts
-			(xy 109.22 104.14) (xy 109.22 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15ed9783-6acc-48db-a064-43a84802c588")
-	)
-	(wire
-		(pts
-			(xy 119.38 107.95) (xy 115.57 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18cf6289-3af1-42b0-b9aa-f06e99ef43a4")
-	)
-	(wire
-		(pts
-			(xy 119.38 93.98) (xy 119.38 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1eb6975a-90ab-496f-9df5-91ae4b8a2e9a")
-	)
-	(wire
-		(pts
-			(xy 207.01 105.41) (xy 207.01 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "248c00eb-e878-49d4-9eb6-b08c3360a68a")
-	)
-	(wire
-		(pts
-			(xy 215.9 86.36) (xy 228.6 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "268721ff-695a-4d3b-bf19-dc08051bc98e")
-	)
-	(wire
-		(pts
-			(xy 52.07 107.95) (xy 96.52 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2845b165-7873-415b-9dd9-83ae9066d765")
-	)
-	(wire
-		(pts
-			(xy 88.9 69.85) (xy 88.9 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a077231-659c-4776-b11d-d1c16293f82a")
-	)
-	(wire
-		(pts
-			(xy 119.38 86.36) (xy 139.7 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2df9a4fc-6960-44e4-ace6-646e0773e8e0")
-	)
-	(wire
-		(pts
-			(xy 146.05 69.85) (xy 146.05 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e6c6198-d614-4988-b6f6-a9360d10ffe4")
-	)
-	(wire
-		(pts
-			(xy 137.16 138.43) (xy 137.16 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "397fffde-8fa6-4570-93e7-631ee78c602a")
-	)
-	(wire
-		(pts
-			(xy 99.06 107.95) (xy 96.52 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c549573-df10-4f6f-b040-542e9510f9bb")
-	)
-	(wire
-		(pts
-			(xy 228.6 86.36) (xy 228.6 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d967c67-8ce5-4255-ad68-edad9dd03b67")
-	)
-	(wire
-		(pts
-			(xy 78.74 91.44) (xy 88.9 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4937b9e7-15dd-4e83-a842-f12af323bec0")
-	)
-	(wire
-		(pts
-			(xy 52.07 69.85) (xy 73.66 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bdd189f-6cbb-45ee-8e4c-78797d5ad913")
-	)
-	(wire
-		(pts
-			(xy 99.06 107.95) (xy 109.22 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e5e4ffa-f3ba-414e-b337-9c943bdfc3f5")
-	)
-	(wire
-		(pts
-			(xy 228.6 100.33) (xy 228.6 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "505ace0f-ac1a-41a4-bc0f-2c383a8270d3")
-	)
-	(wire
-		(pts
-			(xy 180.34 104.14) (xy 180.34 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50973747-30a7-4c4c-99ea-e26004640b8b")
-	)
-	(wire
-		(pts
-			(xy 110.49 69.85) (xy 137.16 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53eee1e8-826a-4d41-9bb2-809746f619df")
-	)
-	(wire
-		(pts
-			(xy 182.88 107.95) (xy 180.34 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "586a9244-c207-4e5c-9588-38d0dccadba2")
-	)
-	(wire
-		(pts
-			(xy 215.9 107.95) (xy 218.44 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f746c88-018c-45a3-93b7-8c9290877e9f")
-	)
-	(wire
-		(pts
-			(xy 109.22 107.95) (xy 115.57 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5faff28a-b656-48aa-867c-03ddc17bdda9")
-	)
-	(wire
-		(pts
-			(xy 180.34 107.95) (xy 168.91 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6122153c-2efb-4c17-81ce-c8ba63156cc4")
-	)
-	(wire
-		(pts
-			(xy 137.16 138.43) (xy 151.13 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65d89c5d-d739-4c5f-9c8b-c71307e3974c")
-	)
-	(wire
-		(pts
-			(xy 96.52 104.14) (xy 96.52 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65f36f05-87db-437d-b273-fee4d894f300")
-	)
-	(wire
-		(pts
-			(xy 115.57 91.44) (xy 115.57 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68b3480a-d970-44dd-bc22-f786788a56b1")
-	)
-	(wire
-		(pts
-			(xy 99.06 69.85) (xy 110.49 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ab751f8-384a-468c-a76b-68c0695704bd")
-	)
-	(wire
-		(pts
-			(xy 193.04 91.44) (xy 195.58 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6fd75113-dd7e-49b2-9754-d3f4dff40ea2")
-	)
-	(wire
-		(pts
-			(xy 185.42 104.14) (xy 185.42 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "717e619c-d09a-4d20-8a38-9f1583ec3d2e")
-	)
-	(wire
-		(pts
-			(xy 226.06 107.95) (xy 228.6 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "784eaa3b-d879-4822-85d5-801ad6add06a")
-	)
-	(wire
-		(pts
-			(xy 73.66 90.17) (xy 73.66 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7898d17c-a0aa-41a7-9278-5cb374c586c7")
-	)
-	(wire
-		(pts
-			(xy 203.2 86.36) (xy 207.01 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78c81ecd-507d-421b-8d82-c617d41318d0")
-	)
-	(wire
-		(pts
-			(xy 172.72 86.36) (xy 172.72 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "861c7762-e8cc-4d11-bff5-76a5c2a584e5")
-	)
-	(wire
-		(pts
-			(xy 99.06 69.85) (xy 99.06 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a029214-bcb4-4848-8805-829cf916235b")
-	)
-	(wire
-		(pts
-			(xy 119.38 107.95) (xy 137.16 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ceaf00d-90ef-414f-9f5a-077913f1be56")
-	)
-	(wire
-		(pts
-			(xy 185.42 107.95) (xy 182.88 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8df8c712-7b0a-40e3-aac4-5d7197b3cd5c")
-	)
-	(wire
-		(pts
-			(xy 109.22 93.98) (xy 109.22 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95519d38-7b9d-4e6e-89b6-058e9ac29e8b")
-	)
-	(wire
-		(pts
-			(xy 140.97 86.36) (xy 139.7 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "997c64f7-7fab-48df-980b-10cd21d93f26")
-	)
-	(wire
-		(pts
-			(xy 193.04 88.9) (xy 203.2 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9cec1f76-beb7-4e2c-978c-3c15c8b25191")
-	)
-	(wire
-		(pts
-			(xy 109.22 91.44) (xy 115.57 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3402cf3-1994-4f11-8269-133efa979ba2")
-	)
-	(wire
-		(pts
-			(xy 203.2 88.9) (xy 203.2 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a46b1629-1c14-4479-a85d-d32e339720d3")
-	)
-	(wire
-		(pts
-			(xy 119.38 101.6) (xy 119.38 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a80a1a88-6465-46bf-a257-537b55c75ae1")
-	)
-	(wire
-		(pts
-			(xy 139.7 135.89) (xy 139.7 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a90531c8-b05c-497c-b853-a574b329e0bd")
-	)
-	(wire
-		(pts
-			(xy 207.01 86.36) (xy 207.01 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab0a6e0c-e644-4561-9850-1ede00b03123")
-	)
-	(wire
-		(pts
-			(xy 168.91 86.36) (xy 172.72 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ace5c41d-a33c-44b5-8093-cbd55dedb660")
-	)
-	(wire
-		(pts
-			(xy 168.91 107.95) (xy 168.91 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae9383ef-2736-4244-a312-e82365f7ce21")
-	)
-	(wire
-		(pts
-			(xy 172.72 96.52) (xy 172.72 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b21126f2-f3be-4617-8c5d-327ebfb81dfa")
-	)
-	(wire
-		(pts
-			(xy 215.9 86.36) (xy 215.9 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7338a41-0467-4421-a7a1-8b431f0f3c1c")
-	)
-	(wire
-		(pts
-			(xy 78.74 69.85) (xy 88.9 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7e323b0-a82a-4ae1-80fc-23d1a14b795d")
-	)
-	(wire
-		(pts
-			(xy 88.9 69.85) (xy 99.06 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b97ec458-0e78-48bd-a67c-942a57b0681d")
-	)
-	(wire
-		(pts
-			(xy 78.74 90.17) (xy 78.74 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdad7c56-60c3-413d-9fb8-8f8813586070")
-	)
-	(wire
-		(pts
-			(xy 109.22 86.36) (xy 119.38 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c08d4dbf-20c5-4006-bed6-c06bb125e496")
-	)
-	(wire
-		(pts
-			(xy 201.93 86.36) (xy 203.2 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c451053e-bd46-4f96-9c8a-64e94c5dff85")
-	)
-	(wire
-		(pts
-			(xy 151.13 86.36) (xy 152.4 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c764cff1-86c2-4bb0-bf37-54fe96aab556")
-	)
-	(wire
-		(pts
-			(xy 73.66 69.85) (xy 78.74 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb0d980a-8313-4fc3-b78b-369ddf651707")
-	)
-	(wire
-		(pts
-			(xy 73.66 93.98) (xy 88.9 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d14c7ab9-48cf-427f-8ffb-99c071a8adf4")
-	)
-	(wire
-		(pts
-			(xy 215.9 100.33) (xy 215.9 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4180e1d-5c0c-4bed-8d8c-ceb6c8dd5c10")
-	)
-	(wire
-		(pts
-			(xy 207.01 86.36) (xy 215.9 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d63bbb6e-87d4-477c-80f9-6af8f903d6d5")
-	)
-	(wire
-		(pts
-			(xy 137.16 69.85) (xy 146.05 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd9df8ef-fff1-4564-9f0d-916c089cf7fc")
-	)
-	(wire
-		(pts
-			(xy 152.4 86.36) (xy 168.91 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2e37b76-3086-46a7-ab92-72af6db5bf40")
-	)
-	(wire
-		(pts
-			(xy 137.16 107.95) (xy 168.91 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f549a34b-3c1d-4840-b482-638915b813fd")
-	)
-	(wire
-		(pts
-			(xy 152.4 69.85) (xy 152.4 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f56a241a-70ef-4f05-a56e-74373676413b")
-	)
-	(wire
-		(pts
-			(xy 194.31 86.36) (xy 193.04 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f93d30de-4941-41d3-8eff-b91e85ae9789")
-	)
-	(wire
-		(pts
-			(xy 182.88 104.14) (xy 182.88 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f943a933-8d8f-4d48-b253-63dbfcf887a3")
-	)
-	(wire
-		(pts
-			(xy 215.9 107.95) (xy 195.58 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb1b53be-89ce-402d-afa6-2a69ebf424b2")
-	)
-	(wire
-		(pts
-			(xy 168.91 86.36) (xy 168.91 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb35f3d7-0d74-4708-b18f-60df84cc549e")
-	)
-	(wire
-		(pts
-			(xy 172.72 105.41) (xy 207.01 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbeaaede-c00a-431f-9eed-b3bf6229f322")
-	)
-	(label "BAT+"
-		(at 151.13 135.89 180)
+		(uuid "7793c3fc-e13e-4aed-bff8-7790d1509711")
+	)
+	(text "Battery charge system"
+		(exclude_from_sim no)
+		(at 64.262 58.166 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
 		)
-		(uuid "1997b0e2-de61-4018-af82-108cbb653367")
+		(uuid "7db67f70-1fc3-4ed2-9587-df220a93b713")
+	)
+	(text "I_{BAT}"
+		(exclude_from_sim no)
+		(at 103.632 107.696 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8cd2ea44-57d0-43a0-a44a-f85b75cef75f")
+	)
+	(text "0.5C = half the battery capacity per hour\n1000mAh => 500mA = I_{BAT} charge current\nR_{prog} = 1100 / I_{BAT} = 2.2k"
+		(exclude_from_sim no)
+		(at 69.342 120.396 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8d96288a-52d1-4999-8474-11479623715b")
+	)
+	(text "Allow vbus to power\nthe buck when no battery\nis plugged in"
+		(exclude_from_sim no)
+		(at 138.684 69.596 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9376f772-17c4-4d60-b145-9bd03015a483")
+	)
+	(text "R_{2}"
+		(exclude_from_sim no)
+		(at 237.49 114.808 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "954da232-d728-4e4c-96b2-834adec41818")
+	)
+	(text "Step-down converter"
+		(exclude_from_sim no)
+		(at 184.404 76.708 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bb5b0528-3a99-4690-9f81-219874184663")
+	)
+	(junction
+		(at 222.25 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00081f50-d029-4f98-9db8-4afa208532dd")
+	)
+	(junction
+		(at 243.84 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01857c14-5179-4dcf-9be0-9c2839870634")
+	)
+	(junction
+		(at 128.27 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "073e832a-1b82-4100-b60c-0f1c51cb95f7")
+	)
+	(junction
+		(at 231.14 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08e93e51-b5ce-4948-a755-ae1a8bfda82e")
+	)
+	(junction
+		(at 168.91 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "124578fe-0295-4d54-833b-2606c03eb31a")
+	)
+	(junction
+		(at 90.17 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16ebaf4e-186c-4215-90d8-8f20e3726228")
+	)
+	(junction
+		(at 69.85 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d07dce5-755b-4a3b-bab1-f6c92bd2587b")
+	)
+	(junction
+		(at 184.15 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e1d09d4-5910-42ce-82ee-edc46ce2519c")
+	)
+	(junction
+		(at 80.01 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46a05f5b-d6aa-4ab5-a6b6-2fce1322e479")
+	)
+	(junction
+		(at 110.49 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e07e1d5-6f8f-46b7-83ca-94fe66194e87")
+	)
+	(junction
+		(at 110.49 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51097a1b-1454-4499-9f73-559b7eb16a07")
+	)
+	(junction
+		(at 243.84 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85e822ec-d79d-4d1a-8f2c-0b8f68538636")
+	)
+	(junction
+		(at 218.44 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89271bca-d2b0-4daa-804a-74f973b68c24")
+	)
+	(junction
+		(at 101.6 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b26975a-745a-4364-a853-7b8a83ca35f4")
+	)
+	(junction
+		(at 143.51 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8bdebfed-4378-4ddd-8a59-2b4a951ff602")
+	)
+	(junction
+		(at 64.77 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0a58ad3-7cb6-4f7c-ac54-254a9a907979")
+	)
+	(junction
+		(at 231.14 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad25b976-cc22-43df-a5ac-e20dc93fb0c3")
+	)
+	(junction
+		(at 87.63 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af6bbb21-056f-43b6-851d-59a221e4cef0")
+	)
+	(junction
+		(at 128.27 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1e8b004-bef4-44b0-8ff5-28d49fdba574")
+	)
+	(junction
+		(at 198.12 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c32b4c91-f9db-4136-9ea3-60cd49800356")
+	)
+	(junction
+		(at 184.15 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6c064bf-2a44-41d9-8ad3-8d04fdc9cfea")
+	)
+	(junction
+		(at 187.96 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6ced5fa-478c-432f-9f51-ac219214d0ad")
+	)
+	(junction
+		(at 106.68 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9c050f1-00d9-431b-aae3-60e2be51db2e")
+	)
+	(junction
+		(at 90.17 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cee64c8f-73d5-46e0-9c22-91881bc7cf07")
+	)
+	(junction
+		(at 130.81 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0ac8de4-e39c-4f73-9ace-a8393100b306")
+	)
+	(junction
+		(at 137.16 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dddfbedd-4fea-4458-aeda-764a53619df0")
+	)
+	(junction
+		(at 100.33 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "efaf09fb-fdf7-4039-a82a-9cc3a11eaaf6")
+	)
+	(no_connect
+		(at 162.56 95.25)
+		(uuid "08b5f1b7-59be-4b89-9237-da4244ea6a6a")
+	)
+	(no_connect
+		(at 162.56 100.33)
+		(uuid "7101f66a-5deb-400a-90af-471ac25b9c15")
+	)
+	(no_connect
+		(at 152.4 95.25)
+		(uuid "7cc8ae9d-f84e-4a41-aa92-6483d1b84f20")
+	)
+	(no_connect
+		(at 152.4 100.33)
+		(uuid "da37bca0-b8a7-4ddc-8bd0-7cbde2ecc889")
+	)
+	(wire
+		(pts
+			(xy 243.84 104.14) (xy 243.84 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0048674b-cb9c-4067-b71e-c2233dafefac")
+	)
+	(wire
+		(pts
+			(xy 64.77 93.98) (xy 64.77 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0112ba5b-2b20-4c63-8990-361896bf01d6")
+	)
+	(wire
+		(pts
+			(xy 128.27 73.66) (xy 137.16 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01ffbff5-086d-4445-8c8c-c2af16b11c2d")
+	)
+	(wire
+		(pts
+			(xy 143.51 73.66) (xy 143.51 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05f2d5d0-bad1-4389-9ee9-e66583e832e1")
+	)
+	(wire
+		(pts
+			(xy 128.27 127) (xy 140.97 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bbee4ae-113d-4589-9e65-b5a65a8e8904")
+	)
+	(wire
+		(pts
+			(xy 87.63 107.95) (xy 87.63 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cb690cc-e057-44ad-82c1-14b699c865af")
+	)
+	(wire
+		(pts
+			(xy 110.49 111.76) (xy 106.68 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e61f92e-0cf1-4dbe-b684-4ff2b4db9d49")
+	)
+	(wire
+		(pts
+			(xy 222.25 90.17) (xy 222.25 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "144c35d1-4537-4096-be8d-707d30897de3")
+	)
+	(wire
+		(pts
+			(xy 231.14 111.76) (xy 233.68 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "154bfb60-be6c-45bf-9313-65ba33887971")
+	)
+	(wire
+		(pts
+			(xy 208.28 92.71) (xy 218.44 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1768f28b-6d5f-4540-aa67-e0ec82f099f0")
+	)
+	(wire
+		(pts
+			(xy 208.28 95.25) (xy 210.82 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19c0ea88-0221-47f9-8e97-4ebcc41f78e1")
+	)
+	(wire
+		(pts
+			(xy 137.16 73.66) (xy 143.51 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a44964c-b311-4851-8627-5e74b5ca85ad")
+	)
+	(wire
+		(pts
+			(xy 64.77 73.66) (xy 69.85 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cd27cfc-4e5f-40b9-bb7d-285b7e6ca87e")
+	)
+	(wire
+		(pts
+			(xy 231.14 104.14) (xy 231.14 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dee24d7-b63c-48f0-ab07-22ac19c1654c")
+	)
+	(wire
+		(pts
+			(xy 187.96 100.33) (xy 187.96 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dfb865a-13f8-4507-ba59-7a2589900c08")
+	)
+	(wire
+		(pts
+			(xy 262.89 90.17) (xy 243.84 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2173ee8d-89a1-459d-bc6e-7f717e1d20b1")
+	)
+	(wire
+		(pts
+			(xy 130.81 124.46) (xy 140.97 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2334e2db-74bf-4b8b-aa3b-982ea85a2062")
+	)
+	(wire
+		(pts
+			(xy 100.33 90.17) (xy 110.49 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d1d5afc-1a52-485b-b082-c0e0a4ab3901")
+	)
+	(wire
+		(pts
+			(xy 40.64 111.76) (xy 87.63 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3300856f-0260-4b21-9c39-def3ea841639")
+	)
+	(wire
+		(pts
+			(xy 110.49 105.41) (xy 110.49 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3399d8e4-69aa-464a-b687-c72279f52713")
+	)
+	(wire
+		(pts
+			(xy 128.27 111.76) (xy 184.15 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33aaed12-0b43-4cb9-9ee7-dedd9a226cd3")
+	)
+	(wire
+		(pts
+			(xy 90.17 111.76) (xy 87.63 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3776bbe7-902c-4d22-90b0-2d4ad633fddd")
+	)
+	(wire
+		(pts
+			(xy 128.27 127) (xy 128.27 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40086cdc-2289-4019-9fe3-441f83dd6346")
+	)
+	(wire
+		(pts
+			(xy 218.44 90.17) (xy 222.25 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45d30760-fcb0-4e90-aa83-3a56923ade0a")
+	)
+	(wire
+		(pts
+			(xy 187.96 109.22) (xy 222.25 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4799e717-d81a-4350-b5f6-790b2ff1c1d0")
+	)
+	(wire
+		(pts
+			(xy 137.16 73.66) (xy 137.16 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4893300b-b11a-4dd0-8615-bd69eca25724")
+	)
+	(wire
+		(pts
+			(xy 100.33 97.79) (xy 100.33 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bfea4fa-b00f-4100-a177-a1bd6419adac")
+	)
+	(wire
+		(pts
+			(xy 198.12 107.95) (xy 198.12 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5031db88-4951-46a9-b10d-8099f0e7bc49")
+	)
+	(wire
+		(pts
+			(xy 217.17 90.17) (xy 218.44 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "533c66bc-2cda-4763-866a-be963c722ee4")
+	)
+	(wire
+		(pts
+			(xy 69.85 93.98) (xy 69.85 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "563d1885-884c-49d2-82cc-f01d689ce84c")
+	)
+	(wire
+		(pts
+			(xy 209.55 90.17) (xy 208.28 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5948dec5-5b7d-43f9-904a-8e51e7197d75")
+	)
+	(wire
+		(pts
+			(xy 69.85 95.25) (xy 80.01 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "608cf51b-d23e-49bf-bc39-ef1732e1336a")
+	)
+	(wire
+		(pts
+			(xy 132.08 90.17) (xy 130.81 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "648698b4-7b9b-4b7e-a648-1ead66e1ba69")
+	)
+	(wire
+		(pts
+			(xy 231.14 111.76) (xy 210.82 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64af3af5-2d69-40b4-ae6d-97687a3b8a46")
+	)
+	(wire
+		(pts
+			(xy 222.25 90.17) (xy 231.14 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65088b12-c4b5-493a-a6a9-52b96f8e8fd7")
+	)
+	(wire
+		(pts
+			(xy 187.96 90.17) (xy 187.96 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68f95a72-0e5a-487f-9700-a6c18278d4b9")
+	)
+	(wire
+		(pts
+			(xy 231.14 90.17) (xy 231.14 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ccccf20-03ff-4843-8764-d030a8d0b342")
+	)
+	(wire
+		(pts
+			(xy 106.68 95.25) (xy 106.68 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e208dc5-8ffc-465d-beec-c63f0a9accc9")
+	)
+	(wire
+		(pts
+			(xy 100.33 107.95) (xy 100.33 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e384f75-642a-4161-9e87-0848a2c039b0")
+	)
+	(wire
+		(pts
+			(xy 184.15 90.17) (xy 184.15 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73d5c311-f625-4bd3-8010-ef2d83d3ebd8")
+	)
+	(wire
+		(pts
+			(xy 162.56 90.17) (xy 168.91 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76f4a30d-a346-4098-bb51-448d4dda3a32")
+	)
+	(wire
+		(pts
+			(xy 64.77 97.79) (xy 80.01 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "796e6d79-b04b-42a0-b6f2-190fe43b0090")
+	)
+	(wire
+		(pts
+			(xy 46.99 73.66) (xy 64.77 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c09c02c-425c-4a36-ba96-b5ea5994dd4c")
+	)
+	(wire
+		(pts
+			(xy 262.89 111.76) (xy 243.84 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7db79668-7579-44d3-8e8e-0d211c15ba7a")
+	)
+	(wire
+		(pts
+			(xy 100.33 95.25) (xy 106.68 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "839acfaf-1ae7-42d4-966b-43972a5c7ad0")
+	)
+	(wire
+		(pts
+			(xy 69.85 73.66) (xy 69.85 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86d8666f-3812-47c9-91f0-17cee62f89d4")
+	)
+	(wire
+		(pts
+			(xy 184.15 90.17) (xy 187.96 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b073845-084d-4b8e-8692-05aadef56ebc")
+	)
+	(wire
+		(pts
+			(xy 80.01 73.66) (xy 80.01 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91d9bd07-267d-49d1-ae66-c7c6c1eb7df2")
+	)
+	(wire
+		(pts
+			(xy 90.17 73.66) (xy 90.17 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92b2e2c8-8b83-4e1b-8e10-32fc014ac7db")
+	)
+	(wire
+		(pts
+			(xy 168.91 90.17) (xy 184.15 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "984c30a4-1afa-4ecd-b0ed-236279ad5c3b")
+	)
+	(wire
+		(pts
+			(xy 184.15 111.76) (xy 198.12 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a123bb7-495b-4c35-994a-8ecfdeb8f968")
+	)
+	(wire
+		(pts
+			(xy 90.17 73.66) (xy 101.6 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1222e74-0f9e-4f99-b9b4-1b65aed7ce13")
+	)
+	(wire
+		(pts
+			(xy 143.51 90.17) (xy 152.4 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1405c25-8c86-408c-95a9-84d80ee0253a")
+	)
+	(wire
+		(pts
+			(xy 80.01 73.66) (xy 90.17 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6215beb-8ef2-46ec-8341-fb03142002c7")
+	)
+	(wire
+		(pts
+			(xy 210.82 95.25) (xy 210.82 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a818cd02-b947-4661-b83e-1cd4871ab102")
+	)
+	(wire
+		(pts
+			(xy 110.49 111.76) (xy 128.27 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa656aea-d7b0-4d03-a216-30c214c8dea3")
+	)
+	(wire
+		(pts
+			(xy 231.14 90.17) (xy 243.84 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad1d1891-e944-4937-a310-514f702dec82")
+	)
+	(wire
+		(pts
+			(xy 64.77 73.66) (xy 64.77 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae2b0319-8488-4ea6-aac5-6dec1b91da29")
+	)
+	(wire
+		(pts
+			(xy 222.25 109.22) (xy 222.25 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aea7ef5d-a4d5-4942-a658-54ec2e3010a7")
+	)
+	(wire
+		(pts
+			(xy 90.17 107.95) (xy 90.17 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b88a27ca-fe1a-4c86-8725-85876a5bca80")
+	)
+	(wire
+		(pts
+			(xy 200.66 107.95) (xy 200.66 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c17a7a89-a6b9-420f-812f-b561a2cac23b")
+	)
+	(wire
+		(pts
+			(xy 101.6 73.66) (xy 128.27 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c413582f-73ae-49a6-9fbd-cc9b93a94527")
+	)
+	(wire
+		(pts
+			(xy 100.33 111.76) (xy 106.68 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caac1747-5642-477f-a081-e5cc6a4ae52c")
+	)
+	(wire
+		(pts
+			(xy 110.49 90.17) (xy 130.81 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb2146fb-b559-44a2-8920-f13b7eba548a")
+	)
+	(wire
+		(pts
+			(xy 218.44 92.71) (xy 218.44 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dae0cf53-5f87-4f2d-9492-43cbecfb5d0a")
+	)
+	(wire
+		(pts
+			(xy 184.15 111.76) (xy 184.15 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daff0614-e1fe-4931-9aa4-c3ea8610ade4")
+	)
+	(wire
+		(pts
+			(xy 243.84 90.17) (xy 243.84 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e20eeb46-e448-44b9-b1f3-85665b73f38c")
+	)
+	(wire
+		(pts
+			(xy 110.49 97.79) (xy 110.49 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e28c63ac-5ef5-4637-80a0-86533f904911")
+	)
+	(wire
+		(pts
+			(xy 69.85 73.66) (xy 80.01 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e34bcb36-aed2-483c-a6db-3870b84cc948")
+	)
+	(wire
+		(pts
+			(xy 200.66 111.76) (xy 198.12 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5af8bbc-62ac-471d-a29f-163a8c52fa84")
+	)
+	(wire
+		(pts
+			(xy 90.17 111.76) (xy 100.33 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef75f02c-1e06-4c2d-82d1-9047bb0ea54b")
+	)
+	(wire
+		(pts
+			(xy 241.3 111.76) (xy 243.84 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef7fb4b1-8191-4b0d-936a-7785a9b7dda0")
+	)
+	(wire
+		(pts
+			(xy 142.24 90.17) (xy 143.51 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f257118c-a8b4-497f-b1bd-a91f2b3e84c2")
+	)
+	(wire
+		(pts
+			(xy 130.81 124.46) (xy 130.81 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9cbbc34-007c-4c67-ad70-f1dec675871e")
 	)
 	(label "BAT-"
-		(at 151.13 138.43 180)
+		(at 140.97 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "3f2c3395-97ed-4485-8893-9513421759bd")
+		(uuid "2a5e84b6-ac31-4a11-86dc-1b5615d00771")
 	)
-	(symbol
-		(lib_id "Device:C")
-		(at 110.49 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0e133dd5-4d81-4698-854e-1ef88fe73bb2")
-		(property "Reference" "C27"
-			(at 114.3 72.3899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+	(label "BAT+"
+		(at 140.97 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right bottom)
 		)
-		(property "Value" "10uF"
-			(at 114.3 74.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 111.4552 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 110.49 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 110.49 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 110.49 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 110.49 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 110.49 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ab08ef49-a164-408f-a142-7a66b390de97")
-		)
-		(pin "1"
-			(uuid "a79ecbda-435e-4184-b216-ad4fb52d7e2b")
-		)
-		(instances
-			(project "gameboy"
-				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/fea8ab4b-ea53-47eb-b286-5a1dd85fe272"
-					(reference "C27")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "909a8fd5-4d59-43d0-b885-344056594aab")
 	)
-	(symbol
-		(lib_id "Device:C")
-		(at 228.6 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "181dea1f-d185-4ffc-a496-d204f299b2fe")
-		(property "Reference" "C30"
-			(at 232.41 95.2499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+	(hierarchical_label "USB_VBUS"
+		(shape input)
+		(at 46.99 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(property "Value" "22uF"
-			(at 232.41 97.7899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 229.5652 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 228.6 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 228.6 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 228.6 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 228.6 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 228.6 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a3e1d0e6-45d4-4e3c-9298-e0a1f6d46fd7")
-		)
-		(pin "1"
-			(uuid "2c4a8ec2-848d-49eb-a0ed-1b451e93875e")
-		)
-		(instances
-			(project "gameboy"
-				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/fea8ab4b-ea53-47eb-b286-5a1dd85fe272"
-					(reference "C30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Switching:TPS62170DSG")
-		(at 182.88 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "26070305-897d-4bbc-a261-95578408ad9a")
-		(property "Reference" "U4"
-			(at 182.88 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPS62170DSG"
-			(at 182.88 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm_ThermalVias"
-			(at 186.69 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps62170.pdf"
-			(at 182.88 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "500mA Step-Down Converter with DCS-Control, adjustable output, 3-17V input voltage, WSON-8"
-			(at 182.88 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "TI"
-			(at 182.88 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "C124041"
-			(at 182.88 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "TPS62170DSGR"
-			(at 182.88 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "fdeb887c-894e-4104-b63e-9d6b2eae1785")
-		)
-		(pin "8"
-			(uuid "dc9231b6-f2d3-45c0-8320-e25aaec15032")
-		)
-		(pin "7"
-			(uuid "67936cf6-f16f-4d36-a910-5cd3361ef51a")
-		)
-		(pin "5"
-			(uuid "5f2829da-9ddb-4566-8a44-2dcd92e58a99")
-		)
-		(pin "2"
-			(uuid "a1ccc4a4-d70b-4268-bd7e-c38322fe6931")
-		)
-		(pin "4"
-			(uuid "c001f097-6d2c-45b3-a798-fb3c447bcd1c")
-		)
-		(pin "9"
-			(uuid "009b35dd-710a-476c-82ba-f959a50b6a02")
-		)
-		(pin "6"
-			(uuid "bb21e28e-434c-4dba-a4b1-889c325cd592")
-		)
-		(pin "1"
-			(uuid "98d10543-4772-4af5-b11d-7dd0605da919")
-		)
-		(instances
-			(project "gameboy"
-				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/fea8ab4b-ea53-47eb-b286-5a1dd85fe272"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "c98c68cf-f1ef-4ab5-bd57-aabc1420af97")
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 110.49 77.47 0)
+		(at 101.6 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2d74bc1b-39a3-4aa7-9f69-c9ff844926ab")
-		(property "Reference" "#PWR025"
-			(at 110.49 83.82 0)
+		(uuid "0076fd41-5f76-4e91-9c72-971fae35d36f")
+		(property "Reference" "#PWR024"
+			(at 101.6 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3416,7 +3377,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 110.49 82.55 0)
+			(at 101.6 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3424,7 +3385,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 77.47 0)
+			(at 101.6 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3433,7 +3394,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 77.47 0)
+			(at 101.6 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3442,7 +3403,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 110.49 77.47 0)
+			(at 101.6 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3451,12 +3412,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "fa16ea88-9b73-4074-bf51-0cab9a9c401c")
+			(uuid "b1cf578c-20c3-4c8b-a978-1fac46d8a75d")
 		)
 		(instances
 			(project "gameboy"
-				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/fea8ab4b-ea53-47eb-b286-5a1dd85fe272"
-					(reference "#PWR025")
+				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/14ac419d-87de-4e8e-be3d-9259b1e7c76f"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -3464,111 +3425,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 73.66 86.36 0)
+		(at 231.14 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2e292c8c-8b1e-481c-af6d-e845eb778daf")
-		(property "Reference" "R20"
-			(at 68.072 84.836 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 68.072 87.376 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 71.882 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 73.66 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 73.66 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 73.66 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 73.66 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 73.66 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1daeadba-8308-42f4-ae06-907d8b6357ef")
-		)
-		(pin "2"
-			(uuid "4919eec7-6451-4d1a-8914-7f539cee7c17")
-		)
-		(instances
-			(project "gameboy"
-				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/fea8ab4b-ea53-47eb-b286-5a1dd85fe272"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 215.9 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2f40b50b-7a6c-4c77-a40b-592ae915ddf4")
-		(property "Reference" "R25"
-			(at 213.868 98.044 0)
+		(uuid "06e5de1d-727e-4ff8-8c35-d9775f0e9c5e")
+		(property "Reference" "R21"
+			(at 229.108 101.854 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3577,7 +3442,7 @@
 			)
 		)
 		(property "Value" "562k"
-			(at 213.868 95.504 0)
+			(at 229.108 99.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3586,7 +3451,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 214.122 96.52 90)
+			(at 229.362 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3595,7 +3460,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 215.9 96.52 0)
+			(at 231.14 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3604,7 +3469,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 215.9 96.52 0)
+			(at 231.14 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3613,7 +3478,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 215.9 96.52 0)
+			(at 231.14 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3622,7 +3487,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 215.9 96.52 0)
+			(at 231.14 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3631,7 +3496,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 215.9 96.52 0)
+			(at 231.14 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3640,110 +3505,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "26ffb125-843d-4b7f-9d6c-584c9570d885")
+			(uuid "e16fac13-4f28-4d9d-a299-299aa47f0237")
 		)
 		(pin "2"
-			(uuid "3c220fa1-711c-4262-9c0c-9596aa94df6e")
+			(uuid "97b75193-27a8-49c1-a973-981151364e21")
 		)
 		(instances
 			(project "gameboy"
-				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/fea8ab4b-ea53-47eb-b286-5a1dd85fe272"
-					(reference "R25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 78.74 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "549ca854-8d18-4527-a69b-d7ddca308e47")
-		(property "Reference" "R21"
-			(at 81.788 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 81.788 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 76.962 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 78.74 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 78.74 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 78.74 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 78.74 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 78.74 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c703292a-0949-4329-b6cc-a6b391b32b7c")
-		)
-		(pin "2"
-			(uuid "9110aaf1-2825-45a1-9bce-c960f52b43c5")
-		)
-		(instances
-			(project "gameboy"
-				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/fea8ab4b-ea53-47eb-b286-5a1dd85fe272"
+				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/14ac419d-87de-4e8e-be3d-9259b1e7c76f"
 					(reference "R21")
 					(unit 1)
 				)
@@ -3751,34 +3520,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 109.22 100.33 0)
+		(lib_id "Switch:SW_Slide_DPDT")
+		(at 157.48 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "556c12c1-26c4-4a24-8905-3a25b2205fd0")
-		(property "Reference" "R22"
-			(at 110.998 99.06 0)
+		(fields_autoplaced yes)
+		(uuid "0ad8e8cf-55f1-45cf-a56f-5bc371c0acd2")
+		(property "Reference" "SW8"
+			(at 157.48 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
-			(at 110.998 101.6 0)
+		(property "Value" "SW_Slide_DPDT"
+			(at 157.48 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 107.442 100.33 90)
+		(property "Footprint" "Button_Switch_SMD:SW_DPDT_CK_JS202011JCQN"
+			(at 171.45 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3787,7 +3555,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 100.33 0)
+			(at 157.48 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3795,8 +3563,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 109.22 100.33 0)
+		(property "Description" "Slide Switch, dual pole double throw"
+			(at 157.48 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3804,8 +3572,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 109.22 100.33 0)
+		(property "LCSC" "C221665"
+			(at 157.48 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3813,8 +3581,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 109.22 100.33 0)
+		(property "Manufacturer" "C&K"
+			(at 157.48 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3822,868 +3590,37 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 109.22 100.33 0)
+		(property "Manufacturer Part Number" "JS202011JCQN"
+			(at 157.48 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "1b0124a2-1b45-48cf-9282-c2de0434b093")
-		)
-		(pin "2"
-			(uuid "f72242d1-7589-4eeb-b0a2-52e4e1f9e894")
-		)
-		(instances
-			(project "gameboy"
-				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/fea8ab4b-ea53-47eb-b286-5a1dd85fe272"
-					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 228.6 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5d52ef2f-60b9-4893-a476-a987080060fe")
-		(property "Reference" "#PWR028"
-			(at 228.6 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 228.6 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 228.6 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 228.6 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1b911998-b39f-4094-a4dc-582ca2781816")
-		)
-		(instances
-			(project "gameboy"
-				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/fea8ab4b-ea53-47eb-b286-5a1dd85fe272"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 119.38 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5e94f6f6-7f59-4156-acf1-e87e7419939a")
-		(property "Reference" "C28"
-			(at 123.19 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 123.19 99.0599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 120.3452 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 119.38 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 119.38 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 119.38 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 119.38 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 119.38 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9ff75691-d653-4fd1-9542-9ffdee7eda74")
-		)
-		(pin "1"
-			(uuid "4856c61f-bb32-47a8-b9a8-28d48f1f8977")
-		)
-		(instances
-			(project "gameboy"
-				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/fea8ab4b-ea53-47eb-b286-5a1dd85fe272"
-					(reference "C28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 52.07 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "620579e3-1f3d-4b65-900b-5d5601e284d6")
-		(property "Reference" "#PWR023"
-			(at 52.07 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 52.07 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 52.07 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "55d5f83e-12c3-4af4-969f-923b21835e9b")
-		)
-		(instances
-			(project "gameboy"
-				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/fea8ab4b-ea53-47eb-b286-5a1dd85fe272"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 73.66 78.74 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8ef17205-b70f-416f-ba45-40fe87f78468")
-		(property "Reference" "D1"
-			(at 67.818 78.994 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "GREEN"
-			(at 66.04 81.534 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 73.66 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 73.66 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 73.66 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 73.66 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C965804"
-			(at 73.66 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "XINGLIGHT"
-			(at 73.66 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "XL-1608UGC-04"
-			(at 73.66 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1737e893-c1aa-49ce-bfc7-a71d1271e8d6")
-		)
-		(pin "2"
-			(uuid "5cb86e0f-57b9-4a9d-9921-8a692d9fcd8b")
-		)
-		(instances
-			(project "gameboy"
-				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/fea8ab4b-ea53-47eb-b286-5a1dd85fe272"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Battery_Management:TP4056-42-ESOP8")
-		(at 99.06 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "944f5be2-ab0b-4a2a-8545-ca77d11ea3be")
-		(property "Reference" "U3"
-			(at 74.168 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TP4056-42-ESOP8"
-			(at 74.168 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm_ThermalVias"
-			(at 99.568 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121619_TOPPOWER-Nanjing-Extension-Microelectronics-TP4056-42-ESOP8_C16581.pdf"
-			(at 99.06 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1A Standalone Linear Li-ion/LiPo single-cell battery charger, 4.2V ±1% charge voltage, VCC = 4.0..8.0V, SOIC-8 (SOP-8)"
-			(at 99.568 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C16581"
-			(at 99.06 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TOP POWER ASIC"
-			(at 99.06 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "TP4056-42-ESOP8"
-			(at 99.06 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "9"
-			(uuid "4b096e58-9aa2-4e01-86b6-bda8787f2ea9")
-		)
-		(pin "6"
-			(uuid "108c4bb3-d2f2-4e02-9791-90e200323acb")
-		)
-		(pin "2"
-			(uuid "cebc71d2-c55e-4994-b4a4-01f50ebdaccb")
-		)
-		(pin "1"
-			(uuid "eca0bcb7-09b3-400e-811d-11ea7ad44066")
-		)
-		(pin "4"
-			(uuid "da578a78-070e-4fbd-bfd2-cdea4ca7518b")
 		)
 		(pin "3"
-			(uuid "3012a727-172f-4db1-a40f-4b89b97f5d63")
+			(uuid "a234ada9-7e58-4329-b890-9385b0048f87")
 		)
-		(pin "8"
-			(uuid "0c5d2597-0960-4975-9b11-25794d403c61")
+		(pin "6"
+			(uuid "6edd2c60-f517-4b64-866f-7922fa0f36d8")
 		)
-		(pin "7"
-			(uuid "e93a9c37-e721-4499-9127-891ca1c60331")
+		(pin "4"
+			(uuid "14e619e7-ca2d-4ef2-bda9-6a656121f045")
+		)
+		(pin "1"
+			(uuid "2a9ba255-f9f0-4739-b816-71fd56b2f3c2")
+		)
+		(pin "2"
+			(uuid "d0ef39aa-8401-4efa-91b1-49d997303d92")
 		)
 		(pin "5"
-			(uuid "eac3a19f-4c58-4536-9c67-23c2b4e67088")
+			(uuid "d09df4ec-6219-4a9b-9b2f-65c19f4b0121")
 		)
 		(instances
 			(project "gameboy"
-				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/fea8ab4b-ea53-47eb-b286-5a1dd85fe272"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 78.74 78.74 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a9fdf753-b07c-4951-91de-3654d185c3c4")
-		(property "Reference" "D2"
-			(at 81.788 79.0574 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "RED"
-			(at 81.788 81.5974 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 78.74 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 78.74 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 78.74 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 78.74 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C965799"
-			(at 78.74 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "XINGLIGHT"
-			(at 78.74 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "XL-1608SURC-06"
-			(at 78.74 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "90a3f29c-62e6-42bd-8e41-5d0c1cc35929")
-		)
-		(pin "1"
-			(uuid "2d8e43db-a337-48f2-9c11-7bcd3b7e5215")
-		)
-		(instances
-			(project "gameboy"
-				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/fea8ab4b-ea53-47eb-b286-5a1dd85fe272"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 198.12 86.36 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aebd475c-5acc-49c6-8f03-a4ecb6e977c4")
-		(property "Reference" "L2"
-			(at 198.12 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2.2uH"
-			(at 198.12 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_KOHERelec_MDA7030"
-			(at 198.12 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 198.12 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 198.12 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5349701"
-			(at 198.12 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "APV"
-			(at 198.12 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "APH0630T2R2M"
-			(at 198.12 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f1c2b66f-6f37-450f-bab4-ddfc95f615d2")
-		)
-		(pin "1"
-			(uuid "0aafc893-a3eb-4c24-9831-246aa60fd4c1")
-		)
-		(instances
-			(project ""
-				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/fea8ab4b-ea53-47eb-b286-5a1dd85fe272"
-					(reference "L2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 168.91 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "af985fee-cfd8-4c71-980e-8db7ae348368")
-		(property "Reference" "C29"
-			(at 165.354 98.044 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10uF"
-			(at 165.354 95.504 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 169.8752 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 168.91 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 168.91 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 168.91 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 168.91 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 168.91 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d332c068-762a-4084-a900-806d8c53a8a9")
-		)
-		(pin "1"
-			(uuid "5c7558c1-4f66-489c-bf8a-5a2dcc2a44c5")
-		)
-		(instances
-			(project "gameboy"
-				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/fea8ab4b-ea53-47eb-b286-5a1dd85fe272"
-					(reference "C29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 137.16 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bb43a111-1db5-4465-972d-111e7b933212")
-		(property "Reference" "R23"
-			(at 138.938 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 138.938 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 135.382 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 137.16 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 137.16 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 137.16 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 137.16 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6083893d-f7d1-4695-b868-165f5e2a897f")
-		)
-		(pin "2"
-			(uuid "db261f7d-9d0d-44b3-9ed4-97d096109d40")
-		)
-		(instances
-			(project "gameboy"
-				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/fea8ab4b-ea53-47eb-b286-5a1dd85fe272"
-					(reference "R23")
+				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/14ac419d-87de-4e8e-be3d-9259b1e7c76f"
+					(reference "SW8")
 					(unit 1)
 				)
 			)
@@ -4691,16 +3628,16 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 228.6 86.36 0)
+		(at 262.89 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c134fca7-56e8-45a1-b9ce-17a2e007294e")
+		(uuid "0bf0f2d0-ce37-4009-93e6-643caee8f118")
 		(property "Reference" "#PWR027"
-			(at 228.6 90.17 0)
+			(at 262.89 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4709,7 +3646,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 228.6 81.28 0)
+			(at 262.89 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4717,7 +3654,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 86.36 0)
+			(at 262.89 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4726,7 +3663,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 86.36 0)
+			(at 262.89 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4735,7 +3672,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 228.6 86.36 0)
+			(at 262.89 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4744,11 +3681,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "c1e908e6-82f6-4609-8cfd-59771c6f2824")
+			(uuid "d504d1c6-4502-4d53-bfd8-79a4a7dbc31e")
 		)
 		(instances
-			(project ""
-				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/fea8ab4b-ea53-47eb-b286-5a1dd85fe272"
+			(project "gameboy"
+				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/14ac419d-87de-4e8e-be3d-9259b1e7c76f"
 					(reference "#PWR027")
 					(unit 1)
 				)
@@ -4756,34 +3693,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 222.25 107.95 270)
+		(lib_id "Device:C")
+		(at 110.49 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c4d0265a-f34e-451b-a91b-13bb58862b5c")
-		(property "Reference" "R26"
-			(at 223.774 102.362 90)
+		(fields_autoplaced yes)
+		(uuid "20784c1a-e0b3-4c51-bc00-3a9fa1d1b788")
+		(property "Reference" "C24"
+			(at 114.3 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "180k"
-			(at 224.536 104.394 90)
+		(property "Value" "10uF"
+			(at 114.3 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 222.25 106.172 90)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 111.4552 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4792,7 +3730,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 222.25 107.95 0)
+			(at 110.49 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4800,8 +3738,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 222.25 107.95 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 110.49 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4810,7 +3748,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 222.25 107.95 0)
+			(at 110.49 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4819,7 +3757,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 222.25 107.95 0)
+			(at 110.49 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4828,7 +3766,171 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 222.25 107.95 0)
+			(at 110.49 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f146f30c-3a08-45bf-b7bf-ba35e7da36c2")
+		)
+		(pin "1"
+			(uuid "7125253b-4beb-4830-bfda-20bf9f574c9b")
+		)
+		(instances
+			(project "gameboy"
+				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/14ac419d-87de-4e8e-be3d-9259b1e7c76f"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 213.36 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34c4f8a1-ef79-4d16-9ba2-dae65bc943ff")
+		(property "Reference" "L2"
+			(at 213.36 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2uH"
+			(at 213.36 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_KOHERelec_MDA7030"
+			(at 213.36 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 213.36 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5349701"
+			(at 213.36 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "APV"
+			(at 213.36 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "APH0630T2R2M"
+			(at 213.36 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d76d96b6-41e8-4f74-b245-bdacdcbd479a")
+		)
+		(pin "1"
+			(uuid "8b415e29-2541-4c59-aa77-8d03f909257a")
+		)
+		(instances
+			(project "gameboy"
+				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/14ac419d-87de-4e8e-be3d-9259b1e7c76f"
+					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 40.64 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51a9e09b-ebfc-4951-ab9e-bb650d847456")
+		(property "Reference" "#PWR023"
+			(at 40.64 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 40.64 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 40.64 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4837,15 +3939,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ea8df1b2-144f-475f-b214-8aa4689d7519")
-		)
-		(pin "2"
-			(uuid "4f2fdc1b-97ef-4cb4-af3f-6fa4b01ae60a")
+			(uuid "1bca230e-2e37-47d4-9b73-d125e6d5ee74")
 		)
 		(instances
 			(project "gameboy"
-				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/fea8ab4b-ea53-47eb-b286-5a1dd85fe272"
-					(reference "R26")
+				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/14ac419d-87de-4e8e-be3d-9259b1e7c76f"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -4853,15 +3952,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 207.01 96.52 0)
+		(at 222.25 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c94ef52f-e06e-4f41-8323-acf27edbdc22")
-		(property "Reference" "R24"
-			(at 204.978 98.044 0)
+		(uuid "533fda28-d711-4d53-8a12-54974b796cbc")
+		(property "Reference" "R20"
+			(at 220.218 101.854 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4870,7 +3969,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 204.978 95.504 0)
+			(at 220.218 99.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4879,7 +3978,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 205.232 96.52 90)
+			(at 220.472 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4888,7 +3987,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 207.01 96.52 0)
+			(at 222.25 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4897,7 +3996,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 207.01 96.52 0)
+			(at 222.25 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4906,7 +4005,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 207.01 96.52 0)
+			(at 222.25 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4915,7 +4014,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 207.01 96.52 0)
+			(at 222.25 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4924,7 +4023,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 207.01 96.52 0)
+			(at 222.25 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4933,51 +4032,229 @@
 			)
 		)
 		(pin "1"
-			(uuid "4c63d7be-9716-4115-98a4-f4f604791f63")
+			(uuid "ab3e7ee0-dd75-46f2-a8e1-e35b4188eae7")
 		)
 		(pin "2"
-			(uuid "fcfb628d-17a6-47ae-a3e2-6519d8d6bb99")
+			(uuid "1d99f19b-33e7-4978-8440-edefcf8a5358")
 		)
 		(instances
 			(project "gameboy"
-				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/fea8ab4b-ea53-47eb-b286-5a1dd85fe272"
-					(reference "R24")
+				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/14ac419d-87de-4e8e-be3d-9259b1e7c76f"
+					(reference "R20")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 152.4 82.55 90)
+		(lib_id "power:GND")
+		(at 128.27 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cf656d14-8e55-4b78-badd-dc017abbda00")
-		(property "Reference" "D3"
-			(at 154.94 81.2799 90)
+		(uuid "56e17fe2-76aa-40b6-833e-5df8138e4e88")
+		(property "Reference" "#PWR025"
+			(at 128.27 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 154.94 83.8199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 152.4 82.55 0)
+		(property "Value" "GND"
+			(at 128.27 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 128.27 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "791526a9-ddb9-4e6d-a890-be1e746aa25c")
+		)
+		(instances
+			(project "gameboy"
+				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/14ac419d-87de-4e8e-be3d-9259b1e7c76f"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Switching:TPS62160DGK")
+		(at 198.12 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d6434cb-9675-4325-a232-a706da3b6923")
+		(property "Reference" "U7"
+			(at 198.12 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS62160DGK"
+			(at 198.12 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
+			(at 201.93 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps62160.pdf"
+			(at 198.12 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A Step-Down Converter with DCS-Control, adjustable output, 3-17V input voltage, VSSOP-8"
+			(at 198.12 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C60726"
+			(at 198.12 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TI"
+			(at 198.12 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "TPS62160DGKR"
+			(at 198.12 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e8ffdb87-4f7f-44fa-9d9b-0a6badd61ccb")
+		)
+		(pin "7"
+			(uuid "8d1bd9c5-9d3b-4d72-a878-cb09f00c247e")
+		)
+		(pin "5"
+			(uuid "c8bc77c6-baef-47b7-b77a-73f062ccc233")
+		)
+		(pin "1"
+			(uuid "cae6a0ca-2757-4e45-9d25-3a2a5a80d670")
+		)
+		(pin "4"
+			(uuid "335ba966-bda6-433b-a3dd-92a03eea112e")
+		)
+		(pin "2"
+			(uuid "70fbc14d-49dd-46b8-886f-8929f6408ff7")
+		)
+		(pin "8"
+			(uuid "f510da7b-0f3e-430a-b8fc-2728dd8b6644")
+		)
+		(pin "6"
+			(uuid "b0519130-8b53-47b9-9a23-ab80cd186d12")
+		)
+		(instances
+			(project ""
+				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/14ac419d-87de-4e8e-be3d-9259b1e7c76f"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 64.77 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "658b74a0-ced2-40da-9522-94e7119cdefb")
+		(property "Reference" "D1"
+			(at 58.928 82.804 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 57.15 85.344 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 64.77 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4986,7 +4263,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 152.4 82.55 0)
+			(at 64.77 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4994,17 +4271,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode"
-			(at 152.4 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 152.4 82.55 0)
+		(property "Description" "Light emitting diode"
+			(at 64.77 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5013,7 +4281,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 152.4 82.55 0)
+			(at 64.77 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5021,8 +4289,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C191023"
-			(at 152.4 82.55 0)
+		(property "LCSC" "C965804"
+			(at 64.77 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5030,8 +4298,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Guangdong Hottech"
-			(at 152.4 82.55 0)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 64.77 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5039,24 +4307,139 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "1N5819WS"
-			(at 152.4 82.55 0)
+		(property "Manufacturer Part Number" "XL-1608UGC-04"
+			(at 64.77 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "06bc2332-6dc7-42cf-8514-ce7b7e90cbfd")
 		)
 		(pin "1"
-			(uuid "d8848689-0dcf-4fb0-83d9-1bd4f9611f04")
+			(uuid "cf0d762b-b5a5-4243-839d-51a159fe7307")
+		)
+		(pin "2"
+			(uuid "80fd9de1-34dc-49e2-af05-b1aaf226aa39")
 		)
 		(instances
 			(project "gameboy"
-				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/fea8ab4b-ea53-47eb-b286-5a1dd85fe272"
+				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/14ac419d-87de-4e8e-be3d-9259b1e7c76f"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 143.51 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76ba11d0-1c47-44ce-9017-6b7e00ce0dcc")
+		(property "Reference" "D3"
+			(at 146.05 85.4074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 146.05 87.9474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 143.51 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 143.51 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 143.51 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 143.51 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C64982"
+			(at 143.51 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MDD(Microdiode Semiconductor)"
+			(at 143.51 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "B340A"
+			(at 143.51 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4aa7ae9-347c-4cff-a68a-67b4d530bb43")
+		)
+		(pin "2"
+			(uuid "df1819e6-e1c6-492e-9655-20467afc0863")
+		)
+		(instances
+			(project "gameboy"
+				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/14ac419d-87de-4e8e-be3d-9259b1e7c76f"
 					(reference "D3")
 					(unit 1)
 				)
@@ -5064,17 +4447,179 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 237.49 111.76 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "791948e8-2333-408d-8dad-84832442bfd0")
+		(property "Reference" "R22"
+			(at 239.014 106.172 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "180k"
+			(at 239.776 108.204 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 237.49 109.982 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 237.49 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 237.49 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 237.49 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 237.49 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b852d288-7dc9-4f0a-b6ff-9752afe3f803")
+		)
+		(pin "2"
+			(uuid "90b1fe18-00ac-492c-bb3a-15fb4c2efdf0")
+		)
+		(instances
+			(project "gameboy"
+				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/14ac419d-87de-4e8e-be3d-9259b1e7c76f"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 168.91 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b2bcf2e-51a8-48da-a940-b3bbeb0c8a47")
+		(property "Reference" "#PWR026"
+			(at 168.91 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 168.91 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 168.91 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8c2df47-479a-4314-bf9b-6739eeb4437e")
+		)
+		(instances
+			(project "gameboy"
+				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/14ac419d-87de-4e8e-be3d-9259b1e7c76f"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:AO3401A")
-		(at 146.05 83.82 90)
+		(at 137.16 87.63 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d15c20b8-858f-4089-a3f5-6379f306ba0e")
+		(uuid "82524f8d-9755-46c6-a281-50fc95eaf0f2")
 		(property "Reference" "Q2"
-			(at 146.05 92.71 90)
+			(at 137.16 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5082,7 +4627,7 @@
 			)
 		)
 		(property "Value" "AO3401A"
-			(at 146.05 90.17 90)
+			(at 137.16 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5090,7 +4635,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 147.955 88.9 0)
+			(at 139.065 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5101,7 +4646,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
-			(at 149.86 88.9 0)
+			(at 140.97 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5111,7 +4656,7 @@
 			)
 		)
 		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
-			(at 146.05 83.82 0)
+			(at 137.16 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5120,7 +4665,7 @@
 			)
 		)
 		(property "LCSC" "C347476"
-			(at 146.05 83.82 0)
+			(at 137.16 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5129,7 +4674,7 @@
 			)
 		)
 		(property "Manufacturer" "UMW"
-			(at 146.05 83.82 0)
+			(at 137.16 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5138,7 +4683,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "AO3401A"
-			(at 146.05 83.82 0)
+			(at 137.16 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5147,17 +4692,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "cdff9fab-7934-4b12-9d0a-b7797f669b8c")
+			(uuid "03a31208-c7c3-4227-883d-7148225a25d6")
 		)
 		(pin "2"
-			(uuid "0e81a952-5880-4bd1-a6ba-11cf9533acbe")
+			(uuid "3e655f1e-1729-4147-a4c1-c41d42b42824")
 		)
 		(pin "3"
-			(uuid "60cf2213-d41e-4512-939f-85fa302eb1d1")
+			(uuid "ade141e3-bf64-42a5-aa42-c5653fa69bc4")
 		)
 		(instances
-			(project ""
-				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/fea8ab4b-ea53-47eb-b286-5a1dd85fe272"
+			(project "gameboy"
+				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/14ac419d-87de-4e8e-be3d-9259b1e7c76f"
 					(reference "Q2")
 					(unit 1)
 				)
@@ -5165,166 +4710,34 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 137.16 77.47 0)
+		(lib_id "Device:C")
+		(at 184.15 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d66cb551-834e-4cf2-9881-fd01bf3c540f")
-		(property "Reference" "#PWR026"
-			(at 137.16 83.82 0)
+		(uuid "cc69bc84-babe-4d7c-8219-2d7d2971173e")
+		(property "Reference" "C25"
+			(at 180.594 101.854 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify right)
 			)
 		)
-		(property "Value" "GND"
-			(at 137.16 82.55 0)
+		(property "Value" "10uF"
+			(at 180.594 99.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 137.16 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 137.16 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "94329a48-ef41-40ad-b270-92d80dda1bb7")
-		)
-		(instances
-			(project "gameboy"
-				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/fea8ab4b-ea53-47eb-b286-5a1dd85fe272"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 52.07 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "db890671-5a17-494e-80b5-f72982f8635f")
-		(property "Reference" "#PWR024"
-			(at 52.07 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 52.07 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 52.07 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ce935a00-dde7-4748-80e0-fcd362f201f6")
-		)
-		(instances
-			(project "gameboy"
-				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/fea8ab4b-ea53-47eb-b286-5a1dd85fe272"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 156.21 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f547d96b-a773-4916-8a42-908e58d5014f")
-		(property "Reference" "J3"
-			(at 159.766 136.144 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 159.258 137.922 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
-			(at 156.21 135.89 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 185.1152 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5333,7 +4746,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 135.89 0)
+			(at 184.15 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5341,8 +4754,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 156.21 135.89 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 184.15 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5350,8 +4763,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C131337"
-			(at 156.21 135.89 0)
+		(property "LCSC" ""
+			(at 184.15 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5359,8 +4772,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "JST"
-			(at 156.21 135.89 0)
+		(property "Manufacturer" ""
+			(at 184.15 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5368,8 +4781,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "B2B-PH-K-S(LF)(SN)"
-			(at 156.21 135.89 0)
+		(property "Manufacturer Part Number" ""
+			(at 184.15 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5378,15 +4791,977 @@
 			)
 		)
 		(pin "2"
-			(uuid "548655be-a59f-47d0-9972-b7c812d0142e")
+			(uuid "ced16b57-e9f7-4da9-88d0-1109e872af70")
 		)
 		(pin "1"
-			(uuid "eed00519-694d-45d5-942d-1be08134fdd5")
+			(uuid "288920ac-46d2-4f49-8e35-7904bff431e6")
 		)
 		(instances
 			(project "gameboy"
-				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/fea8ab4b-ea53-47eb-b286-5a1dd85fe272"
+				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/14ac419d-87de-4e8e-be3d-9259b1e7c76f"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 100.33 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cec43456-c367-4da7-8bd8-1d086b4a79b1")
+		(property "Reference" "R18"
+			(at 102.108 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 102.108 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 98.552 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 100.33 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 100.33 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 100.33 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 100.33 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56f00a3e-81d7-46f0-adb0-a822d2092d9a")
+		)
+		(pin "2"
+			(uuid "f0c6e019-eb0c-4e0a-945d-31d8dcc05116")
+		)
+		(instances
+			(project "gameboy"
+				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/14ac419d-87de-4e8e-be3d-9259b1e7c76f"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 64.77 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d155f965-e00d-46a6-af67-f242657542ff")
+		(property "Reference" "R16"
+			(at 59.182 88.646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 59.182 91.186 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 62.992 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 64.77 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 64.77 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 64.77 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 64.77 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4aa2c5b5-7205-47c6-a7c3-28a1fb0f126d")
+		)
+		(pin "2"
+			(uuid "104abb4d-2df6-43a9-a6ac-a1017efcfb56")
+		)
+		(instances
+			(project "gameboy"
+				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/14ac419d-87de-4e8e-be3d-9259b1e7c76f"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 101.6 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3f414e6-52e4-4083-a09d-1891ded312cd")
+		(property "Reference" "C23"
+			(at 105.41 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 105.41 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 102.5652 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 101.6 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 101.6 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 101.6 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 101.6 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cf9df486-8a23-4e73-91d2-4c094a469dab")
+		)
+		(pin "1"
+			(uuid "bb98da18-b3d2-4f6a-9965-3d9db56721df")
+		)
+		(instances
+			(project "gameboy"
+				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/14ac419d-87de-4e8e-be3d-9259b1e7c76f"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 128.27 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e450a42b-5883-4bb2-873d-0f82e70896fa")
+		(property "Reference" "R19"
+			(at 130.048 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 130.048 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 126.492 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 128.27 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 128.27 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 128.27 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 128.27 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d31693b6-1372-4887-a86a-1959c25f1f5f")
+		)
+		(pin "2"
+			(uuid "3251e656-0e23-4af3-a969-1408b8ae8b86")
+		)
+		(instances
+			(project "gameboy"
+				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/14ac419d-87de-4e8e-be3d-9259b1e7c76f"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battery_Management:TP4056-42-ESOP8")
+		(at 90.17 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e5e00468-4b6f-49fa-9309-cecceefff1eb")
+		(property "Reference" "U3"
+			(at 65.278 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP4056-42-ESOP8"
+			(at 65.278 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm_ThermalVias"
+			(at 90.678 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121619_TOPPOWER-Nanjing-Extension-Microelectronics-TP4056-42-ESOP8_C16581.pdf"
+			(at 90.17 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A Standalone Linear Li-ion/LiPo single-cell battery charger, 4.2V ±1% charge voltage, VCC = 4.0..8.0V, SOIC-8 (SOP-8)"
+			(at 90.678 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C16581"
+			(at 90.17 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TOP POWER ASIC"
+			(at 90.17 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "TP4056-42-ESOP8"
+			(at 90.17 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "25b33ac1-53a3-421e-8261-85c1afeafb98")
+		)
+		(pin "6"
+			(uuid "8981e9bc-0375-4788-9240-7bb601c1dc50")
+		)
+		(pin "2"
+			(uuid "4b99e695-d62d-4eca-9c22-7d2611ac13f5")
+		)
+		(pin "1"
+			(uuid "240d8dc2-0928-4b53-ad31-e06e08c3ba1e")
+		)
+		(pin "4"
+			(uuid "a615fc9f-4d0d-4973-8ba0-f856c0efbdfa")
+		)
+		(pin "3"
+			(uuid "4c7c7fd6-6fc4-4bc4-a86d-9346b6697e0d")
+		)
+		(pin "8"
+			(uuid "0cf0add3-f37a-43f8-8451-4befeef5e13a")
+		)
+		(pin "7"
+			(uuid "90ba2bd2-2eb8-41a8-93ce-35a3e9587d41")
+		)
+		(pin "5"
+			(uuid "48224314-78ac-4499-90c5-612f08fd2746")
+		)
+		(instances
+			(project "gameboy"
+				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/14ac419d-87de-4e8e-be3d-9259b1e7c76f"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 69.85 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e9c47808-b2b0-4d71-8ce5-298081001f31")
+		(property "Reference" "R17"
+			(at 72.898 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 72.898 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 68.072 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 69.85 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 69.85 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 69.85 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 69.85 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12e94958-fcaa-4511-b817-6f093aa35de8")
+		)
+		(pin "2"
+			(uuid "cd75efb0-0693-482a-bda6-8fb2184f6ed2")
+		)
+		(instances
+			(project "gameboy"
+				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/14ac419d-87de-4e8e-be3d-9259b1e7c76f"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 146.05 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ebf2c7cd-b7fb-4e06-a15d-51bf6e040298")
+		(property "Reference" "J3"
+			(at 149.606 124.714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 149.098 126.492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+			(at 146.05 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 146.05 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C131337"
+			(at 146.05 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 146.05 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "B2B-PH-K-S(LF)(SN)"
+			(at 146.05 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "09149ca2-ed36-4fd5-83d4-883f7945219f")
+		)
+		(pin "1"
+			(uuid "88ef045b-cb2d-4c1f-9fe1-0247bf90fba3")
+		)
+		(instances
+			(project "gameboy"
+				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/14ac419d-87de-4e8e-be3d-9259b1e7c76f"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 262.89 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1cd6b1f-9b38-4f44-9fe6-4719adde72bb")
+		(property "Reference" "#PWR028"
+			(at 262.89 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 262.89 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 262.89 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3784826-ded7-49a0-aa1f-6dc93af7eccd")
+		)
+		(instances
+			(project "gameboy"
+				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/14ac419d-87de-4e8e-be3d-9259b1e7c76f"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 69.85 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd5f81f5-3a50-41f4-be7c-cf290cf53e6c")
+		(property "Reference" "D2"
+			(at 72.898 82.8674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RED"
+			(at 72.898 85.4074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 69.85 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 69.85 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 69.85 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965799"
+			(at 69.85 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 69.85 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "XL-1608SURC-06"
+			(at 69.85 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b3a87894-4dc9-431f-8c87-2dd9e7c8d177")
+		)
+		(pin "1"
+			(uuid "cbe5347c-b2b9-49de-9196-3450993ba421")
+		)
+		(instances
+			(project "gameboy"
+				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/14ac419d-87de-4e8e-be3d-9259b1e7c76f"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 243.84 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fdca2b39-5c6c-45a6-8645-3f1ef7f6f6f1")
+		(property "Reference" "C26"
+			(at 247.65 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 247.65 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 244.8052 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 243.84 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 243.84 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 243.84 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 243.84 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b5b22b17-df0e-4521-9459-ae59fae9a7ad")
+		)
+		(pin "1"
+			(uuid "110442d4-aac2-4b7e-a72c-6e3f04dbea27")
+		)
+		(instances
+			(project "gameboy"
+				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/14ac419d-87de-4e8e-be3d-9259b1e7c76f"
+					(reference "C26")
 					(unit 1)
 				)
 			)
