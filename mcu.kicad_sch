@@ -2906,6 +2906,12 @@
 		(uuid "1150dcba-a1df-4b04-bc5c-c3273a38cc23")
 	)
 	(junction
+		(at 236.22 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ce2d7b6-2427-4280-bed4-8e0b051e7998")
+	)
+	(junction
 		(at 224.79 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3303,6 +3309,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 31.75) (xy 247.65 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f14e6e2-eefb-430a-bc51-eb88edf00ad5")
+	)
+	(wire
+		(pts
 			(xy 68.58 120.65) (xy 68.58 121.92)
 		)
 		(stroke
@@ -3350,6 +3366,16 @@
 			(type default)
 		)
 		(uuid "1f2b5020-d3eb-482d-9e64-0fc02ee94e69")
+	)
+	(wire
+		(pts
+			(xy 247.65 39.37) (xy 247.65 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f588d74-c511-4f62-b3d5-b8a46c59d0d3")
 	)
 	(wire
 		(pts
@@ -3530,6 +3556,16 @@
 			(type default)
 		)
 		(uuid "3bc31706-38d8-4f88-ba4f-d0131dda7909")
+	)
+	(wire
+		(pts
+			(xy 236.22 30.48) (xy 247.65 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e2eb2e1-df7d-448c-81ff-ff155b09473e")
 	)
 	(wire
 		(pts
@@ -4210,6 +4246,16 @@
 			(type default)
 		)
 		(uuid "c03f4b25-13a9-4082-87b2-ffda558ca297")
+	)
+	(wire
+		(pts
+			(xy 236.22 41.91) (xy 247.65 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4a7ce8c-de50-454c-aca8-70284448401c")
 	)
 	(wire
 		(pts
@@ -5688,6 +5734,74 @@
 			(project "gameboy"
 				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/0c43a605-cda2-4793-9a29-301f6419db25"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 247.65 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "44605e13-b3ab-40e5-8d3d-9625751639d4")
+		(property "Reference" "C31"
+			(at 250.571 34.3916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 250.571 36.703 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 248.6152 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 247.65 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 247.65 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1290ae42-ba2b-453e-aa9a-7aabcbd814e2")
+		)
+		(pin "2"
+			(uuid "f7dd78db-f034-4b85-8c35-854247aab109")
+		)
+		(instances
+			(project "gameboy"
+				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/0c43a605-cda2-4793-9a29-301f6419db25"
+					(reference "C31")
 					(unit 1)
 				)
 			)
