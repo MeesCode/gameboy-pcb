@@ -5467,7 +5467,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
 			(at 146.05 124.46 0)
 			(effects
 				(font
@@ -5494,7 +5494,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C131337"
+		(property "LCSC" "C295747"
 			(at 146.05 124.46 0)
 			(effects
 				(font
@@ -5512,7 +5512,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "B2B-PH-K-S(LF)(SN)"
+		(property "Manufacturer Part Number" "S2B-PH-SM4-TB(LF)(SN)"
 			(at 146.05 124.46 0)
 			(effects
 				(font
