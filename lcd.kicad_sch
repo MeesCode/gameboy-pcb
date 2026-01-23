@@ -5,6 +5,113 @@
 	(uuid "37dc8c14-dd90-48f4-b4fb-3efbefa0cd1b")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic_MountingPin:Conn_01x40_MountingPin"
 			(pin_names
 				(offset 1.016)
@@ -2309,6 +2416,12 @@
 		(uuid "980cfb42-4d0d-4ec0-975e-d024a9c97934")
 	)
 	(junction
+		(at 162.56 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9fd14aab-4b41-4d8a-9e0e-f77e8450979c")
+	)
+	(junction
 		(at 87.63 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2552,7 +2665,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 153.67) (xy 156.21 153.67)
+			(xy 154.94 153.67) (xy 162.56 153.67)
 		)
 		(stroke
 			(width 0)
@@ -2632,16 +2745,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 146.05) (xy 118.11 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46b816fb-4898-46b5-aab4-c47a4437800d")
-	)
-	(wire
-		(pts
 			(xy 74.93 156.21) (xy 87.63 156.21)
 		)
 		(stroke
@@ -2669,6 +2772,16 @@
 			(type default)
 		)
 		(uuid "520de760-1fe0-4376-b68d-8099b1dad7db")
+	)
+	(wire
+		(pts
+			(xy 118.11 146.05) (xy 134.62 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b5edcde-c661-4e10-a762-167494d279c2")
 	)
 	(wire
 		(pts
@@ -2759,6 +2872,16 @@
 			(type default)
 		)
 		(uuid "b0af8a41-ab66-4457-83d2-bbdc27fb06c9")
+	)
+	(wire
+		(pts
+			(xy 162.56 153.67) (xy 171.45 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b80d6feb-221c-4dd2-a8b6-98bd5a2a0060")
 	)
 	(wire
 		(pts
@@ -3036,7 +3159,7 @@
 	)
 	(hierarchical_label "LCD_BL"
 		(shape input)
-		(at 156.21 153.67 0)
+		(at 171.45 153.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3212,6 +3335,99 @@
 			(project "gameboy"
 				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/d0993c89-522c-4206-a2f2-b5b66c7e7b73"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 162.56 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3340eb97-3bc0-4946-b9ca-13faf56be53b")
+		(property "Reference" "TP8"
+			(at 158.75 145.034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 158.75 147.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 167.64 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 162.56 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 162.56 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 162.56 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 162.56 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d719e1d7-3e56-40c9-9117-4094b15b37c5")
+		)
+		(instances
+			(project "gameboy"
+				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/d0993c89-522c-4206-a2f2-b5b66c7e7b73"
+					(reference "TP8")
 					(unit 1)
 				)
 			)

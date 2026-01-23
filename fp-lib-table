@@ -4,4 +4,5 @@
   (lib (name "SOT26_DIO")(type "KiCad")(uri "${KIPRJMOD}/custom/footprints/SOT26_DIO.pretty")(options "")(descr ""))
   (lib (name "SKRRAAE010")(type "KiCad")(uri "${KIPRJMOD}/custom/footprints/SKRRAAE010.pretty")(options "")(descr ""))
   (lib (name "RP2350_60QFN_minimal")(type "KiCad")(uri "${KIPRJMOD}/custom/footprints/RP2350_60QFN_minimal.pretty")(options "")(descr ""))
+  (lib (name "icons")(type "KiCad")(uri "${KIPRJMOD}/custom/footprints/icons.pretty")(options "")(descr ""))
 )
