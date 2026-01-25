@@ -3261,16 +3261,8 @@
 		(uuid "2bdd718f-1024-4e01-91da-0cc400accbb4")
 	)
 	(no_connect
-		(at 175.26 137.16)
-		(uuid "50d0213b-dc88-437f-9dfe-e4b095887b21")
-	)
-	(no_connect
 		(at 175.26 149.86)
 		(uuid "5107c41b-01b6-4b30-be04-00690a5349b3")
-	)
-	(no_connect
-		(at 175.26 134.62)
-		(uuid "547aa8b7-6bea-44cb-9fd0-bd65429e436d")
 	)
 	(no_connect
 		(at 248.92 137.16)
@@ -4800,7 +4792,7 @@
 	)
 	(hierarchical_label "BTN_UP"
 		(shape input)
-		(at 175.26 124.46 0)
+		(at 175.26 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4830,6 +4822,17 @@
 			(justify left)
 		)
 		(uuid "12d8b6bc-dcba-41f1-95e1-08dcd9f1f60a")
+	)
+	(hierarchical_label "POWER_MON_SDA"
+		(shape input)
+		(at 175.26 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "17be626f-db46-423f-89d9-9bc1a47df67e")
 	)
 	(hierarchical_label "LCD_DC"
 		(shape input)
@@ -4907,6 +4910,17 @@
 			(justify left)
 		)
 		(uuid "7cea08f0-fec3-4a24-bbdb-946dac20b0a3")
+	)
+	(hierarchical_label "POWER_MON_SCL"
+		(shape input)
+		(at 175.26 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8cc98fe6-2d3c-4135-9833-997494f7ba17")
 	)
 	(hierarchical_label "I2S_DIN"
 		(shape input)
@@ -4998,7 +5012,7 @@
 	)
 	(hierarchical_label "BTN_RIGHT"
 		(shape input)
-		(at 175.26 129.54 0)
+		(at 175.26 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5009,7 +5023,7 @@
 	)
 	(hierarchical_label "BTN_LEFT"
 		(shape input)
-		(at 175.26 127 0)
+		(at 175.26 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5042,7 +5056,7 @@
 	)
 	(hierarchical_label "BTN_DOWN"
 		(shape input)
-		(at 175.26 132.08 0)
+		(at 175.26 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
