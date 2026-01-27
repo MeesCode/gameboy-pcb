@@ -2808,7 +2808,7 @@
 		)
 		(uuid "018a24e8-96a2-4b95-a166-5bfd0763a172")
 	)
-	(text "523450 LiPo\n3.7V, 1000mAh"
+	(text "Example:\n523450 LiPo\n3.7V, 1000mAh"
 		(exclude_from_sim no)
 		(at 140.462 118.364 0)
 		(effects

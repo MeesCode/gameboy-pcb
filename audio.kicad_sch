@@ -1772,9 +1772,9 @@
 		(at 175.26 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4985c1c2-feff-45ec-a73d-a576177f02bf")
 		(property "Reference" "J4"
 			(at 178.816 91.694 0)

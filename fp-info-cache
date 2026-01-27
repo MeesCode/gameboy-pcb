@@ -1,4 +1,4 @@
-24861444775732720
+24864983460176922
 AB_Connectors
 AMPHENOL_UE27AE54100
 
@@ -100002,6 +100002,13 @@ aquarius
 0
 0
 icons
+astroid
+
+
+0
+0
+0
+icons
 battery_charging
 
 
@@ -100010,6 +100017,13 @@ battery_charging
 0
 icons
 battery_full
+
+
+0
+0
+0
+icons
+space_invaders
 
 
 0
