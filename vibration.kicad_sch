@@ -1112,10 +1112,22 @@
 		(uuid "0d4c4f0b-a853-4c7d-be83-ebd91df6478b")
 	)
 	(junction
+		(at 119.38 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0dd9a35b-a79e-46ae-b525-6cf143fa4eca")
+	)
+	(junction
 		(at 132.08 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1534713b-b9d7-481a-a66a-a7ba5874ae77")
+	)
+	(junction
+		(at 125.73 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7584ada0-2564-4898-b0a7-ac91389ea9e2")
 	)
 	(junction
 		(at 121.92 87.63)
@@ -1124,10 +1136,22 @@
 		(uuid "7dbad36b-0cb4-47f2-94c4-6dee9b4444ac")
 	)
 	(junction
+		(at 125.73 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f707d5c-42e7-4f3c-9f6c-3a75f0fcbfa1")
+	)
+	(junction
 		(at 132.08 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "abedb43d-c3cb-4814-bb94-c1360c3036aa")
+	)
+	(junction
+		(at 119.38 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f21e2a37-b496-4dd8-a1b9-e72bcd051ea0")
 	)
 	(wire
 		(pts
@@ -1198,6 +1222,26 @@
 			(type default)
 		)
 		(uuid "32255633-a788-401f-8b44-39d2cfd4c4cf")
+	)
+	(wire
+		(pts
+			(xy 119.38 78.74) (xy 125.73 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46f71752-f248-49ab-8c59-6a041283b69a")
+	)
+	(wire
+		(pts
+			(xy 113.03 78.74) (xy 119.38 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5478b052-2980-4ea7-b7ab-803181d4c136")
 	)
 	(wire
 		(pts
@@ -1298,6 +1342,26 @@
 			(type default)
 		)
 		(uuid "d1c902f2-94ac-46d2-9921-5bab1104edea")
+	)
+	(wire
+		(pts
+			(xy 119.38 71.12) (xy 125.73 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d50f6e9f-95d0-413c-a2e9-eebb6e4c8289")
+	)
+	(wire
+		(pts
+			(xy 113.03 71.12) (xy 119.38 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d751cf10-6785-4269-a067-366f9a0a4327")
 	)
 	(wire
 		(pts
@@ -1417,6 +1481,74 @@
 			(project "gameboy"
 				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/fa61dece-89ff-456c-a30f-6bfd2f1cc11c"
 					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 125.73 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "31c3eba1-adc7-4bf1-98f5-9b9ca89bd7c4")
+		(property "Reference" "C18"
+			(at 123.444 66.548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 123.444 68.8594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 126.6952 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3cdd33fd-65a7-44eb-888d-8d220ec8813f")
+		)
+		(pin "2"
+			(uuid "133edbe2-92e5-44c4-ac1a-f5729010e77b")
+		)
+		(instances
+			(project "gameboy"
+				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/fa61dece-89ff-456c-a30f-6bfd2f1cc11c"
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -1576,103 +1708,6 @@
 			(project ""
 				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/fa61dece-89ff-456c-a30f-6bfd2f1cc11c"
 					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 125.73 74.93 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a6a3e499-20d4-4637-8bb6-ac77d3a1fff3")
-		(property "Reference" "C27"
-			(at 121.92 73.6599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 121.92 76.1999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 124.7648 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 125.73 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 125.73 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 125.73 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 125.73 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 125.73 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7f0d93cb-e3c2-47d3-89cc-56959d8de90b")
-		)
-		(pin "1"
-			(uuid "e1457c31-ba3f-4098-b05c-37503bcdd88c")
-		)
-		(instances
-			(project "gameboy"
-				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/fa61dece-89ff-456c-a30f-6bfd2f1cc11c"
-					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -1953,6 +1988,102 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 113.03 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b833bea2-7aa3-4434-a638-e5de7421623c")
+		(property "Reference" "C34"
+			(at 111.506 66.548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 111.506 69.088 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 113.9952 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 113.03 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 113.03 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 113.03 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 113.03 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "656a2268-df39-4beb-b957-8b23f736a91d")
+		)
+		(pin "1"
+			(uuid "be6cd612-6a45-4b3e-b924-f3992d11129a")
+		)
+		(instances
+			(project "gameboy"
+				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/fa61dece-89ff-456c-a30f-6bfd2f1cc11c"
+					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 121.92 96.52 0)
 		(unit 1)
@@ -2044,6 +2175,103 @@
 			(project ""
 				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/fa61dece-89ff-456c-a30f-6bfd2f1cc11c"
 					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 119.38 74.93 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e9060b73-c78b-4d24-ad76-cb73f7ddc56f")
+		(property "Reference" "C33"
+			(at 121.92 66.548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 121.92 69.088 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 118.4148 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 119.38 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 119.38 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 119.38 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 119.38 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d83d2b1a-df15-4429-adb9-1b0fa1b1a924")
+		)
+		(pin "1"
+			(uuid "0d4db3d1-cb52-4b48-9fc8-ec28b3708519")
+		)
+		(instances
+			(project "gameboy"
+				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/fa61dece-89ff-456c-a30f-6bfd2f1cc11c"
+					(reference "C33")
 					(unit 1)
 				)
 			)
