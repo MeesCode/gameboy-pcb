@@ -1,3 +1,4 @@
 gameboy-backups/
 "#auto_save_files#"
 *.lck
+production/

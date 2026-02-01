@@ -3286,7 +3286,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C36508"
+		(property "LCSC" ""
 			(at 87.63 165.1 0)
 			(effects
 				(font
@@ -3295,7 +3295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "FH"
+		(property "Manufacturer" ""
 			(at 87.63 165.1 0)
 			(effects
 				(font
@@ -3304,7 +3304,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "0603CG8R0C500NT"
+		(property "Manufacturer Part Number" ""
 			(at 87.63 165.1 0)
 			(effects
 				(font
@@ -3601,7 +3601,7 @@
 				)
 			)
 		)
-		(property "Value" "FPC-05F-12PH20"
+		(property "Value" "FPC-05F-40PH20"
 			(at 69.342 52.578 0)
 			(effects
 				(font
@@ -3636,7 +3636,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2856799"
+		(property "LCSC" "C2856812"
 			(at 69.85 107.95 0)
 			(effects
 				(font
@@ -3654,7 +3654,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "FPC-05F-12PH20"
+		(property "Manufacturer Part Number" "FPC-05F-40PH20"
 			(at 69.85 107.95 0)
 			(effects
 				(font
@@ -4124,7 +4124,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "fa46ae09-efcf-4c1e-b41d-3f87a7c74ef6")
