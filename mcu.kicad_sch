@@ -5269,7 +5269,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 256.921 67.183 0)
 			(effects
 				(font
@@ -5498,7 +5498,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5504987"
+		(property "LCSC" "C843674"
 			(at 100.33 132.08 0)
 			(effects
 				(font
@@ -5623,7 +5623,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "4.7uF"
 			(at 103.251 36.703 0)
 			(effects
 				(font
@@ -5755,7 +5755,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 239.141 36.703 0)
 			(effects
 				(font
@@ -5856,7 +5856,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5504987"
+		(property "LCSC" "C843674"
 			(at 220.98 96.52 0)
 			(effects
 				(font
@@ -6102,7 +6102,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 250.571 36.703 0)
 			(effects
 				(font
@@ -6363,7 +6363,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 227.711 36.703 0)
 			(effects
 				(font
@@ -6495,7 +6495,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 170.561 36.703 0)
 			(effects
 				(font
@@ -6564,7 +6564,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "4.7uF"
 			(at 100.33 62.23 0)
 			(effects
 				(font
@@ -6760,7 +6760,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15p"
+		(property "Value" "15pF"
 			(at 52.197 124.841 0)
 			(effects
 				(font
@@ -6893,7 +6893,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "4.7uF"
 			(at 66.04 74.93 0)
 			(effects
 				(font
@@ -6902,7 +6902,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RP2350_60QFN_minimal:C_0402_1005Metric_small_pads"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 63.1952 77.47 0)
 			(effects
 				(font
@@ -6997,7 +6997,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C160403"
 			(at 248.92 129.54 0)
 			(effects
 				(font
@@ -7063,7 +7063,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 181.991 36.703 0)
 			(effects
 				(font
@@ -7131,7 +7131,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 114.681 36.703 0)
 			(effects
 				(font
@@ -7199,7 +7199,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 91.821 36.703 0)
 			(effects
 				(font
@@ -7540,7 +7540,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15p"
+		(property "Value" "15pF"
 			(at 52.197 114.681 0)
 			(effects
 				(font
@@ -7608,7 +7608,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "33R"
 			(at 86.233 54.102 0)
 			(effects
 				(font
@@ -7675,7 +7675,7 @@
 				)
 			)
 		)
-		(property "Value" "27"
+		(property "Value" "27R"
 			(at 189.23 76.2 90)
 			(effects
 				(font
@@ -7742,7 +7742,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 193.421 36.703 0)
 			(effects
 				(font
@@ -7875,7 +7875,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "4.7uF"
 			(at 53.721 75.3622 0)
 			(effects
 				(font
@@ -7884,7 +7884,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RP2350_60QFN_minimal:C_0402_1005Metric_small_pads"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 51.7652 77.47 0)
 			(effects
 				(font
@@ -7943,7 +7943,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 204.851 36.703 0)
 			(effects
 				(font
@@ -8011,7 +8011,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 216.281 36.703 0)
 			(effects
 				(font
@@ -8561,7 +8561,7 @@
 				)
 			)
 		)
-		(property "Value" "27"
+		(property "Value" "27R"
 			(at 189.23 65.6336 90)
 			(effects
 				(font
