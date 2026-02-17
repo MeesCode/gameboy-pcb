@@ -2253,17 +2253,7 @@
 		)
 		(uuid ebeb44fb-53f0-4632-acab-6a8a98b0710c)
 	)
-	(text "shield example:\nhttps://www.buydisplay.com/3-2-inch-240x320-ips-tft-lcd-module-for-arduino-and-raspberry-pi"
-		(exclude_from_sim no)
-		(at 140.97 22.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "1e3c970c-d2fc-4fb9-b482-dd991a91a465")
-	)
-	(text "https://nl.aliexpress.com/item/1005008112942872.html"
+	(text "https://www.buydisplay.com/3-2-inch-240x320-ips-tft-lcd-display-optl-capacitive-touchscreen-st7789"
 		(exclude_from_sim no)
 		(at 76.454 48.768 0)
 		(effects
@@ -2350,10 +2340,10 @@
 		(uuid "186e9ec1-3cef-4fcd-97f0-13c2f3567add")
 	)
 	(junction
-		(at 81.28 146.05)
+		(at 77.47 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2b402b62-7c5a-4075-af13-39b8d55f369c")
+		(uuid "3a9f55f8-ff9f-46f5-a8ff-90f1fda9e8f1")
 	)
 	(junction
 		(at 142.24 152.4)
@@ -2533,6 +2523,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 146.05) (xy 77.47 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13b3b153-417b-435d-8a4b-04d3707c1bc4")
+	)
+	(wire
+		(pts
 			(xy 74.93 85.09) (xy 100.33 85.09)
 		)
 		(stroke
@@ -2643,16 +2643,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 143.51) (xy 80.01 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "373987ab-7519-49dc-be1e-4108bab7b428")
-	)
-	(wire
-		(pts
 			(xy 87.63 58.42) (xy 87.63 72.39)
 		)
 		(stroke
@@ -2670,6 +2660,16 @@
 			(type default)
 		)
 		(uuid "3a196fd1-6188-452c-9dae-6aa9130ee4df")
+	)
+	(wire
+		(pts
+			(xy 77.47 146.05) (xy 80.01 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40d6bd30-5727-40fb-8640-dcfe079aaec8")
 	)
 	(wire
 		(pts
@@ -2723,6 +2723,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 148.59) (xy 77.47 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7868134f-5315-4c16-9bc9-97aa6b985b2c")
+	)
+	(wire
+		(pts
 			(xy 124.46 152.4) (xy 124.46 157.48)
 		)
 		(stroke
@@ -2733,7 +2743,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 146.05) (xy 81.28 148.59)
+			(xy 77.47 146.05) (xy 77.47 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2753,6 +2763,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 146.05) (xy 114.3 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bca89c7-939a-418c-91d2-2fe096600841")
+	)
+	(wire
+		(pts
 			(xy 87.63 168.91) (xy 95.25 168.91)
 		)
 		(stroke
@@ -2763,13 +2783,13 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 148.59) (xy 80.01 148.59)
+			(xy 74.93 143.51) (xy 77.47 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b86cf14c-3537-4b04-81d2-4aa392d3dec5")
+		(uuid "ace99d98-56ad-418f-b8ca-682b71c227d7")
 	)
 	(wire
 		(pts
@@ -2790,16 +2810,6 @@
 			(type default)
 		)
 		(uuid "c69869e7-2b16-4cb4-b21c-2a57d6883dd1")
-	)
-	(wire
-		(pts
-			(xy 81.28 146.05) (xy 80.01 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9eb793c-671d-48ec-b066-32b7576f9852")
 	)
 	(wire
 		(pts
@@ -2830,16 +2840,6 @@
 			(type default)
 		)
 		(uuid "e74eb0a3-85e1-4975-bd09-d4ba8fef456d")
-	)
-	(wire
-		(pts
-			(xy 81.28 146.05) (xy 114.3 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eae796a8-cb1a-440b-8bba-178ababf70d7")
 	)
 	(wire
 		(pts
@@ -2913,7 +2913,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 143.51) (xy 81.28 146.05)
+			(xy 77.47 143.51) (xy 77.47 146.05)
 		)
 		(stroke
 			(width 0)
@@ -3039,7 +3039,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 77.47 146.05 90)
+		(at 82.55 146.05 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3047,7 +3047,7 @@
 		(dnp no)
 		(uuid "38ee844c-9a49-449a-9e01-bf8e423c21f7")
 		(property "Reference" "R10"
-			(at 60.96 143.51 90)
+			(at 82.55 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3055,7 +3055,7 @@
 			)
 		)
 		(property "Value" "10R"
-			(at 60.96 145.034 90)
+			(at 82.55 144.272 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3063,7 +3063,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 77.47 146.05 0)
+			(at 82.55 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3072,7 +3072,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 77.47 146.05 0)
+			(at 82.55 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3081,7 +3081,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 77.47 146.05 0)
+			(at 82.55 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3090,7 +3090,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 77.47 146.05 0)
+			(at 82.55 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3099,7 +3099,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 77.47 146.05 0)
+			(at 82.55 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3108,7 +3108,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 77.47 146.05 0)
+			(at 82.55 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3396,194 +3396,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 77.47 143.51 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "752afd59-c4d7-446d-95a1-c8c590436d0b")
-		(property "Reference" "R9"
-			(at 66.04 141.224 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10R"
-			(at 66.04 142.748 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 77.47 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 77.47 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 77.47 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 77.47 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 77.47 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 77.47 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ee9ff3ba-54af-40a0-9f94-8c0face79108")
-		)
-		(pin "2"
-			(uuid "63c50934-9fe0-449c-9776-5b9881404691")
-		)
-		(instances
-			(project ""
-				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/d0993c89-522c-4206-a2f2-b5b66c7e7b73"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 77.47 148.59 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "aac1621b-1a65-4369-9eeb-6c3d75f50390")
-		(property "Reference" "R11"
-			(at 66.04 146.304 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10R"
-			(at 66.04 147.828 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 77.47 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 77.47 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 77.47 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 77.47 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 77.47 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 77.47 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7317bd68-6cca-414a-8d9c-44c7920ba1de")
-		)
-		(pin "2"
-			(uuid "cc40ab3b-1b46-437e-97a5-fe485a3a35e2")
-		)
-		(instances
-			(project "gameboy"
-				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/d0993c89-522c-4206-a2f2-b5b66c7e7b73"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x40_MountingPin")
 		(at 69.85 107.95 0)
 		(mirror y)
@@ -3636,7 +3448,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2856812"
+		(property "LCSC" "C262648"
 			(at 69.85 107.95 0)
 			(effects
 				(font
@@ -3645,7 +3457,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "XUNPU"
+		(property "Manufacturer" "JUSHUO"
 			(at 69.85 107.95 0)
 			(effects
 				(font
@@ -3654,7 +3466,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "FPC-05F-40PH20"
+		(property "Manufacturer Part Number" "AFC07-S40ECA-00"
 			(at 69.85 107.95 0)
 			(effects
 				(font
