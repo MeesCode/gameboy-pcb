@@ -2941,7 +2941,7 @@
 		)
 		(uuid "33278a40-f35c-4a1c-923e-e4751bc4467d")
 	)
-	(text "Specific 12Mhz rystal recommended by Raspberry Pi"
+	(text "Specific 12Mhz crystal recommended by Raspberry Pi"
 		(exclude_from_sim no)
 		(at 70.866 106.426 0)
 		(effects
