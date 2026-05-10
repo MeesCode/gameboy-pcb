@@ -5,129 +5,6 @@
 	(uuid "37dc8c14-dd90-48f4-b4fb-3efbefa0cd1b")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic_MountingPin:Conn_01x40_MountingPin"
 			(pin_names
 				(offset 1.016)
@@ -2470,12 +2347,6 @@
 		(uuid "3a9f55f8-ff9f-46f5-a8ff-90f1fda9e8f1")
 	)
 	(junction
-		(at 142.24 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4576f776-d8fa-4cfd-a02b-aabf599eac3a")
-	)
-	(junction
 		(at 124.46 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2568,7 +2439,7 @@
 		(uuid "7e8b3e4d-a523-42ba-be2e-51d32a7133d3")
 	)
 	(no_connect
-		(at 69.85 163.83)
+		(at 69.85 54.61)
 		(uuid "83cc6e6c-457d-49c5-8e21-92408bc392d1")
 	)
 	(no_connect
@@ -2697,7 +2568,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 152.4) (xy 134.62 152.4)
+			(xy 134.62 152.4) (xy 137.16 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2724,16 +2595,6 @@
 			(type default)
 		)
 		(uuid "24527d73-e561-4c00-a07f-83ff812c7512")
-	)
-	(wire
-		(pts
-			(xy 142.24 152.4) (xy 146.05 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2470e4e1-dab7-43d4-9949-a9d8f48c6f4a")
 	)
 	(wire
 		(pts
@@ -2807,6 +2668,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 97.79) (xy 95.25 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5110dcb9-f012-42c7-b10e-3d5d49cde7ec")
+	)
+	(wire
+		(pts
 			(xy 87.63 74.93) (xy 87.63 87.63)
 		)
 		(stroke
@@ -2824,16 +2695,6 @@
 			(type default)
 		)
 		(uuid "6b4610a2-615e-4a86-a4cc-df487122366a")
-	)
-	(wire
-		(pts
-			(xy 87.63 87.63) (xy 87.63 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7187425f-db9d-4ca3-a953-07c03acb8bee")
 	)
 	(wire
 		(pts
@@ -2947,16 +2808,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 97.79) (xy 95.25 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df6696a1-556b-4dd0-baec-87f4b52a9375")
-	)
-	(wire
-		(pts
 			(xy 74.93 87.63) (xy 87.63 87.63)
 		)
 		(stroke
@@ -3004,6 +2855,16 @@
 			(type default)
 		)
 		(uuid "f8842dc2-6c10-497d-8e64-4bdea3eb3a3b")
+	)
+	(wire
+		(pts
+			(xy 87.63 87.63) (xy 87.63 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9de61e0-5c5b-477e-b255-4bf17621dbd3")
 	)
 	(wire
 		(pts
@@ -3130,7 +2991,7 @@
 	)
 	(hierarchical_label "LCD_BL"
 		(shape input)
-		(at 146.05 152.4 0)
+		(at 137.16 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3587,8 +3448,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x40_MountingPin")
-		(at 69.85 107.95 0)
-		(mirror y)
+		(at 69.85 110.49 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3598,7 +3458,7 @@
 		(dnp no)
 		(uuid "c1204513-3150-43a4-a33e-a9742ff6b1fa")
 		(property "Reference" "J2"
-			(at 69.342 55.118 0)
+			(at 69.342 163.322 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3608,7 +3468,7 @@
 			)
 		)
 		(property "Value" "FPC-05F-40PH20"
-			(at 69.342 52.578 0)
+			(at 69.342 165.862 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3618,7 +3478,7 @@
 			)
 		)
 		(property "Footprint" "Connector_FFC-FPC:TE_4-1734839-0_1x40-1MP_P0.5mm_Horizontal"
-			(at 69.85 107.95 0)
+			(at 69.85 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3629,7 +3489,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 107.95 0)
+			(at 69.85 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3640,7 +3500,7 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x40, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 69.85 107.95 0)
+			(at 69.85 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3651,7 +3511,7 @@
 			)
 		)
 		(property "LCSC" "C262648"
-			(at 69.85 107.95 0)
+			(at 69.85 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3662,7 +3522,7 @@
 			)
 		)
 		(property "Manufacturer" "JUSHUO"
-			(at 69.85 107.95 0)
+			(at 69.85 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3673,7 +3533,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "AFC07-S40ECA-00"
-			(at 69.85 107.95 0)
+			(at 69.85 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4193,118 +4053,6 @@
 			(project "gameboy"
 				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/d0993c89-522c-4206-a2f2-b5b66c7e7b73"
 					(reference "R36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 142.24 152.4 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fa46ae09-efcf-4c1e-b41d-3f87a7c74ef6")
-		(property "Reference" "TP12"
-			(at 146.05 143.764 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 146.05 146.304 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 137.16 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 142.24 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 142.24 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 142.24 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 142.24 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7f6927d8-7e5b-48e1-9d0c-caac98dc9c17")
-		)
-		(instances
-			(project "gameboy"
-				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/d0993c89-522c-4206-a2f2-b5b66c7e7b73"
-					(reference "TP12")
 					(unit 1)
 				)
 			)
