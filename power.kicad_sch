@@ -3219,6 +3219,12 @@
 		(uuid "4714d7e3-71a3-4b2a-826b-b8aca8b87e97")
 	)
 	(junction
+		(at 143.51 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d4cf8f1-e4bc-4def-9dff-9fd94d8acfb2")
+	)
+	(junction
 		(at 110.49 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3279,12 +3285,6 @@
 		(uuid "8bcc27a0-8243-4b09-9b0f-6326232f656c")
 	)
 	(junction
-		(at 143.51 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8bdebfed-4378-4ddd-8a59-2b4a951ff602")
-	)
-	(junction
 		(at 64.77 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3307,12 +3307,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b6f945b7-16f1-4180-a439-f7222e9e3f35")
-	)
-	(junction
-		(at 193.04 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bdb058aa-53da-4af7-a112-a9bdd7c1c8aa")
 	)
 	(junction
 		(at 128.27 73.66)
@@ -3351,6 +3345,12 @@
 		(uuid "cee64c8f-73d5-46e0-9c22-91881bc7cf07")
 	)
 	(junction
+		(at 193.04 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8999113-d429-4f73-bf0f-754878da597b")
+	)
+	(junction
 		(at 137.16 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3381,19 +3381,19 @@
 		(uuid "fbddb120-9b6f-43bb-b500-edb0ffc69d21")
 	)
 	(no_connect
-		(at 162.56 95.25)
+		(at 154.94 104.14)
 		(uuid "08b5f1b7-59be-4b89-9237-da4244ea6a6a")
 	)
 	(no_connect
-		(at 162.56 100.33)
+		(at 165.1 93.98)
 		(uuid "7101f66a-5deb-400a-90af-471ac25b9c15")
 	)
 	(no_connect
-		(at 152.4 95.25)
+		(at 160.02 104.14)
 		(uuid "7cc8ae9d-f84e-4a41-aa92-6483d1b84f20")
 	)
 	(no_connect
-		(at 152.4 100.33)
+		(at 165.1 104.14)
 		(uuid "da37bca0-b8a7-4ddc-8bd0-7cbde2ecc889")
 	)
 	(wire
@@ -3615,6 +3615,16 @@
 			(type default)
 		)
 		(uuid "267d5eaa-19a5-4d0d-9a4b-b6895b7b10de")
+	)
+	(wire
+		(pts
+			(xy 154.94 90.17) (xy 154.94 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bcd8564-cb27-429d-b480-655075d065be")
 	)
 	(wire
 		(pts
@@ -3968,16 +3978,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 40.64) (xy 162.56 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80a99c12-6277-428f-805b-6647c6bc3a54")
-	)
-	(wire
-		(pts
 			(xy 193.04 48.26) (xy 204.47 48.26)
 		)
 		(stroke
@@ -4055,6 +4055,16 @@
 			(type default)
 		)
 		(uuid "92b2e2c8-8b83-4e1b-8e10-32fc014ac7db")
+	)
+	(wire
+		(pts
+			(xy 160.02 40.64) (xy 193.04 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9695a76c-489f-4b4e-b980-a88b4b68074b")
 	)
 	(wire
 		(pts
@@ -4288,6 +4298,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 93.98) (xy 160.02 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc853085-fae2-4a94-9e43-5c14eb865230")
+	)
+	(wire
+		(pts
 			(xy 243.84 90.17) (xy 243.84 96.52)
 		)
 		(stroke
@@ -4378,23 +4398,13 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 40.64) (xy 162.56 40.64)
+			(xy 143.51 90.17) (xy 154.94 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f30c4cf2-b79c-456c-b929-71575774ec33")
-	)
-	(wire
-		(pts
-			(xy 143.51 90.17) (xy 152.4 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd6a8296-d24d-4462-ae77-98c24b9456c9")
+		(uuid "f3999522-5973-42b4-89ad-996116adafb9")
 	)
 	(wire
 		(pts
@@ -4653,7 +4663,8 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Slide_DPDT")
-		(at 157.48 95.25 0)
+		(at 160.02 99.06 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4663,7 +4674,7 @@
 		(dnp no)
 		(uuid "0ad8e8cf-55f1-45cf-a56f-5bc371c0acd2")
 		(property "Reference" "SW8"
-			(at 157.988 103.632 0)
+			(at 160.274 109.474 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4673,7 +4684,7 @@
 			)
 		)
 		(property "Value" "SW_Slide_DPDT"
-			(at 157.988 106.172 0)
+			(at 160.274 106.934 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4683,7 +4694,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_DPDT_CK_JS202011JCQN"
-			(at 171.45 90.17 0)
+			(at 165.1 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4694,7 +4705,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 95.25 0)
+			(at 160.02 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4705,7 +4716,7 @@
 			)
 		)
 		(property "Description" "Slide Switch, dual pole double throw"
-			(at 157.48 95.25 0)
+			(at 160.02 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4716,7 +4727,7 @@
 			)
 		)
 		(property "LCSC" "C221665"
-			(at 157.48 95.25 0)
+			(at 160.02 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4727,7 +4738,7 @@
 			)
 		)
 		(property "Manufacturer" "C&K"
-			(at 157.48 95.25 0)
+			(at 160.02 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4738,7 +4749,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "JS202011JCQN"
-			(at 157.48 95.25 0)
+			(at 160.02 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
