@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260101)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "f4643692-c319-40a7-82a2-3e775c0a417f")
 	(paper "A4")
 	(lib_symbols)
@@ -288,11 +288,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "063c3b87-40d2-45e5-b5e2-db9e0e7c1214")
 		(property "Sheetname" "Buttons"
 			(at 170.18 71.6784 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -302,6 +304,8 @@
 		)
 		(property "Sheetfile" "buttons.kicad_sch"
 			(at 170.18 90.7546 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -390,11 +394,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "0c43a605-cda2-4793-9a29-301f6419db25")
 		(property "Sheetname" "MCU"
 			(at 132.08 71.6784 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -404,6 +410,8 @@
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
 			(at 132.08 145.3646 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -692,11 +700,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "14ac419d-87de-4e8e-be3d-9259b1e7c76f")
 		(property "Sheetname" "Power"
 			(at 67.31 104.6984 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -706,6 +716,8 @@
 		)
 		(property "Sheetfile" "power.kicad_sch"
 			(at 67.31 123.7746 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -764,11 +776,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "544a4a01-8cf8-45b3-bce5-8d02a4ea8581")
 		(property "Sheetname" "Audio"
 			(at 170.18 95.8084 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -778,6 +792,8 @@
 		)
 		(property "Sheetfile" "audio.kicad_sch"
 			(at 170.18 109.8046 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -846,11 +862,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "5841d49e-be17-4f7f-a312-392f15541195")
 		(property "Sheetname" "USB"
 			(at 99.06 95.8084 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -860,6 +878,8 @@
 		)
 		(property "Sheetfile" "usb.kicad_sch"
 			(at 99.06 114.8846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -918,11 +938,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "61f30b6c-37fc-4a02-80d0-dee0eb1e628c")
 		(property "Sheetname" "SD"
 			(at 99.06 127.5584 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -932,6 +954,8 @@
 		)
 		(property "Sheetfile" "sd.kicad_sch"
 			(at 99.06 144.0946 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1010,11 +1034,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "d0993c89-522c-4206-a2f2-b5b66c7e7b73")
 		(property "Sheetname" "LCD"
 			(at 99.06 71.6784 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1024,6 +1050,8 @@
 		)
 		(property "Sheetfile" "lcd.kicad_sch"
 			(at 99.06 90.7546 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1112,11 +1140,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "fa61dece-89ff-456c-a30f-6bfd2f1cc11c")
 		(property "Sheetname" "Vibration"
 			(at 170.18 122.4784 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1126,6 +1156,8 @@
 		)
 		(property "Sheetfile" "vibration.kicad_sch"
 			(at 170.18 128.8546 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
