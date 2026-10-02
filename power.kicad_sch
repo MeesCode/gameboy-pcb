@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20260101)
+	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "9a6d347b-2b05-4b29-8e5f-64f7bdcfc210")
@@ -1873,7 +1873,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Slide_DPDT"
+		(symbol "Switch:SW_SPDT"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -1884,7 +1884,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "SW"
-				(at 0 6.858 0)
+				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1893,8 +1893,8 @@
 					)
 				)
 			)
-			(property "Value" "SW_Slide_DPDT"
-				(at 0 -8.128 0)
+			(property "Value" "SW_SPDT"
+				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1904,7 +1904,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 13.97 5.08 0)
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1915,6 +1915,17 @@
 				)
 			)
 			(property "Datasheet" ""
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1925,7 +1936,7 @@
 					)
 				)
 			)
-			(property "Description" "Slide Switch, dual pole double throw"
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1936,67 +1947,22 @@
 					)
 				)
 			)
-			(property "ki_keywords" "switch dual-pole double-throw dpdt ON-ON"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SW_Slide_DPDT_0_0"
-				(circle
-					(center -2.032 5.08)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.032 -5.08)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -5.08)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_Slide_DPDT_0_1"
+			(symbol "SW_SPDT_0_1"
 				(circle
 					(center -2.032 0)
-					(radius 0.508)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -2006,8 +1972,19 @@
 					)
 				)
 				(circle
-					(center 2.032 5.08)
-					(radius 0.508)
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
 					(stroke
 						(width 0)
 						(type default)
@@ -2017,31 +1994,20 @@
 					)
 				)
 			)
-			(symbol "SW_Slide_DPDT_1_1"
+			(symbol "SW_SPDT_1_1"
 				(rectangle
-					(start -1.397 5.588)
-					(end -0.762 -0.508)
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.762 5.588)
-					(end 1.397 -0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
+						(type background)
 					)
 				)
 				(pin passive line
-					(at -5.08 5.08 0)
+					(at 5.08 2.54 180)
 					(length 2.54)
 					(name "A"
 						(effects
@@ -2077,7 +2043,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at 5.08 -2.54 180)
 					(length 2.54)
 					(name "C"
 						(effects
@@ -2087,60 +2053,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 5.08 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3381,20 +3293,8 @@
 		(uuid "fbddb120-9b6f-43bb-b500-edb0ffc69d21")
 	)
 	(no_connect
-		(at 154.94 104.14)
-		(uuid "08b5f1b7-59be-4b89-9237-da4244ea6a6a")
-	)
-	(no_connect
-		(at 165.1 93.98)
-		(uuid "7101f66a-5deb-400a-90af-471ac25b9c15")
-	)
-	(no_connect
-		(at 160.02 104.14)
-		(uuid "7cc8ae9d-f84e-4a41-aa92-6483d1b84f20")
-	)
-	(no_connect
-		(at 165.1 104.14)
-		(uuid "da37bca0-b8a7-4ddc-8bd0-7cbde2ecc889")
+		(at 160.02 92.71)
+		(uuid "9ddc5c69-e968-4610-85d4-4b75ec34237d")
 	)
 	(wire
 		(pts
@@ -3615,16 +3515,6 @@
 			(type default)
 		)
 		(uuid "267d5eaa-19a5-4d0d-9a4b-b6895b7b10de")
-	)
-	(wire
-		(pts
-			(xy 154.94 90.17) (xy 154.94 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2bcd8564-cb27-429d-b480-655075d065be")
 	)
 	(wire
 		(pts
@@ -4098,6 +3988,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 87.63) (xy 160.02 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7c686d0-c0ee-4805-9cd1-3d365b8e0d8e")
+	)
+	(wire
+		(pts
 			(xy 210.82 95.25) (xy 210.82 111.76)
 		)
 		(stroke
@@ -4298,16 +4198,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 93.98) (xy 160.02 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc853085-fae2-4a94-9e43-5c14eb865230")
-	)
-	(wire
-		(pts
 			(xy 243.84 90.17) (xy 243.84 96.52)
 		)
 		(stroke
@@ -4398,7 +4288,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 90.17) (xy 154.94 90.17)
+			(xy 143.51 90.17) (xy 149.86 90.17)
 		)
 		(stroke
 			(width 0)
@@ -4662,9 +4552,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Slide_DPDT")
-		(at 160.02 99.06 270)
-		(mirror x)
+		(lib_id "Switch:SW_SPDT")
+		(at 154.94 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4674,7 +4563,7 @@
 		(dnp no)
 		(uuid "0ad8e8cf-55f1-45cf-a56f-5bc371c0acd2")
 		(property "Reference" "SW8"
-			(at 160.274 109.474 90)
+			(at 155.194 98.298 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4684,7 +4573,7 @@
 			)
 		)
 		(property "Value" "SW_Slide_DPDT"
-			(at 160.274 106.934 90)
+			(at 155.448 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4693,8 +4582,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_DPDT_CK_JS202011JCQN"
-			(at 165.1 85.09 0)
+		(property "Footprint" "Button_Switch_SMD:SW_SPDT_CK_JS102011SAQN"
+			(at 154.94 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4705,7 +4594,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 99.06 0)
+			(at 154.94 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4715,8 +4604,8 @@
 				)
 			)
 		)
-		(property "Description" "Slide Switch, dual pole double throw"
-			(at 160.02 99.06 0)
+		(property "Description" "Switch, single pole double throw"
+			(at 154.94 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4726,8 +4615,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C221665"
-			(at 160.02 99.06 0)
+		(property "LCSC" "C221660"
+			(at 154.94 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4738,7 +4627,7 @@
 			)
 		)
 		(property "Manufacturer" "C&K"
-			(at 160.02 99.06 0)
+			(at 154.94 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4748,8 +4637,8 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "JS202011JCQN"
-			(at 160.02 99.06 0)
+		(property "Manufacturer Part Number" "JS102011SAQN"
+			(at 154.94 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4762,20 +4651,11 @@
 		(pin "3"
 			(uuid "a234ada9-7e58-4329-b890-9385b0048f87")
 		)
-		(pin "6"
-			(uuid "6edd2c60-f517-4b64-866f-7922fa0f36d8")
-		)
-		(pin "4"
-			(uuid "14e619e7-ca2d-4ef2-bda9-6a656121f045")
-		)
 		(pin "1"
 			(uuid "2a9ba255-f9f0-4739-b816-71fd56b2f3c2")
 		)
 		(pin "2"
 			(uuid "d0ef39aa-8401-4efa-91b1-49d997303d92")
-		)
-		(pin "5"
-			(uuid "d09df4ec-6219-4a9b-9b2f-65c19f4b0121")
 		)
 		(instances
 			(project "gameboy"
@@ -5064,7 +4944,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Side View Mount Light emitting diode"
 			(at 267.97 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -5086,7 +4966,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C22371297"
+		(property "LCSC" "C965863"
 			(at 267.97 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -5097,7 +4977,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "HONGLITRONIC"
+		(property "Manufacturer" "XINGLIGHT"
 			(at 267.97 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -5108,7 +4988,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "PSC-1608U52GC-G4"
+		(property "Manufacturer Part Number" "XL-1606UGC"
 			(at 267.97 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -6119,7 +5999,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "GREEN"
+		(property "Value" "ORANGE"
 			(at 57.15 85.344 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6152,7 +6032,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Side View Mount Light emitting diode"
 			(at 64.77 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -6174,7 +6054,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C22371297"
+		(property "LCSC" "C965861"
 			(at 64.77 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -6185,7 +6065,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "HONGLITRONIC"
+		(property "Manufacturer" "XINGLIGHT"
 			(at 64.77 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -6196,7 +6076,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "PSC-1608U52GC-G4"
+		(property "Manufacturer Part Number" "XL-1606UOC"
 			(at 64.77 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -8225,7 +8105,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Side View Mount Light emitting diode"
 			(at 69.85 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -8247,7 +8127,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2286"
+		(property "LCSC" "C965860"
 			(at 69.85 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -8258,7 +8138,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Hubei KENTO Elec"
+		(property "Manufacturer" "XINGLIGHT"
 			(at 69.85 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -8269,7 +8149,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "KT-0603R"
+		(property "Manufacturer Part Number" "XL-1606SURC"
 			(at 69.85 82.55 0)
 			(hide yes)
 			(show_name no)
