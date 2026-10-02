@@ -6211,7 +6211,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "RP2350_60QFN_minimal:LED_Sideways"
 			(at 189.23 146.05 0)
 			(hide yes)
 			(show_name no)

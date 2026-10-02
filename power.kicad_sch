@@ -4922,7 +4922,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "RP2350_60QFN_minimal:LED_Sideways"
 			(at 267.97 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -6010,7 +6010,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "RP2350_60QFN_minimal:LED_Sideways"
 			(at 64.77 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -8083,7 +8083,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "RP2350_60QFN_minimal:LED_Sideways"
 			(at 69.85 82.55 0)
 			(hide yes)
 			(show_name no)
