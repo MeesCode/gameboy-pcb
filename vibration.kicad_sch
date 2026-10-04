@@ -1961,7 +1961,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "a7891002-b5f2-45ff-8e8d-040fd8703390")
 		(property "Reference" "TP7"
