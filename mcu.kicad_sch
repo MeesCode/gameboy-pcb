@@ -3364,6 +3364,16 @@
 		)
 		(uuid "79dccc85-4423-4181-a558-66cc375a142c")
 	)
+	(text "I^{2}C pullups"
+		(exclude_from_sim no)
+		(at 51.308 157.734 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "abdb91e8-1087-4ee3-a78a-19af7d909bec")
+	)
 	(text "JST Debug Connector"
 		(exclude_from_sim no)
 		(at 245.11 123.19 0)
@@ -3596,6 +3606,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d079e56b-778a-4420-a683-0ef5e405d1a8")
+	)
+	(junction
+		(at 68.58 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d11ec841-2676-4681-8b66-19d2e466179e")
 	)
 	(junction
 		(at 236.22 41.91)
@@ -3999,6 +4015,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 163.83) (xy 64.77 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33e93629-c4d4-49d9-a348-b2db19cf6660")
+	)
+	(wire
+		(pts
 			(xy 175.26 68.58) (xy 185.42 68.58)
 		)
 		(stroke
@@ -4136,6 +4162,16 @@
 			(type default)
 		)
 		(uuid "4f486d28-6839-43bb-9a43-c9f244c9d891")
+	)
+	(wire
+		(pts
+			(xy 58.42 163.83) (xy 64.77 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "503fc5b1-3336-4ce8-a837-a38391d449dc")
 	)
 	(wire
 		(pts
@@ -4306,6 +4342,16 @@
 			(type default)
 		)
 		(uuid "6bc377fb-6f54-4c2d-a329-e641df76e3a1")
+	)
+	(wire
+		(pts
+			(xy 68.58 166.37) (xy 68.58 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c3e3c38-9b21-4b19-aa2c-2ac25356effd")
 	)
 	(wire
 		(pts
@@ -4599,6 +4645,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 152.4) (xy 68.58 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa8b610c-c6f6-4571-9570-21dff0c49299")
+	)
+	(wire
+		(pts
 			(xy 224.79 31.75) (xy 224.79 30.48)
 		)
 		(stroke
@@ -4869,6 +4925,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 166.37) (xy 68.58 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6e3ef1d-fbaa-432c-bfa9-64c8f325566c")
+	)
+	(wire
+		(pts
 			(xy 62.23 69.85) (xy 62.23 68.58)
 		)
 		(stroke
@@ -4936,6 +5002,16 @@
 			(type default)
 		)
 		(uuid "e7b7d7f6-b560-4098-8c4e-c2ab87fcc172")
+	)
+	(wire
+		(pts
+			(xy 64.77 153.67) (xy 68.58 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7cb84f1-329e-4fe0-a799-f730cb18c82a")
 	)
 	(wire
 		(pts
@@ -5341,6 +5417,17 @@
 		)
 		(uuid "946dab87-8d22-41dd-bb14-589bffc057b9")
 	)
+	(hierarchical_label "POWER_MON_SDA"
+		(shape input)
+		(at 58.42 166.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9a11bc4f-f4f0-47cb-89ea-7e667e3db650")
+	)
 	(hierarchical_label "LCD_BL"
 		(shape input)
 		(at 175.26 91.44 0)
@@ -5439,6 +5526,17 @@
 			(justify left)
 		)
 		(uuid "ee3f7dd8-3bb1-4080-b0ee-65bdbf1c80d6")
+	)
+	(hierarchical_label "POWER_MON_SCL"
+		(shape input)
+		(at 58.42 163.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ef179673-17da-45ba-9493-ef50c396a64a")
 	)
 	(hierarchical_label "USB_D-"
 		(shape input)
@@ -6873,6 +6971,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 68.58 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4cf22947-972f-4e4e-996f-0b938cbf1309")
+		(property "Reference" "R41"
+			(at 71.12 156.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 71.12 158.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 66.802 157.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 68.58 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 68.58 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 68.58 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 68.58 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aaf525c4-3566-463e-9754-bd9cfa95bfbc")
+		)
+		(pin "2"
+			(uuid "4956b5b9-50b0-48b2-b534-47f261312375")
+		)
+		(instances
+			(project "gameboy"
+				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/0c43a605-cda2-4793-9a29-301f6419db25"
+					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 242.57 140.97 0)
 		(mirror y)
@@ -7998,6 +8211,82 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 68.58 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "90dbc94d-388d-419c-a6c4-1c86ccb7b2df")
+		(property "Reference" "#PWR020"
+			(at 68.58 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 68.961 148.0058 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "44c93c49-8ded-497b-9285-40f48b77e53e")
+		)
+		(instances
+			(project "gameboy"
+				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/0c43a605-cda2-4793-9a29-301f6419db25"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x03_MountingPin")
 		(at 248.92 129.54 0)
 		(unit 1)
@@ -8192,6 +8481,120 @@
 			(project "gameboy"
 				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/0c43a605-cda2-4793-9a29-301f6419db25"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 64.77 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9a4220a7-4d05-4442-a3ee-fb18d3006dc2")
+		(property "Reference" "R40"
+			(at 58.42 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 58.42 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 62.992 157.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 64.77 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 64.77 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 64.77 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 64.77 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7c0819f3-9661-4be1-acb2-ef9d7e861b85")
+		)
+		(pin "2"
+			(uuid "df34fdaa-cc53-441a-be8f-54fe4365acf9")
+		)
+		(instances
+			(project "gameboy"
+				(path "/f4643692-c319-40a7-82a2-3e775c0a417f/0c43a605-cda2-4793-9a29-301f6419db25"
+					(reference "R40")
 					(unit 1)
 				)
 			)
