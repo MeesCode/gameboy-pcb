@@ -1,0 +1,3 @@
+*.kicad_* text eol=lf
+fp-lib-table text eol=lf
+sym-lib-table text eol=lf

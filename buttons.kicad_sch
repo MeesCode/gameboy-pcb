@@ -2013,7 +2013,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C52923"
 			(at 87.63 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -2024,7 +2024,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "FH"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 87.63 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -2035,7 +2035,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "0603CG8R0C500NT"
+		(property "Manufacturer Part Number" "CL05A105KA5NQNC"
 			(at 87.63 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -2587,7 +2587,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C52923"
 			(at 123.19 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -2598,7 +2598,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "FH"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 123.19 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -2609,7 +2609,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "0603CG8R0C500NT"
+		(property "Manufacturer Part Number" "CL05A105KA5NQNC"
 			(at 123.19 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -3238,7 +3238,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C52923"
 			(at 53.34 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -3249,7 +3249,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "FH"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 53.34 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -3260,7 +3260,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "0603CG8R0C500NT"
+		(property "Manufacturer Part Number" "CL05A105KA5NQNC"
 			(at 53.34 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -3846,7 +3846,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C52923"
 			(at 232.41 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -3857,7 +3857,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "FH"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 232.41 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -3868,7 +3868,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "0603CG8R0C500NT"
+		(property "Manufacturer Part Number" "CL05A105KA5NQNC"
 			(at 232.41 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -4227,7 +4227,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C52923"
 			(at 203.2 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -4238,7 +4238,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "FH"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 203.2 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -4249,7 +4249,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "0603CG8R0C500NT"
+		(property "Manufacturer Part Number" "CL05A105KA5NQNC"
 			(at 203.2 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -4835,7 +4835,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C52923"
 			(at 88.9 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -4846,7 +4846,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "FH"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 88.9 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -4857,7 +4857,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "0603CG8R0C500NT"
+		(property "Manufacturer Part Number" "CL05A105KA5NQNC"
 			(at 88.9 71.12 0)
 			(hide yes)
 			(show_name no)

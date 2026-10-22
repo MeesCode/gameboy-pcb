@@ -4572,7 +4572,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Slide_DPDT"
+		(property "Value" "SW_SPDT"
 			(at 155.448 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4966,7 +4966,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965863"
+		(property "LCSC" "C965864"
 			(at 267.97 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -4988,7 +4988,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "XL-1606UGC"
+		(property "Manufacturer Part Number" "XL-1606SYGC"
 			(at 267.97 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -6168,7 +6168,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C52923"
 			(at 246.38 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -6193,7 +6193,25 @@
 				)
 			)
 		)
-	)
+	
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 246.38 43.18 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05A105KA5NQNC"
+			(at 246.38 43.18 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:D_Schottky")
 		(at 143.51 86.36 90)
@@ -6217,7 +6235,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "B340A"
 			(at 146.05 87.9474 90)
 			(show_name no)
 			(do_not_autoplace no)

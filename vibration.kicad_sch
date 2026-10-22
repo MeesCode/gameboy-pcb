@@ -1849,7 +1849,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C52923"
 			(at 119.38 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -1874,7 +1874,25 @@
 				)
 			)
 		)
-	)
+	
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 119.38 74.93 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05A105KA5NQNC"
+			(at 119.38 74.93 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "power:+3V3")
 		(at 132.08 57.15 0)
@@ -2165,7 +2183,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "B340A"
 			(at 134.62 75.8824 90)
 			(show_name no)
 			(do_not_autoplace no)

@@ -8037,7 +8037,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "100R"
 			(at 183.642 154.686 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8081,7 +8081,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C22775"
 			(at 189.23 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -8092,7 +8092,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 189.23 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -8103,7 +8103,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "0603WAF1000T5E"
 			(at 189.23 153.67 0)
 			(hide yes)
 			(show_name no)
